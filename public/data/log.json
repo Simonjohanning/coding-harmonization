@@ -39,6 +39,14 @@
       "action": "adopt",
       "code": "PBC6",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-27T10:13:11.418Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "action": "adopt",
+      "code": "PBC6",
+      "mode": "no_discussion"
     }
   ]
 }
