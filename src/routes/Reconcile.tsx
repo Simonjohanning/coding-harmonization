@@ -21,7 +21,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   const [tech, setTech] = useState<string>("all");
   const [status, setStatus] = useState<StatusFilter>("pending");
   const [changedOnly, setChangedOnly] = useState(false);
-
+  const [bothCodedOnly, setBothCodedOnly] = useState(true);
   useEffect(() => {
     (async () => {
       const { answers, codings } = await loadVersion(version);
@@ -44,9 +44,10 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
       if (status !== "all" && c.status !== status) return false;
       if (tech !== "all" && c.tech !== tech) return false;
       if (changedOnly && !c.changedSinceLastVersion) return false;
+      if (bothCodedOnly && (c.codesA.length === 0 || c.codesB.length === 0)) return false;
       return true;
     });
-  }, [codings, status, tech, changedOnly]);
+  }, [codings, status, tech, changedOnly, bothCodedOnly]);
 
   const counts = useMemo(() => {
     if (!codings) return { pending: 0, discussion: 0, resolved: 0, auto: 0 };
@@ -121,6 +122,11 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
           <input type="checkbox" checked={changedOnly}
             onChange={e => setChangedOnly(e.target.checked)} />
           &nbsp;Changed since previous version only
+        </label>
+		<label>
+          <input type="checkbox" checked={bothCodedOnly}
+            onChange={e => setBothCodedOnly(e.target.checked)} />
+          &nbsp;Both coders have codes
         </label>
         <div className="spacer" style={{ flex: 1 }} />
         {saving && <span className="muted">Saving…</span>}
