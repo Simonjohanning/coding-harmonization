@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Cell, Codings, Coder, DiscussionEntry, LogFile } from "../lib/types";
 import { commit, loadLog, loadVersion, makeLogEntry } from "../lib/data";
+import { normalizeCode } from "../lib/codes";
 import DiscrepancyCard from "../components/DiscrepancyCard";
 
 interface Props {
@@ -22,10 +23,24 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   const [status, setStatus] = useState<StatusFilter>("pending");
   const [changedOnly, setChangedOnly] = useState(false);
   const [bothCodedOnly, setBothCodedOnly] = useState(true);
+
+  const [focusIdx, setFocusIdx] = useState(0);
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
   useEffect(() => {
     (async () => {
       const { answers, codings } = await loadVersion(version);
-      setCodings(codings);
+      // Normalize codes in-place (SN4 -> eSN4, etc.)
+      const norm: Codings = {
+        ...codings,
+        cells: codings.cells.map(c => ({
+          ...c,
+          codesA: c.codesA.map(normalizeCode),
+          codesB: c.codesB.map(normalizeCode),
+          harmonized: c.harmonized ? c.harmonized.map(normalizeCode) : c.harmonized,
+        })),
+      };
+      setCodings(norm);
       const map: Record<string, string> = {};
       for (const a of answers.cells) map[a.cellId] = a.answer;
       setAnswersById(map);
@@ -49,6 +64,38 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     });
   }, [codings, status, tech, changedOnly, bothCodedOnly]);
 
+  useEffect(() => {
+    setFocusIdx(i => Math.min(i, Math.max(0, filtered.length - 1)));
+  }, [filtered.length]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName)) return;
+      if (filtered.length === 0) return;
+      if (e.key === "j" || e.key === "ArrowDown") {
+        e.preventDefault();
+        setFocusIdx(i => Math.min(filtered.length - 1, i + 1));
+      } else if (e.key === "k" || e.key === "ArrowUp") {
+        e.preventDefault();
+        setFocusIdx(i => Math.max(0, i - 1));
+      } else if (e.key === "g") {
+        e.preventDefault();
+        setFocusIdx(0);
+      } else if (e.key === "G") {
+        e.preventDefault();
+        setFocusIdx(filtered.length - 1);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [filtered.length]);
+
+  useEffect(() => {
+    const el = cardRefs.current[focusIdx];
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+  }, [focusIdx]);
+
   const counts = useMemo(() => {
     if (!codings) return { pending: 0, discussion: 0, resolved: 0, auto: 0 };
     return codings.cells.reduce((acc, c) => {
@@ -57,9 +104,13 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     }, { pending: 0, discussion: 0, resolved: 0, auto: 0 } as Record<string, number>);
   }, [codings]);
 
-  if (!codings || !log) return <div>Loading v{version}…</div>;
+  if (!codings || !log) return <div className="muted">Loading v{version}…</div>;
 
-  async function updateCell(cellId: string, updater: (c: Cell) => Cell, logEntries: ReturnType<typeof makeLogEntry>[]) {
+  async function updateCell(
+    cellId: string,
+    updater: (c: Cell) => Cell,
+    logEntries: ReturnType<typeof makeLogEntry>[]
+  ) {
     if (!codings || !log) return;
     setSaving(true);
     setError(null);
@@ -67,7 +118,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     const newCodings: Codings = { ...codings, cells: newCells };
     const newLog: LogFile = { entries: [...log.entries, ...logEntries] };
 
-    // Commit both files. On conflict, tell user to reload.
     const r1 = await commit(`public/data/v${version}/codings.json`, newCodings,
       `reconcile: update ${cellId}`);
     if (!r1.ok) {
@@ -91,7 +141,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   }
 
   function tryAutoResolve(cell: Cell): Cell {
-    // If A and B match now, promote to resolved
     const a = new Set(cell.codesA);
     const b = new Set(cell.codesB);
     if (a.size === b.size && [...a].every(x => b.has(x))) {
@@ -103,7 +152,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   return (
     <div>
       <div className="filters">
-        <label>Status:&nbsp;
+        <label>Status
           <select value={status} onChange={e => setStatus(e.target.value as StatusFilter)}>
             <option value="all">All ({codings.cells.length})</option>
             <option value="pending">Pending ({counts.pending})</option>
@@ -112,40 +161,53 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
             <option value="auto">Auto-matched ({counts.auto})</option>
           </select>
         </label>
-        <label>Tech:&nbsp;
+        <label>Tech
           <select value={tech} onChange={e => setTech(e.target.value)}>
             <option value="all">All</option>
             {techs.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
         </label>
         <label>
-          <input type="checkbox" checked={changedOnly}
-            onChange={e => setChangedOnly(e.target.checked)} />
-          &nbsp;Changed since previous version only
-        </label>
-		<label>
           <input type="checkbox" checked={bothCodedOnly}
             onChange={e => setBothCodedOnly(e.target.checked)} />
-          &nbsp;Both coders have codes
+          Both coders have codes
         </label>
-        <div className="spacer" style={{ flex: 1 }} />
-        {saving && <span className="muted">Saving…</span>}
-        {error && <span className="error">{error}</span>}
+        <label>
+          <input type="checkbox" checked={changedOnly}
+            onChange={e => setChangedOnly(e.target.checked)} />
+          Changed since previous version
+        </label>
+        <span style={{ flex: 1 }} />
+        {saving && <span className="saving">Saving…</span>}
         {!isCurrent && <span className="pill changed">read-only (older version)</span>}
       </div>
+
+      <div className="help-bar">
+        <span><span className="kbd">j</span> / <span className="kbd">↓</span> next</span>
+        <span><span className="kbd">k</span> / <span className="kbd">↑</span> previous</span>
+        <span><span className="kbd">g</span> / <span className="kbd">G</span> top / bottom</span>
+        <span style={{ flex: 1 }} />
+        {filtered.length > 0 && (
+          <span>{focusIdx + 1} / {filtered.length}</span>
+        )}
+      </div>
+
+      {error && <div className="error" style={{ marginBottom: 12 }}>{error}</div>}
 
       {filtered.length === 0 && (
         <div className="card muted">No cells match the current filter.</div>
       )}
 
-      {filtered.map(cell => (
+      {filtered.map((cell, i) => (
         <DiscrepancyCard
           key={cell.cellId}
+          ref={el => { cardRefs.current[i] = el; }}
           cell={cell}
           answer={answersById[cell.cellId] || ""}
           coder={coder}
           version={version}
           disabled={!isCurrent || saving}
+          focused={i === focusIdx}
           onAdopt={(code) => updateCell(cell.cellId, c => {
             const key = coder === "A" ? "codesA" : "codesB";
             if (c[key].includes(code)) return c;
@@ -170,8 +232,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
             [makeLogEntry(coder, cell.cellId, "unflag_discussion", "after_discussion")])
           }
           onResolveAfterDiscussion={() => updateCell(cell.cellId, c => {
-            // Harmonized = intersection: codes both coders currently hold
-            // (either both originally coded them, or one adopted from the other).
             const b = new Set(c.codesB);
             const inter = c.codesA.filter(x => b.has(x)).sort();
             return { ...c, status: "resolved", harmonized: inter };

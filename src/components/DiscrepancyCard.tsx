@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 import type { Cell, Coder, DiscussionEntry } from "../lib/types";
-import { isKnownCode } from "../lib/codes";
+import { isKnownCode, labelOf } from "../lib/codes";
 
 interface Props {
   cell: Cell;
@@ -8,6 +8,7 @@ interface Props {
   coder: Coder;
   version: number;
   disabled?: boolean;
+  focused?: boolean;
   onAdopt: (code: string) => void;
   onConcede: (code: string) => void;
   onFlagDiscussion: () => void;
@@ -16,8 +17,8 @@ interface Props {
   onAppendDiscussion: (entry: DiscussionEntry) => void;
 }
 
-export default function DiscrepancyCard(p: Props) {
-  const { cell, answer, coder, disabled } = p;
+const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCard(p, ref) {
+  const { cell, answer, coder, disabled, focused } = p;
   const [expanded, setExpanded] = useState(false);
   const [draft, setDraft] = useState("");
 
@@ -26,71 +27,62 @@ export default function DiscrepancyCard(p: Props) {
   const shared = mine.filter(c => theirs.includes(c));
   const onlyMine = mine.filter(c => !theirs.includes(c));
   const onlyTheirs = theirs.filter(c => !mine.includes(c));
+  const otherCoder: Coder = coder === "A" ? "B" : "A";
   const inDiscussion = cell.status === "discussion";
 
-  const showAnswer = answer.length > 240 && !expanded
-    ? { text: answer.slice(0, 240) + "…", truncated: true }
-    : { text: answer, truncated: false };
+  const answerTruncated = answer.length > 240;
 
   return (
-    <div className="card">
-      <h3>
+    <div className={"card" + (focused ? " focused" : "")} ref={ref} tabIndex={-1}>
+      <div className="card-header">
+        <span className={"pill tech"}>{cell.tech}</span>
         <StatusPill status={cell.status} />
-        {cell.changedSinceLastVersion &&
-          <span className="pill changed">changed since v{cell.carriedFromVersion ?? "?"}</span>}
-        {cell.tech} · {cell.rowId} · {cell.question}
-      </h3>
+        {cell.changedSinceLastVersion && (
+          <span className="pill changed">
+            changed since v{cell.carriedFromVersion ?? "?"}
+          </span>
+        )}
+        <span className="id">
+          {cell.rowId} <span className="muted">·</span> {cell.question}
+        </span>
+      </div>
 
-      <div className={"answer" + (showAnswer.truncated ? " collapsed" : "")}>
+      <div className={"answer" + (answerTruncated && !expanded ? " collapsed" : "")}>
         {answer || <span className="muted">(empty answer)</span>}
       </div>
-      {answer.length > 240 && (
+      {answerTruncated && (
         <button className="expand-btn" onClick={() => setExpanded(x => !x)}>
           {expanded ? "Collapse" : "Expand answer"}
         </button>
       )}
 
-      {shared.length > 0 && (
-        <div className="chip-row">
-          <span className="label">Shared:</span>
-          {shared.map(c => (
-            <span key={c} className={`chip shared ${isKnownCode(c) ? "" : "unknown"}`}>{c}</span>
-          ))}
-        </div>
-      )}
-
-      <div className="chip-row">
-        <span className="label">You (Coder {coder}):</span>
-        {onlyMine.length === 0 && <span className="muted">no unique codes</span>}
-        {onlyMine.map(c => (
-          <span key={c} className={`chip a ${isKnownCode(c) ? "" : "unknown"}`}>
-            {c}
-            {!disabled && (
-              <button title="Concede — remove from your codes"
-                onClick={() => p.onConcede(c)}>×</button>
-            )}
-          </span>
-        ))}
-      </div>
-
-      <div className="chip-row">
-        <span className="label">Coder {coder === "A" ? "B" : "A"}:</span>
-        {onlyTheirs.length === 0 && <span className="muted">no unique codes</span>}
-        {onlyTheirs.map(c => (
-          <span key={c} className={`chip b ${isKnownCode(c) ? "" : "unknown"}`}>
-            {c}
-            {!disabled && (
-              <button title="Adopt — add to your codes"
-                onClick={() => p.onAdopt(c)}>+</button>
-            )}
-          </span>
-        ))}
+      <div className="coder-cols">
+        <ColumnPanel
+          coder="A"
+          isMine={coder === "A"}
+          shared={shared}
+          only={coder === "A" ? onlyMine : onlyTheirs}
+          onRemove={(code) => coder === "A" ? p.onConcede(code) : p.onAdopt(code)}
+          removeAction={coder === "A" ? "concede" : "adopt"}
+          disabled={disabled}
+        />
+        <ColumnPanel
+          coder="B"
+          isMine={coder === "B"}
+          shared={shared}
+          only={coder === "B" ? onlyMine : onlyTheirs}
+          onRemove={(code) => coder === "B" ? p.onConcede(code) : p.onAdopt(code)}
+          removeAction={coder === "B" ? "concede" : "adopt"}
+          disabled={disabled}
+        />
       </div>
 
       {cell.harmonized && cell.harmonized.length > 0 && (
-        <div className="chip-row">
-          <span className="label">Harmonized:</span>
-          {cell.harmonized.map(c => <span key={c} className="chip harm">{c}</span>)}
+        <div className="harm-row">
+          <span className="harm-label">Harmonized</span>
+          {cell.harmonized.map(c => (
+            <Chip key={c} code={c} variant="harm" />
+          ))}
         </div>
       )}
 
@@ -105,14 +97,17 @@ export default function DiscrepancyCard(p: Props) {
               Unflag
             </button>
             <button className="btn primary" onClick={p.onResolveAfterDiscussion} disabled={disabled}>
-              Mark agreed (after discussion)
+              Mark agreed (intersection)
             </button>
           </>
         )}
+        <span style={{ flex: 1 }} />
+        <span className="muted">You are Coder {coder} · other = {otherCoder}</span>
       </div>
 
       {inDiscussion && (
         <div className="discussion">
+          <h5>Discussion</h5>
           {cell.discussion.length === 0 && (
             <div className="muted">No comments yet.</div>
           )}
@@ -127,11 +122,11 @@ export default function DiscrepancyCard(p: Props) {
           <textarea
             value={draft}
             onChange={e => setDraft(e.target.value)}
-            placeholder="Add a comment (visible to both coders)"
+            placeholder="Add a comment (visible to both coders)…"
             disabled={disabled}
           />
-          <div style={{ marginTop: 6 }}>
-            <button className="btn sm" disabled={!draft.trim() || disabled}
+          <div style={{ marginTop: 8 }}>
+            <button className="btn sm primary" disabled={!draft.trim() || disabled}
               onClick={() => {
                 p.onAppendDiscussion({
                   version: p.version,
@@ -148,9 +143,69 @@ export default function DiscrepancyCard(p: Props) {
       )}
     </div>
   );
+});
+export default DiscrepancyCard;
+
+function ColumnPanel({
+  coder, isMine, shared, only, onRemove, removeAction, disabled,
+}: {
+  coder: Coder;
+  isMine: boolean;
+  shared: string[];
+  only: string[];
+  onRemove: (code: string) => void;
+  removeAction: "adopt" | "concede";
+  disabled?: boolean;
+}) {
+  return (
+    <div className={"coder-col" + (isMine ? " is-mine" : "")}>
+      <h4>
+        Coder {coder} {isMine && <span className="self-tag">You</span>}
+      </h4>
+      {shared.length === 0 && only.length === 0 && (
+        <div className="empty-note">no codes assigned</div>
+      )}
+      {shared.map(c => <Chip key={"s" + c} code={c} variant="shared" />)}
+      {only.map(c => (
+        <Chip
+          key={"o" + c}
+          code={c}
+          variant={isMine ? "only-mine" : "only-theirs"}
+          onRemove={disabled ? undefined : () => onRemove(c)}
+          removeTitle={removeAction === "concede"
+            ? "Concede — remove from your codes"
+            : "Adopt — add to your codes"}
+          removeSymbol={removeAction === "concede" ? "×" : "+"}
+        />
+      ))}
+    </div>
+  );
+}
+
+function Chip({
+  code, variant, onRemove, removeTitle, removeSymbol,
+}: {
+  code: string;
+  variant: "shared" | "only-mine" | "only-theirs" | "harm";
+  onRemove?: () => void;
+  removeTitle?: string;
+  removeSymbol?: string;
+}) {
+  const label = labelOf(code);
+  const known = isKnownCode(code);
+  return (
+    <span className={"chip " + variant + (known ? "" : " unknown")} title={label}>
+      <span className="code">{code}</span>
+      {label && <span className="label">{label}</span>}
+      {onRemove && (
+        <button className="action" onClick={onRemove} title={removeTitle}>
+          {removeSymbol}
+        </button>
+      )}
+    </span>
+  );
 }
 
 function StatusPill({ status }: { status: Cell["status"] }) {
-  const cls = "pill " + status;
-  return <span className={cls}>{status}</span>;
+  return <span className={"pill " + status}>{status}</span>;
 }

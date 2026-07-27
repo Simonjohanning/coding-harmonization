@@ -5,7 +5,7 @@ import {
 } from "recharts";
 import type { Codings, Answers, Labels } from "../lib/types";
 import { commit, loadLabels, loadVersion } from "../lib/data";
-import { familyOf } from "../lib/codes";
+import { familyOf, labelOf, normalizeCode, codeSortKey } from "../lib/codes";
 
 interface Props { version: number; }
 
@@ -15,7 +15,16 @@ type SortMode =
   | { by: "total"; dir: "asc" | "desc" }
   | { by: "tech"; tech: string; dir: "asc" | "desc" };
 
-const COLORS = ["#0369a1", "#7c3aed", "#059669", "#d97706", "#dc2626", "#0891b2", "#65a30d"];
+// Refined palette — warm accent + accessible pairs
+const COLORS = ["#0f766e", "#7c3aed", "#b45309", "#0369a1", "#be185d", "#059669", "#d97706"];
+
+const TOOLTIP_STYLE = {
+  background: "white",
+  border: "1px solid #e7e5e4",
+  borderRadius: 6,
+  boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+  fontSize: 12,
+};
 
 export default function Frequency({ version }: Props) {
   const [codings, setCodings] = useState<Codings | null>(null);
@@ -35,7 +44,15 @@ export default function Frequency({ version }: Props) {
       const [{ codings, answers }, lbl] = await Promise.all([
         loadVersion(version), loadLabels(),
       ]);
-      setCodings(codings); setAnswers(answers); setLabels(lbl);
+      // Normalize harmonized codes
+      const norm: Codings = {
+        ...codings,
+        cells: codings.cells.map(c => ({
+          ...c,
+          harmonized: c.harmonized ? c.harmonized.map(normalizeCode) : c.harmonized,
+        })),
+      };
+      setCodings(norm); setAnswers(answers); setLabels(lbl);
     })();
   }, [version]);
 
@@ -44,16 +61,13 @@ export default function Frequency({ version }: Props) {
     return Array.from(new Set(codings.cells.map(c => c.tech))).sort();
   }, [codings]);
 
-  // Only use harmonized codes from resolved/auto cells
   const usableCells = useMemo(() => {
     if (!codings) return [];
     return codings.cells.filter(c =>
-      (c.status === "auto" || c.status === "resolved") &&
-      Array.isArray(c.harmonized)
+      (c.status === "auto" || c.status === "resolved") && Array.isArray(c.harmonized)
     );
   }, [codings]);
 
-  // Aggregate: for each code, total count + per-tech count
   const agg = useMemo(() => {
     const map = new Map<string, { total: number; byTech: Record<string, number>; cellIds: string[] }>();
     for (const c of usableCells) {
@@ -75,6 +89,14 @@ export default function Frequency({ version }: Props) {
       const fam = familyOf(code);
       if (fam !== "other") byFam[fam].push(code);
     }
+    // Stable natural order within family
+    for (const k of Object.keys(byFam) as ("A"|"PBC"|"SN")[]) {
+      byFam[k].sort((a, b) => {
+        const [pa, na] = codeSortKey(a);
+        const [pb, nb] = codeSortKey(b);
+        return pa === pb ? na - nb : pa.localeCompare(pb);
+      });
+    }
     return byFam;
   }, [agg]);
 
@@ -84,7 +106,7 @@ export default function Frequency({ version }: Props) {
     return m;
   }, [answers]);
 
-  if (!codings || !answers) return <div>Loading v{version}…</div>;
+  if (!codings || !answers) return <div className="muted">Loading v{version}…</div>;
 
   function sortCodes(codes: string[]): string[] {
     return [...codes].sort((a, b) => {
@@ -118,49 +140,45 @@ export default function Frequency({ version }: Props) {
     const visible = codes.filter(c => !hidden.has(c));
     const data = visible.map(code => ({
       code,
+      label: labelOf(code) || code,
       total: agg.get(code)!.total,
       ...Object.fromEntries(techs.map(t => [t, agg.get(code)!.byTech[t] || 0])),
     }));
 
     if (chart === "pie" || chart === "donut") {
       return (
-        <ResponsiveContainer width="100%" height={280}>
+        <ResponsiveContainer width="100%" height={320}>
           <PieChart>
-            <Pie data={data} dataKey="total" nameKey="code"
-              innerRadius={chart === "donut" ? 50 : 0} outerRadius={100} label>
+            <Pie
+              data={data}
+              dataKey="total"
+              nameKey="code"
+              innerRadius={chart === "donut" ? 60 : 0}
+              outerRadius={120}
+              paddingAngle={1}
+              label={(entry: any) => entry.code}
+            >
               {data.map((_, i) => <RCell key={i} fill={COLORS[i % COLORS.length]} />)}
             </Pie>
-            <Tooltip />
-            <Legend />
+            <Tooltip contentStyle={TOOLTIP_STYLE} formatter={(v: any, _n: any, p: any) => [v, `${p.payload.code} — ${p.payload.label}`]} />
+            <Legend wrapperStyle={{ fontSize: 12 }} />
           </PieChart>
         </ResponsiveContainer>
       );
     }
 
-    if (chart === "hbar") {
+    if (chart === "hbar" || chart === "lollipop") {
+      const barProps = chart === "lollipop" ? { barSize: 3 } : {};
       return (
-        <ResponsiveContainer width="100%" height={Math.max(200, data.length * 24)}>
-          <BarChart layout="vertical" data={data} margin={{ left: 40 }}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis type="number" />
-            <YAxis dataKey="code" type="category" width={80} />
-            <Tooltip />
-            <Bar dataKey="total" fill={COLORS[0]} />
-          </BarChart>
-        </ResponsiveContainer>
-      );
-    }
-
-    if (chart === "lollipop") {
-      // Draw as horizontal bars with narrow bars — recharts doesn't have native lollipop
-      return (
-        <ResponsiveContainer width="100%" height={Math.max(200, data.length * 24)}>
-          <BarChart layout="vertical" data={data} margin={{ left: 40 }} barSize={2}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis type="number" />
-            <YAxis dataKey="code" type="category" width={80} />
-            <Tooltip />
-            <Bar dataKey="total" fill={COLORS[0]} />
+        <ResponsiveContainer width="100%" height={Math.max(240, data.length * 28)}>
+          <BarChart layout="vertical" data={data} margin={{ left: 12, right: 20, top: 8, bottom: 8 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" horizontal={false} />
+            <XAxis type="number" tick={{ fontSize: 12, fill: "#78716c" }} stroke="#d6d3d1" />
+            <YAxis dataKey="code" type="category" width={80}
+              tick={{ fontSize: 12, fill: "#1c1917" }} stroke="#d6d3d1" />
+            <Tooltip contentStyle={TOOLTIP_STYLE}
+              formatter={(v: any, _n: any, p: any) => [v, `${p.payload.code} — ${p.payload.label}`]} />
+            <Bar dataKey="total" fill={COLORS[0]} radius={chart === "lollipop" ? 0 : [0, 4, 4, 0]} {...barProps} />
           </BarChart>
         </ResponsiveContainer>
       );
@@ -168,13 +186,14 @@ export default function Frequency({ version }: Props) {
 
     // vertical bar (default)
     return (
-      <ResponsiveContainer width="100%" height={280}>
-        <BarChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="code" />
-          <YAxis />
-          <Tooltip />
-          <Bar dataKey="total" fill={COLORS[0]} />
+      <ResponsiveContainer width="100%" height={320}>
+        <BarChart data={data} margin={{ left: 8, right: 20, top: 8, bottom: 8 }}>
+          <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" vertical={false} />
+          <XAxis dataKey="code" tick={{ fontSize: 12, fill: "#1c1917" }} stroke="#d6d3d1" />
+          <YAxis tick={{ fontSize: 12, fill: "#78716c" }} stroke="#d6d3d1" allowDecimals={false} />
+          <Tooltip contentStyle={TOOLTIP_STYLE}
+            formatter={(v: any, _n: any, p: any) => [v, `${p.payload.code} — ${p.payload.label}`]} />
+          <Bar dataKey="total" fill={COLORS[0]} radius={[4, 4, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
     );
@@ -183,13 +202,13 @@ export default function Frequency({ version }: Props) {
   return (
     <div>
       <div className="filters">
-        <label>Tech:&nbsp;
+        <label>Tech
           <select value={techFilter} onChange={e => setTechFilter(e.target.value)}>
             <option value="all">All (totals)</option>
             {techs.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
         </label>
-        <label>Chart:&nbsp;
+        <label>Chart
           <select value={chart} onChange={e => setChart(e.target.value as ChartType)}>
             <option value="vbar">Bar (vertical)</option>
             <option value="hbar">Bar (horizontal)</option>
@@ -198,21 +217,26 @@ export default function Frequency({ version }: Props) {
             <option value="lollipop">Lollipop</option>
           </select>
         </label>
-        <button className="btn sm" onClick={() => setHidden(new Set())}>Show all in chart</button>
+        <button className="btn sm" onClick={() => setHidden(new Set())}>
+          Show all in chart
+        </button>
       </div>
 
       {(["A", "PBC", "SN"] as const).map(fam => {
         const codes = groups[fam];
         if (codes.length === 0) return (
           <div key={fam}>
-            <div className="section-header">{fam}</div>
-            <div className="card muted">No codes in this family yet.</div>
+            <div className="section-header">
+              {fam} <span className="count">— no codes yet</span>
+            </div>
           </div>
         );
         const sorted = sortCodes(codes);
         return (
           <div key={fam}>
-            <div className="section-header">{fam} ({codes.length} codes)</div>
+            <div className="section-header">
+              {fam} <span className="count">{codes.length} codes</span>
+            </div>
 
             <div className="chart-panel">
               {renderChart(sorted)}
@@ -264,7 +288,7 @@ interface TableProps {
 }
 
 function FreqTable(p: TableProps) {
-  const clickSort = (target: SortMode["by"] extends infer T ? T : never, tech?: string) => {
+  const clickSort = (target: "code" | "total" | "tech", tech?: string) => {
     if (target === "tech" && tech) {
       if (p.sort.by === "tech" && p.sort.tech === tech) {
         p.onSort({ by: "tech", tech, dir: p.sort.dir === "asc" ? "desc" : "asc" });
@@ -284,15 +308,16 @@ function FreqTable(p: TableProps) {
     <table className="freq-table">
       <thead>
         <tr>
-          <th style={{ width: 20 }}></th>
+          <th style={{ width: 24 }}></th>
           <th onClick={() => clickSort("code")}>Code{arrow(p.sort.by === "code")}</th>
+          <th style={{ width: 260 }}>Codebook label</th>
           <th className="numeric" onClick={() => clickSort("total")}>Total{arrow(p.sort.by === "total")}</th>
           {p.techs.map(t => (
             <th key={t} className="numeric" onClick={() => clickSort("tech", t)}>
               {t}{arrow(p.sort.by === "tech" && (p.sort as any).tech === t)}
             </th>
           ))}
-          <th style={{ minWidth: 200 }}>Belief label</th>
+          <th style={{ minWidth: 220 }}>Belief label (this study)</th>
         </tr>
       </thead>
       <tbody>
@@ -302,18 +327,20 @@ function FreqTable(p: TableProps) {
           const isExpanded = p.expandedCode === code;
           return (
             <>
-              <tr key={code} className={isHidden ? "hidden-in-chart" : ""}>
+              <tr key={code}
+                  className={(isHidden ? "hidden-in-chart" : "") + (isExpanded ? " expanded" : "")}>
                 <td>
                   <input type="checkbox" checked={!isHidden}
                     onChange={() => p.onToggleHidden(code)}
                     title="Include in chart" />
                 </td>
-                <td>
+                <td className="code-cell">
                   <button className="expand-btn" onClick={() => p.onToggleExpand(code)}>
                     {isExpanded ? "▾" : "▸"} {code}
                   </button>
                 </td>
-                <td className="numeric">{row.total}</td>
+                <td className="codebook-label">{labelOf(code)}</td>
+                <td className="numeric"><strong>{row.total}</strong></td>
                 {p.techs.map(t => (
                   <td key={t} className="numeric">{row.byTech[t] || 0}</td>
                 ))}
@@ -323,14 +350,14 @@ function FreqTable(p: TableProps) {
                     value={p.labelDrafts[code] ?? p.labels[code] ?? ""}
                     onChange={e => p.onLabelChange(code, e.target.value)}
                     onBlur={() => p.onLabelBlur(code)}
-                    placeholder="Enter belief label…"
+                    placeholder="Belief label…"
                   />
                   {p.savingLabel === code && <span className="muted"> saving…</span>}
                 </td>
               </tr>
               {isExpanded && (
                 <tr key={code + "_exp"} className="code-expand-row">
-                  <td colSpan={3 + p.techs.length + 1}>
+                  <td colSpan={4 + p.techs.length + 1}>
                     <ExpandedAnswers cellIds={row.cellIds} answersByCellId={p.answersByCellId} />
                   </td>
                 </tr>
@@ -360,20 +387,18 @@ function ExpandedAnswers({
   return (
     <div>
       {[...byTech.entries()].map(([tech, ids]) => (
-        <div key={tech} style={{ marginBottom: 12 }}>
-          <div style={{ fontWeight: 600, fontSize: 13 }}>{tech} ({ids.length})</div>
+        <div key={tech} className="expanded-block">
+          <div className="tech-heading">{tech} <span className="muted">({ids.length})</span></div>
           {ids.map(id => {
             const a = answersByCellId.get(id)!;
             const isOpen = openId === id;
-            const preview = a.answer.length > 200 && !isOpen
-              ? a.answer.slice(0, 200) + "…" : a.answer;
+            const preview = a.answer.length > 220 && !isOpen
+              ? a.answer.slice(0, 220) + "…" : a.answer;
             return (
-              <div key={id} style={{ padding: "6px 0", borderBottom: "1px dashed var(--border)" }}>
-                <div className="muted" style={{ fontSize: 11 }}>
-                  {a.rowId} · {a.question}
-                </div>
-                <div style={{ whiteSpace: "pre-wrap", fontSize: 13 }}>{preview}</div>
-                {a.answer.length > 200 && (
+              <div key={id} className="expanded-answer">
+                <div className="meta">{a.rowId} · {a.question}</div>
+                <div className="text">{preview}</div>
+                {a.answer.length > 220 && (
                   <button className="expand-btn"
                     onClick={() => setOpenId(isOpen ? null : id)}>
                     {isOpen ? "Collapse" : "Expand"}
