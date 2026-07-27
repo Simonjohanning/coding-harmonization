@@ -48,13 +48,17 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     })();
   }, [version]);
 
-  // Poll for remote changes every 30s (when tab visible & no save in flight).
+  // Poll for remote changes every 30s (when tab visible & no recent write).
   const savingRef = useRef(false);
+  const lastWriteRef = useRef(0);
   useEffect(() => { savingRef.current = saving; }, [saving]);
   useEffect(() => {
     const interval = setInterval(async () => {
       if (document.visibilityState !== "visible") return;
       if (savingRef.current) return;
+      // Skip if a write finished less than 15s ago — GitHub's raw content
+      // is served through a CDN and may still return the pre-write JSON.
+      if (Date.now() - lastWriteRef.current < 15000) return;
       try {
         const { codings: fresh } = await loadVersion(version);
         const norm: Codings = {
@@ -68,7 +72,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
         };
         setCodings(norm);
       } catch {
-        // ignore transient errors — user will see the last known state
+        // ignore transient errors
       }
     }, 30000);
     return () => clearInterval(interval);
@@ -164,6 +168,8 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     setCodings(newCodings);
     setLog(newLog);
     setSaving(false);
+    lastWriteRef.current = Date.now();   // ← add this
+  }	
   }
 
   function tryAutoResolve(cell: Cell): Cell {
