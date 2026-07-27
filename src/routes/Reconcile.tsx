@@ -30,7 +30,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   useEffect(() => {
     (async () => {
       const { answers, codings } = await loadVersion(version);
-      // Normalize codes in-place (SN4 -> eSN4, EPBC14 -> ePBC14, etc.)
       const norm: Codings = {
         ...codings,
         cells: codings.cells.map(c => ({
@@ -48,7 +47,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     })();
   }, [version]);
 
-  // Poll for remote changes every 30s (when tab visible & no recent write).
+  // Poll for remote changes every 30s.
   const savingRef = useRef(false);
   const lastWriteRef = useRef(0);
   useEffect(() => { savingRef.current = saving; }, [saving]);
@@ -56,8 +55,8 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     const interval = setInterval(async () => {
       if (document.visibilityState !== "visible") return;
       if (savingRef.current) return;
-      // Skip if a write finished less than 15s ago — GitHub's raw content
-      // is served through a CDN and may still return the pre-write JSON.
+      // Skip polls for 15s after any successful write — GitHub's raw content
+      // CDN can lag behind a commit and would revert the just-saved state.
       if (Date.now() - lastWriteRef.current < 15000) return;
       try {
         const { codings: fresh } = await loadVersion(version);
@@ -168,8 +167,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     setCodings(newCodings);
     setLog(newLog);
     setSaving(false);
-    lastWriteRef.current = Date.now();   // ← add this
-  }	
+    lastWriteRef.current = Date.now();
   }
 
   function tryAutoResolve(cell: Cell): Cell {
