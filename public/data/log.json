@@ -1,3 +1,12 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "timestamp": "2026-07-27T09:48:35.360Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q15",
+      "action": "adopt",
+      "code": "A1",
+      "mode": "no_discussion"
+    }
+  ]
 }
