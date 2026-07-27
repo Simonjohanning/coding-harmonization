@@ -44,22 +44,28 @@ export const CODE_LABELS: Record<string, string> = {
   eSN6: "Medien",
 };
 
-// Legacy synonym: data coded with SN4/5/6 maps to eSN4/5/6.
+// Legacy synonyms: SN4/5/6 typed in the coding dropdown map to eSN4/5/6.
 const LEGACY_MAP: Record<string, string> = {
   SN4: "eSN4",
   SN5: "eSN5",
   SN6: "eSN6",
 };
 
-/** Normalize a code from data to its canonical form. */
+// Case-insensitive lookup: any casing (EPBC14, epbc14, ePBC14) resolves
+// to canonical form. Case-insensitive legacy mapping also works
+// (SN4 == sn4 == Sn4 -> eSN4).
+const CANONICAL_BY_UPPER: Record<string, string> = {};
+for (const c of Object.keys(CODE_LABELS)) CANONICAL_BY_UPPER[c.toUpperCase()] = c;
+for (const [k, v] of Object.entries(LEGACY_MAP)) CANONICAL_BY_UPPER[k.toUpperCase()] = v;
+
+/** Normalize a code from data to its canonical form (fixes casing + legacy names). */
 export function normalizeCode(code: string): string {
-  return LEGACY_MAP[code] ?? code;
+  if (!code) return code;
+  return CANONICAL_BY_UPPER[code.toUpperCase()] ?? code;
 }
 
-/** Canonical code list, ordered. */
-export const ALL_CODES = Object.keys(CODE_LABELS).filter(
-  c => !Object.keys(LEGACY_MAP).includes(c)
-);
+/** Canonical code list. */
+export const ALL_CODES = Object.keys(CODE_LABELS);
 
 export function labelOf(code: string): string {
   return CODE_LABELS[code] ?? CODE_LABELS[normalizeCode(code)] ?? "";

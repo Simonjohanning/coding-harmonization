@@ -20,6 +20,7 @@ interface Props {
 const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCard(p, ref) {
   const { cell, answer, coder, disabled, focused } = p;
   const [expanded, setExpanded] = useState(false);
+  const [sharedOpen, setSharedOpen] = useState(false);
   const [draft, setDraft] = useState("");
 
   const mine = coder === "A" ? cell.codesA : cell.codesB;
@@ -31,11 +32,14 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
   const inDiscussion = cell.status === "discussion";
 
   const answerTruncated = answer.length > 240;
+  const sharedTooltip = shared
+    .map(c => c + (labelOf(c) ? "  " + labelOf(c) : ""))
+    .join("\n");
 
   return (
     <div className={"card" + (focused ? " focused" : "")} ref={ref} tabIndex={-1}>
       <div className="card-header">
-        <span className={"pill tech"}>{cell.tech}</span>
+        <span className="pill tech">{cell.tech}</span>
         <StatusPill status={cell.status} />
         {cell.changedSinceLastVersion && (
           <span className="pill changed">
@@ -45,7 +49,23 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
         <span className="id">
           {cell.rowId} <span className="muted">·</span> {cell.question}
         </span>
+        <span style={{ flex: 1 }} />
+        {shared.length > 0 && (
+          <button
+            className="shared-badge"
+            onClick={() => setSharedOpen(x => !x)}
+            title={sharedTooltip}
+          >
+            {sharedOpen ? "▾" : "▸"} {shared.length} shared
+          </button>
+        )}
       </div>
+
+      {sharedOpen && shared.length > 0 && (
+        <div className="shared-strip">
+          {shared.map(c => <Chip key={c} code={c} variant="shared" />)}
+        </div>
+      )}
 
       <div className={"answer" + (answerTruncated && !expanded ? " collapsed" : "")}>
         {answer || <span className="muted">(empty answer)</span>}
@@ -60,8 +80,8 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
         <ColumnPanel
           coder="A"
           isMine={coder === "A"}
-          shared={shared}
           only={coder === "A" ? onlyMine : onlyTheirs}
+          allShared={shared.length}
           onRemove={(code) => coder === "A" ? p.onConcede(code) : p.onAdopt(code)}
           removeAction={coder === "A" ? "concede" : "adopt"}
           disabled={disabled}
@@ -69,8 +89,8 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
         <ColumnPanel
           coder="B"
           isMine={coder === "B"}
-          shared={shared}
           only={coder === "B" ? onlyMine : onlyTheirs}
+          allShared={shared.length}
           onRemove={(code) => coder === "B" ? p.onConcede(code) : p.onAdopt(code)}
           removeAction={coder === "B" ? "concede" : "adopt"}
           disabled={disabled}
@@ -80,9 +100,7 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
       {cell.harmonized && cell.harmonized.length > 0 && (
         <div className="harm-row">
           <span className="harm-label">Harmonized</span>
-          {cell.harmonized.map(c => (
-            <Chip key={c} code={c} variant="harm" />
-          ))}
+          {cell.harmonized.map(c => <Chip key={c} code={c} variant="harm" />)}
         </div>
       )}
 
@@ -147,12 +165,12 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
 export default DiscrepancyCard;
 
 function ColumnPanel({
-  coder, isMine, shared, only, onRemove, removeAction, disabled,
+  coder, isMine, only, allShared, onRemove, removeAction, disabled,
 }: {
   coder: Coder;
   isMine: boolean;
-  shared: string[];
   only: string[];
+  allShared: number;
   onRemove: (code: string) => void;
   removeAction: "adopt" | "concede";
   disabled?: boolean;
@@ -162,10 +180,12 @@ function ColumnPanel({
       <h4>
         Coder {coder} {isMine && <span className="self-tag">You</span>}
       </h4>
-      {shared.length === 0 && only.length === 0 && (
+      {only.length === 0 && allShared === 0 && (
         <div className="empty-note">no codes assigned</div>
       )}
-      {shared.map(c => <Chip key={"s" + c} code={c} variant="shared" />)}
+      {only.length === 0 && allShared > 0 && (
+        <div className="empty-note">no unique codes (all shared)</div>
+      )}
       {only.map(c => (
         <Chip
           key={"o" + c}

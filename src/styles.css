@@ -567,3 +567,25 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   font-size: 12px;
   color: var(--text-muted);
 }
+
+/* Shared-code badge in card header ----------------------------------------- */
+.shared-badge {
+  background: var(--shared-soft);
+  color: var(--shared-fg);
+  border: 1px solid #86efac;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+.shared-badge:hover { background: #bbf7d0; }
+.shared-strip {
+  padding: 6px 10px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  margin: 0 0 8px;
+}

@@ -30,7 +30,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   useEffect(() => {
     (async () => {
       const { answers, codings } = await loadVersion(version);
-      // Normalize codes in-place (SN4 -> eSN4, etc.)
+      // Normalize codes in-place (SN4 -> eSN4, EPBC14 -> ePBC14, etc.)
       const norm: Codings = {
         ...codings,
         cells: codings.cells.map(c => ({
@@ -46,6 +46,32 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
       setAnswersById(map);
       setLog(await loadLog());
     })();
+  }, [version]);
+
+  // Poll for remote changes every 30s (when tab visible & no save in flight).
+  const savingRef = useRef(false);
+  useEffect(() => { savingRef.current = saving; }, [saving]);
+  useEffect(() => {
+    const interval = setInterval(async () => {
+      if (document.visibilityState !== "visible") return;
+      if (savingRef.current) return;
+      try {
+        const { codings: fresh } = await loadVersion(version);
+        const norm: Codings = {
+          ...fresh,
+          cells: fresh.cells.map(c => ({
+            ...c,
+            codesA: c.codesA.map(normalizeCode),
+            codesB: c.codesB.map(normalizeCode),
+            harmonized: c.harmonized ? c.harmonized.map(normalizeCode) : c.harmonized,
+          })),
+        };
+        setCodings(norm);
+      } catch {
+        // ignore transient errors — user will see the last known state
+      }
+    }, 30000);
+    return () => clearInterval(interval);
   }, [version]);
 
   const techs = useMemo(() => {
