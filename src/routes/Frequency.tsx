@@ -3,7 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell as RCell, Legend, CartesianGrid,
 } from "recharts";
-import type { Codings, Answers, Labels, Cell as CodingCell } from "../lib/types";
+import type { Codings, Answers, Labels } from "../lib/types";
 import { commit, loadLabels, loadVersion } from "../lib/data";
 import { familyOf } from "../lib/codes";
 
