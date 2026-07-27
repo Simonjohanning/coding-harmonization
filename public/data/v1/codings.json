@@ -1,0 +1,2774 @@
+{
+  "version": 1,
+  "cells": [
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q15",
+      "rowId": "Barista1976|31",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [
+        "PBC6",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q16",
+      "rowId": "Barista1976|31",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q17",
+      "rowId": "Barista1976|31",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q18",
+      "rowId": "Barista1976|31",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "PBC4",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "rowId": "Barista1976|31",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "PBC4",
+        "eA11"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q20",
+      "rowId": "Barista1976|31",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [
+        "A1",
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q33",
+      "rowId": "Carsten|260",
+      "tech": "konventionelle",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [
+        "PBC1"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "rowId": "Carsten|260",
+      "tech": "konventionelle",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q35",
+      "rowId": "Carsten|260",
+      "tech": "konventionelle",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q36",
+      "rowId": "Carsten|260",
+      "tech": "konventionelle",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "A7",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q37",
+      "rowId": "Carsten|260",
+      "tech": "konventionelle",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q38",
+      "rowId": "Carsten|260",
+      "tech": "konventionelle",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q15",
+      "rowId": "Chamaeleon|59",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [
+        "A1",
+        "A2"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q16",
+      "rowId": "Chamaeleon|59",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "PBC1",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q17",
+      "rowId": "Chamaeleon|59",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q18",
+      "rowId": "Chamaeleon|59",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "PBC6",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q19",
+      "rowId": "Chamaeleon|59",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q20",
+      "rowId": "Chamaeleon|59",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [
+        "A1",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q15",
+      "rowId": "Flo|6",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q16",
+      "rowId": "Flo|6",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "A52",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q17",
+      "rowId": "Flo|6",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q18",
+      "rowId": "Flo|6",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q19",
+      "rowId": "Flo|6",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "PBC4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q20",
+      "rowId": "Flo|6",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q15",
+      "rowId": "HSV|38",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q16",
+      "rowId": "HSV|38",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "PBC5"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q17",
+      "rowId": "HSV|38",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q18",
+      "rowId": "HSV|38",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "PBC4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q19",
+      "rowId": "HSV|38",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q20",
+      "rowId": "HSV|38",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q33",
+      "rowId": "HarryHirsch|294",
+      "tech": "konventionelle",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q34",
+      "rowId": "HarryHirsch|294",
+      "tech": "konventionelle",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q35",
+      "rowId": "HarryHirsch|294",
+      "tech": "konventionelle",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q36",
+      "rowId": "HarryHirsch|294",
+      "tech": "konventionelle",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q37",
+      "rowId": "HarryHirsch|294",
+      "tech": "konventionelle",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q38",
+      "rowId": "HarryHirsch|294",
+      "tech": "konventionelle",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q27",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q27",
+      "codesA": [
+        "A51",
+        "eA10"
+      ],
+      "codesB": [
+        "A51",
+        "eA10"
+      ],
+      "harmonized": [
+        "A51",
+        "eA10"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q28",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q28",
+      "codesA": [
+        "PBC10",
+        "PBC5",
+        "ePBC16",
+        "eUnsicherheit"
+      ],
+      "codesB": [
+        "PBC10",
+        "PBC5",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q29",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q29",
+      "codesA": [
+        "SN1",
+        "SN2",
+        "eSN4"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q30",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q30",
+      "codesA": [
+        "PBC10",
+        "PBC6"
+      ],
+      "codesB": [
+        "A7",
+        "PBC6"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q31",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q31",
+      "codesA": [
+        "ePBC15"
+      ],
+      "codesB": [
+        "A7",
+        "EPBC15"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q32",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q32",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q33",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q34",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q35",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q36",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q37",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q38",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q39",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q39",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q40",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q40",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q41",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q41",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q42",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q42",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q43",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q43",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q44",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q44",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q45",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q45",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q46",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q46",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q47",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q47",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q48",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q48",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q49",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q49",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Karl|49|Q50",
+      "rowId": "Karl|49",
+      "tech": "biomass",
+      "question": "Q50",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q21",
+      "rowId": "Malte74|562",
+      "tech": "fernwärme",
+      "question": "Q21",
+      "codesA": [
+        "A51",
+        "PBC10"
+      ],
+      "codesB": [
+        "PBC10"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q22",
+      "rowId": "Malte74|562",
+      "tech": "fernwärme",
+      "question": "Q22",
+      "codesA": [
+        "?"
+      ],
+      "codesB": [
+        "A3"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q23",
+      "rowId": "Malte74|562",
+      "tech": "fernwärme",
+      "question": "Q23",
+      "codesA": [
+        "eSN4"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q24",
+      "rowId": "Malte74|562",
+      "tech": "fernwärme",
+      "question": "Q24",
+      "codesA": [
+        "PBC6",
+        "eVertrauen"
+      ],
+      "codesB": [
+        "PBC6",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q25",
+      "rowId": "Malte74|562",
+      "tech": "fernwärme",
+      "question": "Q25",
+      "codesA": [
+        "PBC4",
+        "ePBC16"
+      ],
+      "codesB": [
+        "A4",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q26",
+      "rowId": "Malte74|562",
+      "tech": "fernwärme",
+      "question": "Q26",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q15",
+      "rowId": "Matt|2",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q16",
+      "rowId": "Matt|2",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q17",
+      "rowId": "Matt|2",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q18",
+      "rowId": "Matt|2",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "PBC6"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q19",
+      "rowId": "Matt|2",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "PBC4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q20",
+      "rowId": "Matt|2",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q21",
+      "rowId": "Meisi|334",
+      "tech": "fernwärme",
+      "question": "Q21",
+      "codesA": [
+        "A4",
+        "A52",
+        "PBC10"
+      ],
+      "codesB": [
+        "A4",
+        "A52",
+        "PBC10"
+      ],
+      "harmonized": [
+        "A4",
+        "A52",
+        "PBC10"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q22",
+      "rowId": "Meisi|334",
+      "tech": "fernwärme",
+      "question": "Q22",
+      "codesA": [
+        "A9",
+        "PBC5"
+      ],
+      "codesB": [
+        "A3",
+        "A4",
+        "A9"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q23",
+      "rowId": "Meisi|334",
+      "tech": "fernwärme",
+      "question": "Q23",
+      "codesA": [
+        "SN2",
+        "eSN4"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q24",
+      "rowId": "Meisi|334",
+      "tech": "fernwärme",
+      "question": "Q24",
+      "codesA": [
+        "A9"
+      ],
+      "codesB": [
+        "A4",
+        "PBC5"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q25",
+      "rowId": "Meisi|334",
+      "tech": "fernwärme",
+      "question": "Q25",
+      "codesA": [
+        "PBC1",
+        "eVertrauen"
+      ],
+      "codesB": [
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q26",
+      "rowId": "Meisi|334",
+      "tech": "fernwärme",
+      "question": "Q26",
+      "codesA": [
+        "eVertrauen"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q15",
+      "rowId": "Murmi|52",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [
+        "A2"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q16",
+      "rowId": "Murmi|52",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q17",
+      "rowId": "Murmi|52",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q18",
+      "rowId": "Murmi|52",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "PBC4",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q19",
+      "rowId": "Murmi|52",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "PBC4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q20",
+      "rowId": "Murmi|52",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q33",
+      "rowId": "Pepe|43",
+      "tech": "konventionelle",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [
+        "A51",
+        "A52",
+        "PBC4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q34",
+      "rowId": "Pepe|43",
+      "tech": "konventionelle",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q35",
+      "rowId": "Pepe|43",
+      "tech": "konventionelle",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q36",
+      "rowId": "Pepe|43",
+      "tech": "konventionelle",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "A7",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q37",
+      "rowId": "Pepe|43",
+      "tech": "konventionelle",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "A7"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q38",
+      "rowId": "Pepe|43",
+      "tech": "konventionelle",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q27",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q27",
+      "codesA": [
+        "A2",
+        "PBC5"
+      ],
+      "codesB": [
+        "A2",
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q28",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q28",
+      "codesA": [
+        "ePBC16"
+      ],
+      "codesB": [
+        "ePBC16"
+      ],
+      "harmonized": [
+        "ePBC16"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q29",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q29",
+      "codesA": [
+        "eSN4"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q30",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q30",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q31",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q31",
+      "codesA": [
+        "ePBC15"
+      ],
+      "codesB": [
+        "A7",
+        "eA12",
+        "ePBC15"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q32",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q32",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q33",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q34",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q35",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q36",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q37",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q38",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q39",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q39",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q40",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q40",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q41",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q41",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q42",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q42",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q43",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q43",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q44",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q44",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q45",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q45",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q46",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q46",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q47",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q47",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q48",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q48",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q49",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q49",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q50",
+      "rowId": "Sabsi|440",
+      "tech": "biomass",
+      "question": "Q50",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q21",
+      "rowId": "Thorny|266",
+      "tech": "fernwärme",
+      "question": "Q21",
+      "codesA": [
+        "A2",
+        "PBC5"
+      ],
+      "codesB": [
+        "A2",
+        "A4",
+        "PBC5"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q22",
+      "rowId": "Thorny|266",
+      "tech": "fernwärme",
+      "question": "Q22",
+      "codesA": [
+        "PBC4",
+        "PBC6"
+      ],
+      "codesB": [
+        "A4",
+        "PBC4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q23",
+      "rowId": "Thorny|266",
+      "tech": "fernwärme",
+      "question": "Q23",
+      "codesA": [
+        "SN1",
+        "SN2"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q24",
+      "rowId": "Thorny|266",
+      "tech": "fernwärme",
+      "question": "Q24",
+      "codesA": [
+        "PBC1"
+      ],
+      "codesB": [
+        "PBC1"
+      ],
+      "harmonized": [
+        "PBC1"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q25",
+      "rowId": "Thorny|266",
+      "tech": "fernwärme",
+      "question": "Q25",
+      "codesA": [
+        "A4",
+        "PBC4",
+        "ePBC16"
+      ],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q26",
+      "rowId": "Thorny|266",
+      "tech": "fernwärme",
+      "question": "Q26",
+      "codesA": [
+        "A1"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q15",
+      "rowId": "Zipfeglatscher|83",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "PBC5"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q16",
+      "rowId": "Zipfeglatscher|83",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q17",
+      "rowId": "Zipfeglatscher|83",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q18",
+      "rowId": "Zipfeglatscher|83",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q19",
+      "rowId": "Zipfeglatscher|83",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "PBC1"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q20",
+      "rowId": "Zipfeglatscher|83",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q27",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q27",
+      "codesA": [
+        "A1"
+      ],
+      "codesB": [
+        "A1"
+      ],
+      "harmonized": [
+        "A1"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q28",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q28",
+      "codesA": [
+        "ePBC16"
+      ],
+      "codesB": [
+        "ePBC16"
+      ],
+      "harmonized": [
+        "ePBC16"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q29",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q29",
+      "codesA": [
+        "SN1",
+        "eSN4"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q30",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q30",
+      "codesA": [
+        "A51"
+      ],
+      "codesB": [
+        "PBC12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q31",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q31",
+      "codesA": [
+        "PBC6"
+      ],
+      "codesB": [
+        "PBC6",
+        "PBC7"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q32",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q32",
+      "codesA": [
+        "eA10"
+      ],
+      "codesB": [
+        "PBC7",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q33",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q34",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q35",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q36",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q37",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q38",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q39",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q39",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q40",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q40",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q41",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q41",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q42",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q42",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q43",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q43",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q44",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q44",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q45",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q45",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q46",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q46",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q47",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q47",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q48",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q48",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q49",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q49",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q50",
+      "rowId": "aKL80|237",
+      "tech": "biomass",
+      "question": "Q50",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q27",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q27",
+      "codesA": [
+        "A1",
+        "A4",
+        "PBC10",
+        "PBC5",
+        "PBC9",
+        "ePBC14"
+      ],
+      "codesB": [
+        "A1",
+        "A4",
+        "PBC10"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q28",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q28",
+      "codesA": [
+        "A51",
+        "A6",
+        "PBC10",
+        "PBC5"
+      ],
+      "codesB": [
+        "A3",
+        "A51",
+        "PBC10",
+        "ePBC16"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q29",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q29",
+      "codesA": [
+        "SN2",
+        "eSN4"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q30",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q30",
+      "codesA": [
+        "PBC2",
+        "PBC4",
+        "eVertrauen"
+      ],
+      "codesB": [
+        "PBC3"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q31",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q31",
+      "codesA": [
+        "PBC4",
+        "ePBC15"
+      ],
+      "codesB": [
+        "A4",
+        "A7",
+        "ePBC15"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q32",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q32",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q33",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q33",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q34",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q34",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q35",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q35",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q36",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q36",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q37",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q37",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q38",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q38",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q39",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q39",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q40",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q40",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q41",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q41",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q42",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q42",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q43",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q43",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q44",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q44",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q45",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q45",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q46",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q46",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q47",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q47",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q48",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q48",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q49",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q49",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q50",
+      "rowId": "fishhead|55",
+      "tech": "biomass",
+      "question": "Q50",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q15",
+      "rowId": "gelip|19",
+      "tech": "wärmepumpe",
+      "question": "Q15",
+      "codesA": [],
+      "codesB": [
+        "A1",
+        "A2",
+        "PBC10",
+        "PBC6"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q16",
+      "rowId": "gelip|19",
+      "tech": "wärmepumpe",
+      "question": "Q16",
+      "codesA": [],
+      "codesB": [
+        "A3",
+        "A4"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q17",
+      "rowId": "gelip|19",
+      "tech": "wärmepumpe",
+      "question": "Q17",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q18",
+      "rowId": "gelip|19",
+      "tech": "wärmepumpe",
+      "question": "Q18",
+      "codesA": [],
+      "codesB": [
+        "PBC3",
+        "eA12"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q19",
+      "rowId": "gelip|19",
+      "tech": "wärmepumpe",
+      "question": "Q19",
+      "codesA": [],
+      "codesB": [
+        "A4",
+        "PBC1",
+        "ePBC14"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q20",
+      "rowId": "gelip|19",
+      "tech": "wärmepumpe",
+      "question": "Q20",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q21",
+      "rowId": "maddison|448",
+      "tech": "fernwärme",
+      "question": "Q21",
+      "codesA": [
+        "A2"
+      ],
+      "codesB": [
+        "A2"
+      ],
+      "harmonized": [
+        "A2"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q22",
+      "rowId": "maddison|448",
+      "tech": "fernwärme",
+      "question": "Q22",
+      "codesA": [
+        "A1"
+      ],
+      "codesB": [
+        "A1"
+      ],
+      "harmonized": [
+        "A1"
+      ],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q23",
+      "rowId": "maddison|448",
+      "tech": "fernwärme",
+      "question": "Q23",
+      "codesA": [
+        "SN1"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q24",
+      "rowId": "maddison|448",
+      "tech": "fernwärme",
+      "question": "Q24",
+      "codesA": [
+        "PBC1",
+        "Tech: Gas"
+      ],
+      "codesB": [
+        "A4",
+        "eA11"
+      ],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q25",
+      "rowId": "maddison|448",
+      "tech": "fernwärme",
+      "question": "Q25",
+      "codesA": [],
+      "codesB": [],
+      "harmonized": [],
+      "status": "auto",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q26",
+      "rowId": "maddison|448",
+      "tech": "fernwärme",
+      "question": "Q26",
+      "codesA": [
+        "A52"
+      ],
+      "codesB": [],
+      "harmonized": null,
+      "status": "pending",
+      "discussion": [],
+      "changedSinceLastVersion": false,
+      "carriedFromVersion": null
+    }
+  ]
+}
