@@ -12,11 +12,16 @@
         "eA12"
       ],
       "codesB": [
+        "A1",
         "PBC6",
         "eA12"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A1",
+        "PBC6",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 3
@@ -763,7 +768,7 @@
       ],
       "codesB": [
         "A7",
-        "EPBC15"
+        "ePBC15"
       ],
       "harmonized": null,
       "status": "pending",
