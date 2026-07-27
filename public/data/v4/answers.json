@@ -1,0 +1,1307 @@
+{
+  "version": 4,
+  "cells": [
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "Barista1976|31",
+      "question": "Q15",
+      "answer": "Ich würde aktuell noch die staatliche Förderung mitnehmen und langfristig planen und etwas für die Umwelt tun.\n\n2026-07-20 16:59:44"
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "Barista1976|31",
+      "question": "Q16",
+      "answer": "Aus meiner Sicht gibt es keine Nachteile der höhere anfängliche Preis wird durch die staatliche Förderung reduziert und langfristig spart man ohnehin.\n\n2026-07-20 17:00:26"
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "Barista1976|31",
+      "question": "Q17",
+      "answer": "Bei solchen Entscheidungen wie der Wärmepumpe den ich der Haupt- und alleinige Entscheidungsträger. Ich lasse mich diesbezüglich nicht beeinflussen sondern orientiere mich an objektiven Fakten.\n\n2026-07-20 17:01:34\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Barista1976! Darf ich noch eine Frage stellen: Welche Quellen nutzen Sie in der Regel, um sich über Fakten zur Heiztechnik zu informieren?\n\nDu Heiztechnik generell informiere ich mich im Internet über die Google-Suche. Das sind verschiedene Quellen wie  Anbieter Hersteller. Was die Förderung angeht informiere ich mich bei offiziellen Quellen wie z.B der Webseite des Wirtschaftsministerium.\n\n2026-07-21 09:31:16\n[james.rhys.edwards] - Wäre eine objektive persönliche Beratung in einer bestimmten Phase auch hilfreich?\n\nIch informiere mich lieber selbst und habe dabei keine Bedürfnisse nach einer persönlichen Beratung.\n\n2026-07-21 09:57:32"
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "Barista1976|31",
+      "question": "Q18",
+      "answer": "Grundsätzlich muss man es mir nicht leichter machen. Ich denke jedoch dass die staatliche Förderung aufrechterhalten bleiben muss und die Medien positiver über die Wärmepumpe berichten sollten. Die Menschen sollten besser und objektiv aufgeklärt werden und keine ideologischen Äußerungen sollten sie verunsichern.\n\n2026-07-20 17:03:17"
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "Barista1976|31",
+      "question": "Q19",
+      "answer": "Grundsätzlich würde mich nichts davon abhalten da ich von der Wärmepumpe überzeugt bin. Allerdings wäre es natürlich nachteilig wenn die staatliche Förderung wegfällt bzw reduziert würde.\n\n2026-07-20 17:04:08"
+    },
+    {
+      "cellId": "wärmepumpe|Barista1976|31|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "Barista1976|31",
+      "question": "Q20",
+      "answer": "Bei der Beauftragung von Wärmepumpen kommen mir ausschließlich positive Gedanken und Empfindungen. Es ist sowohl wirtschaftlich als auch umwelttechnisch die beste Entscheidung.\n\n2026-07-20 17:05:05"
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q33",
+      "tech": "konventionelle",
+      "rowId": "Carsten|260",
+      "question": "Q33",
+      "answer": "Das es ins bestehende Systemm passt\n\n2026-07-20 18:10:17"
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "tech": "konventionelle",
+      "rowId": "Carsten|260",
+      "question": "Q34",
+      "answer": "Die Kosten werden in den nächsten Jahren stark steigen\n\n2026-07-20 18:11:07\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Carsten! Ich hätte noch eine Anschlussfrage, wenn das in Ordnung ist. Falls die Erdgaspreise in den kommenden Jahren weiter steigen sollten, welche andere Technologien würden Sie dann in Betracht ziehen?\n\nDann geht leider nur Wärmepumpe.\n\n2026-07-21 09:36:30\n[james.rhys.edwards] - Falls in Ihrer Region Fernwärme verfügbar wäre, käme diese dann ebenfalls in Betracht..?\n\nJa das käme in Betracht ist aber nicht geplant.\n\n2026-07-21 10:11:04"
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q35",
+      "tech": "konventionelle",
+      "rowId": "Carsten|260",
+      "question": "Q35",
+      "answer": "Der Heizungsbauer\n\n2026-07-20 18:14:59"
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q36",
+      "tech": "konventionelle",
+      "rowId": "Carsten|260",
+      "question": "Q36",
+      "answer": "Eine Garantie für stabile Erdgaspreise\n\n2026-07-20 18:20:39"
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q37",
+      "tech": "konventionelle",
+      "rowId": "Carsten|260",
+      "question": "Q37",
+      "answer": "Zu wissen wie stark die Preise steigen\n\n2026-07-20 18:23:09"
+    },
+    {
+      "cellId": "konventionelle|Carsten|260|Q38",
+      "tech": "konventionelle",
+      "rowId": "Carsten|260",
+      "question": "Q38",
+      "answer": "Ich gehe dabei völlig gefühllos mit um\n\n2026-07-20 18:24:17"
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "Chamaeleon|59",
+      "question": "Q15",
+      "answer": "Ich bin unabhängig vom gaspreis und den unrihen. Es ist umweltfreundlicher und mein enefciebedarf des hausrs sinkt\n\n2026-07-21 17:05:44"
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "Chamaeleon|59",
+      "question": "Q16",
+      "answer": "Es ist teurer, wril vieles umgebaut werden muss. Und nicht jede ist verwendbar mit einer Dunstabzugshabe nach draußen\n\n2026-07-21 17:06:40"
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "Chamaeleon|59",
+      "question": "Q17",
+      "answer": "Ermutigen würden mich meine Kinder, da Ihnen sehr die umwelt am heruen luegt. Abraten würde wohl mein Mann, da er verändrrungen nicht mag\n\n2026-07-21 17:08:16"
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "Chamaeleon|59",
+      "question": "Q18",
+      "answer": "Wenn ich genau weißwas mich der einbau kostet und wieviel ich monatlich dann sparen würde. Sowie eine staatliche Fördrrung\n\n2026-07-21 17:12:32"
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "Chamaeleon|59",
+      "question": "Q19",
+      "answer": "Wenn ich alle Heizköroer etc austaudchrn müsste evtl. Bodenaufstemmen für bodenhdizung. Das wäre mir zu aufwendig.\n\n2026-07-21 17:13:26"
+    },
+    {
+      "cellId": "wärmepumpe|Chamaeleon|59|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "Chamaeleon|59",
+      "question": "Q20",
+      "answer": "Positibe auf jedenfLk, dass ich der umwelt helfe. Negativ, dass ich nichr weiß wir gut die technik bereits ist\n\n2026-07-21 17:15:07"
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "Flo|6",
+      "question": "Q15",
+      "answer": "Ich habe bereits eine und sie lauft bisher im verbrauch günstig\n\n2026-07-20 15:46:24"
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "Flo|6",
+      "question": "Q16",
+      "answer": "Fehleranfällig war meine anfangs (8Teile getauscht) und hohe Wartungskosten\n\n2026-07-20 15:47:01"
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "Flo|6",
+      "question": "Q17",
+      "answer": "Kfw und Heizungsmonteur\n\n2026-07-20 15:47:30"
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "Flo|6",
+      "question": "Q18",
+      "answer": "Transparente Kosten\n\n2026-07-20 15:47:53"
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "Flo|6",
+      "question": "Q19",
+      "answer": "Kein Vermögen\n\n2026-07-20 15:48:17\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Flo! Darf ich noch eine Frage stellen, wenn es Ihnen recht ist? Würden Fördermittel helfen, und haben Sie den Eindruck, dass Sie das derzeitige Fördersystem an Ihrem Wohnort verstehen..?\n\nJain, ja. Aber es gibt viele Krauter auf dem.Markt\n\n2026-07-21 10:21:49"
+    },
+    {
+      "cellId": "wärmepumpe|Flo|6|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "Flo|6",
+      "question": "Q20",
+      "answer": "Keine\n\n2026-07-20 15:48:40"
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "HSV|38",
+      "question": "Q15",
+      "answer": "Ich verstehe die Frage nicht. Welche Vorteile sollte ich haben, nur weil ich eine Wärmepumpe beauftragen?\n\n2026-07-21 17:56:07"
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "HSV|38",
+      "question": "Q16",
+      "answer": "Hohe Stromkosten.\n\n2026-07-21 17:57:32"
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "HSV|38",
+      "question": "Q17",
+      "answer": "Einige Freunde würden wohl zutaten, weil sie möglicherweise gute Erfahrungen gemacht haben.\n\n2026-07-21 17:59:14"
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "HSV|38",
+      "question": "Q18",
+      "answer": "Geringere Anschaffungdkosten (die in Deutschland unverschämt hoch sind).\n\n2026-07-21 18:00:40"
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "HSV|38",
+      "question": "Q19",
+      "answer": "Wie gesagt: Die absolut frechen Kosten.\n\n2026-07-21 18:01:28"
+    },
+    {
+      "cellId": "wärmepumpe|HSV|38|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "HSV|38",
+      "question": "Q20",
+      "answer": "Möglicherweise wirklich die Technik der Zukunft, würde sich für uns wegen eines sehr niedrigen Gasverbrauchs momentan nicht lohnen.\n\n2026-07-21 18:03:03"
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q33",
+      "tech": "konventionelle",
+      "rowId": "HarryHirsch|294",
+      "question": "Q33",
+      "answer": "Das ich den Heizungsbauerin der Familie habe\n\n2026-07-21 17:33:00"
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q34",
+      "tech": "konventionelle",
+      "rowId": "HarryHirsch|294",
+      "question": "Q34",
+      "answer": "Zu Teuer\n\n2026-07-21 17:33:45"
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q35",
+      "tech": "konventionelle",
+      "rowId": "HarryHirsch|294",
+      "question": "Q35",
+      "answer": "Freunde und Familie\n\n2026-07-21 17:35:02"
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q36",
+      "tech": "konventionelle",
+      "rowId": "HarryHirsch|294",
+      "question": "Q36",
+      "answer": "Freunde und Familie\n\n2026-07-21 17:35:52"
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q37",
+      "tech": "konventionelle",
+      "rowId": "HarryHirsch|294",
+      "question": "Q37",
+      "answer": "Teure Heizungsfirmen\n\n2026-07-21 17:37:19"
+    },
+    {
+      "cellId": "konventionelle|HarryHirsch|294|Q38",
+      "tech": "konventionelle",
+      "rowId": "HarryHirsch|294",
+      "question": "Q38",
+      "answer": "Keine, Neutral\n\n2026-07-21 17:38:19"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q27",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q27",
+      "answer": "Besser wie Gas in der Übergangszeit, Kaminfeeling\n\n2026-07-21 10:41:58"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q28",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q28",
+      "answer": "Lagerung der Pellets, Umbau für Speicher nötig, Preisachterbahn\n\n2026-07-21 10:43:35"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q29",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q29",
+      "answer": "Familie Freunde Handwerker Wissenschaftler\n\n2026-07-21 10:45:08"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q30",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q30",
+      "answer": "Förderung natürlich, Möglichkeit Pelletlager an Grundstücksgrenze ohne Regelung Randbebauung zu errichten.\n\n2026-07-21 10:47:14"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q31",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q31",
+      "answer": "Umweltregeln, noch schärfere Gesetze und Abgasnormen\n\n2026-07-21 10:48:18"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q32",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q32",
+      "answer": "Stress, Unruhe, Erwartungsvoll,\n\n2026-07-21 10:49:30"
+    },
+    {
+      "cellId": "biomass|Karl|49|Q33",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q33",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q34",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q34",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q35",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q35",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q36",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q36",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q37",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q37",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q38",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q38",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q39",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q39",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q40",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q40",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q41",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q41",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q42",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q42",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q43",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q43",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q44",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q44",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q45",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q45",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q46",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q46",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q47",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q47",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q48",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q48",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q49",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q49",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Karl|49|Q50",
+      "tech": "biomass",
+      "rowId": "Karl|49",
+      "question": "Q50",
+      "answer": ""
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q21",
+      "tech": "fernwärme",
+      "rowId": "Malte74|562",
+      "question": "Q21",
+      "answer": "Ich hatte mehr Platz im Haus. Kein Schornsteinfeger.\n\n2026-07-21 19:11:37"
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q22",
+      "tech": "fernwärme",
+      "rowId": "Malte74|562",
+      "question": "Q22",
+      "answer": "Es gibt keine Auswahl beim Lieferanten\n\n2026-07-21 19:12:37"
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q23",
+      "tech": "fernwärme",
+      "rowId": "Malte74|562",
+      "question": "Q23",
+      "answer": "Meine Ehefrau  meine Kinder.\n\n2026-07-21 19:13:40"
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q24",
+      "tech": "fernwärme",
+      "rowId": "Malte74|562",
+      "question": "Q24",
+      "answer": "Staatliche Zuschüsse und wenn mir die Vorteile genau dargelegt eerden\n\n2026-07-21 19:15:06"
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q25",
+      "tech": "fernwärme",
+      "rowId": "Malte74|562",
+      "question": "Q25",
+      "answer": "Höhe Kosten und Länge Bauarbeiten\n\n2026-07-21 19:16:05"
+    },
+    {
+      "cellId": "fernwärme|Malte74|562|Q26",
+      "tech": "fernwärme",
+      "rowId": "Malte74|562",
+      "question": "Q26",
+      "answer": "Eher negative\n\n2026-07-21 19:16:35"
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "Matt|2",
+      "question": "Q15",
+      "answer": "Eine Wärmepumpe funktioniert wie ein Kühlschrank, nur in die andere Richtung. Sie transportiert Wärme, statt sie zu verbrennen.\n\n2026-07-20 17:14:50"
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "Matt|2",
+      "question": "Q16",
+      "answer": "Teuer und aufwendig.\n\n2026-07-20 17:15:19"
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "Matt|2",
+      "question": "Q17",
+      "answer": "Ich habe da ehrlich gesagt niemanden.\n\n2026-07-20 17:16:05\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Matt! Darf ich noch eine Frage stellen: Wäre es hilfreich, wenn es in Ihrer Gegend eine Anlaufstelle gäbe, an der man objektive, sachliche Informationen über verschiedene Heiztechnologien erhalten könnte (d. h. ohne dass jemand versucht, Ihnen etwas zu verkaufen)?\n\nJa, das wäre hilfreich\n\n2026-07-21 09:41:57"
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "Matt|2",
+      "question": "Q18",
+      "answer": "Finanzielle Unterstützung.\n\n2026-07-20 17:16:43"
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "Matt|2",
+      "question": "Q19",
+      "answer": "Jetziges Haushalts-Buget\n\n2026-07-20 17:17:30"
+    },
+    {
+      "cellId": "wärmepumpe|Matt|2|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "Matt|2",
+      "question": "Q20",
+      "answer": "Teils/Teils\n\n2026-07-20 17:18:04"
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q21",
+      "tech": "fernwärme",
+      "rowId": "Meisi|334",
+      "question": "Q21",
+      "answer": "Keine Lagerung von Brennstoffen, Platz und Geld wird gespart, da keine eigene Heizanlage und ist sicher für mich als Verbraucher.\n\n2026-07-20 17:26:04"
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q22",
+      "tech": "fernwärme",
+      "rowId": "Meisi|334",
+      "question": "Q22",
+      "answer": "Nachteil ist der Preis, weil ich abhängig von der Preispolitik des Anbieters bin.\n\n2026-07-20 17:27:23\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Meisi! Ich bin neugierig: Was müsste gegeben sein, damit Sie trotz dieser Abhängigkeit Vertrauen in die Preisgestaltung des Anbieters hätten..?\n\nMüsste dem Marktpreis in etwa entsprechen und keine Abzocke sein.\n\n2026-07-21 10:42:50\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Meisi! Ich bin neugierig: Was müsste gegeben sein, damit Sie trotz dieser Abhängigkeit Vertrauen in die Preisgestaltung des Anbieters hätten..?\n\n2026-07-21 18:53:24"
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q23",
+      "tech": "fernwärme",
+      "rowId": "Meisi|334",
+      "question": "Q23",
+      "answer": "Ermutigen die Familie, weil einige gute Erfahrungen gemacht haben.Abraten eventuell Nach arn, die lieber ohne Abhängigkeit leben wollen.\n\n2026-07-20 17:29:14"
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q24",
+      "tech": "fernwärme",
+      "rowId": "Meisi|334",
+      "question": "Q24",
+      "answer": "Konkret einen Vertrag mit festem Preis abschließen können und eventuell einen Bonus bekommen wie bei Strom oder Internet.\n\n2026-07-20 17:34:19"
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q25",
+      "tech": "fernwärme",
+      "rowId": "Meisi|334",
+      "question": "Q25",
+      "answer": "Ist noch nicht alles ausgebaut und das Ganze steckt noch in den Kinderschuhen.\n\n2026-07-20 17:36:23"
+    },
+    {
+      "cellId": "fernwärme|Meisi|334|Q26",
+      "tech": "fernwärme",
+      "rowId": "Meisi|334",
+      "question": "Q26",
+      "answer": "Eigentlich würde ich mich freuen, bin aber dennoch skeptisch, ob alles klappt, wie gedacht.\n\n2026-07-20 17:37:57"
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "Murmi|52",
+      "question": "Q15",
+      "answer": "Unabhängigkeit von Rohstoffpreisen\n\n2026-07-21 08:02:42"
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "Murmi|52",
+      "question": "Q16",
+      "answer": "Sehr teure Umrüstung\n\n2026-07-21 08:03:10"
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "Murmi|52",
+      "question": "Q17",
+      "answer": "Familie würde ermutigen, abraten niemand\n\n2026-07-21 08:13:33"
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "Murmi|52",
+      "question": "Q18",
+      "answer": "Bessere Beratung zur Finanzierung\n\n2026-07-21 08:14:42\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Murmi! Welche Art von Beratung zur Finanzierung würde Ihnen am meisten helfen..?\n\nEin detaillierter Plan ohne versteckte Kosten\n\n2026-07-21 10:27:57"
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "Murmi|52",
+      "question": "Q19",
+      "answer": "Die Finanzierung\n\n2026-07-21 08:38:33"
+    },
+    {
+      "cellId": "wärmepumpe|Murmi|52|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "Murmi|52",
+      "question": "Q20",
+      "answer": "Ich freue mich auf eine Wärmepumpe und wäre erleichtert, eine zu haben\n\n2026-07-21 08:56:42"
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q33",
+      "tech": "konventionelle",
+      "rowId": "Pepe|43",
+      "question": "Q33",
+      "answer": "Preiswert bei Anschaffung,  Zuverlässig,  schnelle Heizergebnisse\n\n2026-07-22 06:53:47"
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q34",
+      "tech": "konventionelle",
+      "rowId": "Pepe|43",
+      "question": "Q34",
+      "answer": "Steigende Kosten für den Gaspreis,\n\n2026-07-22 06:55:24"
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q35",
+      "tech": "konventionelle",
+      "rowId": "Pepe|43",
+      "question": "Q35",
+      "answer": "Entscheidung treffe ich mit meinem Partner,  Recherche online,  Konsultation einer Firma\n\n2026-07-22 06:57:34"
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q36",
+      "tech": "konventionelle",
+      "rowId": "Pepe|43",
+      "question": "Q36",
+      "answer": "Zusicherung, dass der Gaspreis stabil bleibt oder das man einen anderen Rohstoff nutzen kann\n\n2026-07-22 06:59:02"
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q37",
+      "tech": "konventionelle",
+      "rowId": "Pepe|43",
+      "question": "Q37",
+      "answer": "Erhöhung der Preise für Gas oder Verbot der Gasheizung\n\n2026-07-22 07:01:51"
+    },
+    {
+      "cellId": "konventionelle|Pepe|43|Q38",
+      "tech": "konventionelle",
+      "rowId": "Pepe|43",
+      "question": "Q38",
+      "answer": "Zweifel wegen fossilem Brennstoff,  \nZuversicht, dass Gas weiterhin preiswert zur Verfügung steht\n\n2026-07-22 07:04:16"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q27",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q27",
+      "answer": "Nicht mehr von Gas und Ölpreisen abhängig\n\n2026-07-21 19:52:30"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q28",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q28",
+      "answer": "Sehr aufwändiger Umbau\n\n2026-07-21 19:54:02"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q29",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q29",
+      "answer": "Mein Mann würde abraten  weil er Scheitholz heizen möchte\n\n2026-07-21 19:55:17"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q30",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q30",
+      "answer": "Dazu fällt mir nichts ein\n\n2026-07-21 19:56:40"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q31",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q31",
+      "answer": "Angst, dass der Staat die verbietet\n\n2026-07-21 19:57:25"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q32",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q32",
+      "answer": "Neutrale\n\n2026-07-21 19:57:50"
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q33",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q33",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q34",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q34",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q35",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q35",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q36",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q36",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q37",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q37",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q38",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q38",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q39",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q39",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q40",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q40",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q41",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q41",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q42",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q42",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q43",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q43",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q44",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q44",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q45",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q45",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q46",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q46",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q47",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q47",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q48",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q48",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q49",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q49",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|Sabsi|440|Q50",
+      "tech": "biomass",
+      "rowId": "Sabsi|440",
+      "question": "Q50",
+      "answer": ""
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q21",
+      "tech": "fernwärme",
+      "rowId": "Thorny|266",
+      "question": "Q21",
+      "answer": "Entkopplung von der Abhängigkeit von Öl, hoffentlich günstigerer Strom.\n\n2026-07-20 16:58:28"
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q22",
+      "tech": "fernwärme",
+      "rowId": "Thorny|266",
+      "question": "Q22",
+      "answer": "Hohe Kosten für die Geräte und deren Installation.\n\n2026-07-20 16:59:22\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Thorny! Ich bin neugierig: Würde eine staatliche Förderung der Anschluss- und Installationskosten Ihre Einschätzung verändern?\n\nEventuell, je nach Höhe vermutlich.\n\n2026-07-21 09:55:48"
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q23",
+      "tech": "fernwärme",
+      "rowId": "Thorny|266",
+      "question": "Q23",
+      "answer": "Heizungsinstallateure, Verbraucher, Industrieberater.\n\n2026-07-20 17:00:24"
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q24",
+      "tech": "fernwärme",
+      "rowId": "Thorny|266",
+      "question": "Q24",
+      "answer": "Erstmal wissen, ob es on meiner Gemeinde überhaupt möglich sei. Gas hat man hier auch nicht.\n\n2026-07-20 17:01:35"
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q25",
+      "tech": "fernwärme",
+      "rowId": "Thorny|266",
+      "question": "Q25",
+      "answer": "Hohe Anschaffungskosten und hohe Betriebskosten und Aufwand danach.\n\n2026-07-20 17:02:32"
+    },
+    {
+      "cellId": "fernwärme|Thorny|266|Q26",
+      "tech": "fernwärme",
+      "rowId": "Thorny|266",
+      "question": "Q26",
+      "answer": "Ich denke, das wäre positiv für die Umwelt.\n\n2026-07-20 17:03:17"
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "Zipfeglatscher|83",
+      "question": "Q15",
+      "answer": "Festpreis\n\n2026-07-21 18:59:28"
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "Zipfeglatscher|83",
+      "question": "Q16",
+      "answer": "Keine\n\n2026-07-21 18:59:52"
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "Zipfeglatscher|83",
+      "question": "Q17",
+      "answer": "Keine bestimmte\n\n2026-07-21 19:00:41"
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "Zipfeglatscher|83",
+      "question": "Q18",
+      "answer": "Kosten\n\n2026-07-21 19:01:07"
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "Zipfeglatscher|83",
+      "question": "Q19",
+      "answer": "Nicht kompatibel\n\n2026-07-21 19:01:32"
+    },
+    {
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "Zipfeglatscher|83",
+      "question": "Q20",
+      "answer": "Keine\n\n2026-07-21 19:02:08"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q27",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q27",
+      "answer": "Minimierung des ökologischen Fußabdrucks durch Verwendung nachwachsender Rohstoffe\n\n2026-07-21 17:00:41"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q28",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q28",
+      "answer": "Aufwand und Umbau\n\n2026-07-21 17:01:13"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q29",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q29",
+      "answer": "Mein Mann \nFirma des Umbaus\n\n2026-07-21 17:03:22"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q30",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q30",
+      "answer": "Alles auf einer Hand Umsetzung\n\n2026-07-21 17:03:59"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q31",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q31",
+      "answer": "Förderantrag\n\n2026-07-21 17:04:54"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q32",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q32",
+      "answer": "Sehr hoher Aufwand \n\nFreude daran modern unterwegs zu sein\n\n2026-07-21 17:05:32"
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q33",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q33",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q34",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q34",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q35",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q35",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q36",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q36",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q37",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q37",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q38",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q38",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q39",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q39",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q40",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q40",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q41",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q41",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q42",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q42",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q43",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q43",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q44",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q44",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q45",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q45",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q46",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q46",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q47",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q47",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q48",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q48",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q49",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q49",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|aKL80|237|Q50",
+      "tech": "biomass",
+      "rowId": "aKL80|237",
+      "question": "Q50",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q27",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q27",
+      "answer": "Sehr bezahlbare, nachwachsende Rohstoffe. Natürliche Wärme, wenig Rückstände, hohe Lagerkapazität, solide, nachvollziehbare Technik.\n\n2026-07-21 17:09:56"
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q28",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q28",
+      "answer": "Doch noch eine gewisse Rauch- und Abgasentwicklung, Reinigung der Anlage, Lagerkapazität, Stromabhängigkeit.\n\n2026-07-21 17:49:47"
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q29",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q29",
+      "answer": "Erfahrungen von Nachbarn, Freunden und Familie.\n\n2026-07-21 17:50:47"
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q30",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q30",
+      "answer": "Seriöse Hersteller von Anlagen in Deutschland. Monteure und Wartungskräfte im Umfeld. Bezahlbarkeit.\n\n2026-07-21 17:52:10"
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q31",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q31",
+      "answer": "Verbote, Drangsalierungen und Nötigungen von EU und vom Staat. Und sinnlos hohe Anschaffkosten.\n\n2026-07-21 17:53:50"
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q32",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q32",
+      "answer": "Ich besitze bereits einen Pelletofen und hoffe, daß dieser noch lange halten wird. Also wäre ich traurig, einen Neuen zu kaufen und froh bei der Auswahl desselben.\n\n2026-07-21 17:55:41"
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q33",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q33",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q34",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q34",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q35",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q35",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q36",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q36",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q37",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q37",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q38",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q38",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q39",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q39",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q40",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q40",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q41",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q41",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q42",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q42",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q43",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q43",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q44",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q44",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q45",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q45",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q46",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q46",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q47",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q47",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q48",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q48",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q49",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q49",
+      "answer": ""
+    },
+    {
+      "cellId": "biomass|fishhead|55|Q50",
+      "tech": "biomass",
+      "rowId": "fishhead|55",
+      "question": "Q50",
+      "answer": ""
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q15",
+      "tech": "wärmepumpe",
+      "rowId": "gelip|19",
+      "question": "Q15",
+      "answer": "Keine Fossilen Brennstoffe. Kein grosser Platzbedarf. Staatliche Förderung.  Ökologische sinnoll\n\n2026-07-21 06:52:29"
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q16",
+      "tech": "wärmepumpe",
+      "rowId": "gelip|19",
+      "question": "Q16",
+      "answer": "Teuer, trotzdem abhängig  von Strom.\n\n2026-07-21 07:21:32"
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q17",
+      "tech": "wärmepumpe",
+      "rowId": "gelip|19",
+      "question": "Q17",
+      "answer": "Familie und Freunde soweie der Installateur würden  mich positiv wie negativ beeinflussen. Ermutigen  würde mich evtl der Staat mut Förderung\n\n2026-07-21 07:23:50\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Barista1976! Ich hätte noch eine Anschlussfrage, wenn das in Ordnung ist. Wie gut verstehen Sie Ihrer Meinung nach das Fördersystem in Ihrer Region? Waren die Informationen, die Sie gesehen haben, leicht zugänglich, verständlich und relevant?\n\nLeider nein, es erzählte jeder was anderes und dann ändert  sich auch ständig die Gesetzeslage  bzw. Die Förderung.\n\n2026-07-21 09:16:15\n[james.rhys.edwards] - Es tut mir leid, dass ich Ihren Namen verwechselt habe, Gelip! Vielen Dank. Das möchten wir den zuständigen Ministerien gerne mitteilen.\n\nJa gerne do weitergeben\n\n2026-07-21 09:31:39"
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q18",
+      "tech": "wärmepumpe",
+      "rowId": "gelip|19",
+      "question": "Q18",
+      "answer": "Verfügbarkeit, Planungssicherheit und  dass ich weiß,  was an Folgekosten  auf mich zu kommt.\n\n2026-07-21 07:24:58"
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q19",
+      "tech": "wärmepumpe",
+      "rowId": "gelip|19",
+      "question": "Q19",
+      "answer": "Due Unsicherheit,  was brauche ich um es warm zu haben, was kommt auf Kostenmässig zu. Funktioniert  das überhaupt  in meinem  Haus?\n\n2026-07-21 07:26:27"
+    },
+    {
+      "cellId": "wärmepumpe|gelip|19|Q20",
+      "tech": "wärmepumpe",
+      "rowId": "gelip|19",
+      "question": "Q20",
+      "answer": "Neugier, Unsicherheit,  Anspannung, evtl Freude wenn alles klappt\n\n2026-07-21 07:27:48"
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q21",
+      "tech": "fernwärme",
+      "rowId": "maddison|448",
+      "question": "Q21",
+      "answer": "Keine Abhängigkeit von Gas mehr.\n\n2026-07-20 17:11:37"
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q22",
+      "tech": "fernwärme",
+      "rowId": "maddison|448",
+      "question": "Q22",
+      "answer": "Besser fürs Klima\n\n2026-07-20 17:12:06"
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q23",
+      "tech": "fernwärme",
+      "rowId": "maddison|448",
+      "question": "Q23",
+      "answer": "Der Installateur\n\n2026-07-20 17:12:34"
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q24",
+      "tech": "fernwärme",
+      "rowId": "maddison|448",
+      "question": "Q24",
+      "answer": "Ist schon im Auftrag\n\n2026-07-20 17:53:01\n[james.rhys.edwards] - Vielen Dank für Ihre Antworten, Maddison! Glückwunsch :) Darf ich noch eine Frage stellen: Wie kam es dazu, dass Sie Vertrauen in den Fernwärmeanschluss bzw. in diese Lösung gewonnen haben? z.B. Informationen, Gespräche, Erfahrungen?\n\nIch wohne in einer Reihenhaus Siedlung und wir wurden alle angeschlossen. Und auf lange Sicht besser als Gas\n\n2026-07-21 09:37:28\n[james.rhys.edwards] - Vielen Dank, das ist interessant. Musste jeder Bewohner eine aktive Entscheidung bezüglich des Anschlusses treffen, oder wurde dies gemeinschaftlich organisiert, d.h. für die gesamte Reihenhaussiedlung?\n\nJeder konnte selbst entscheiden.\n\n2026-07-21 10:17:33"
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q25",
+      "tech": "fernwärme",
+      "rowId": "maddison|448",
+      "question": "Q25",
+      "answer": "Nichts\n\n2026-07-20 17:53:23"
+    },
+    {
+      "cellId": "fernwärme|maddison|448|Q26",
+      "tech": "fernwärme",
+      "rowId": "maddison|448",
+      "question": "Q26",
+      "answer": "Sicher und eine gute Entscheidung\n\n2026-07-20 17:53:50"
+    }
+  ]
+}

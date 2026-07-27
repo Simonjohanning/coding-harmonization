@@ -2,6 +2,7 @@ node_modules
 dist
 .netlify
 *.log
+*.xlsx
 .env
 .env.local
 __pycache__
