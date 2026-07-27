@@ -1,0 +1,8 @@
+node_modules
+dist
+.netlify
+*.log
+.env
+.env.local
+__pycache__
+*.pyc
