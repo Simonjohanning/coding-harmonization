@@ -75,11 +75,19 @@
       ],
       "codesB": [
         "PBC4",
+        "PBC6",
         "ePBC14"
       ],
       "harmonized": null,
       "status": "pending",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 4,
+          "coder": "B",
+          "text": "medien nicht als einflussfaktor gemeint, sondern für einstellung.\nFiannzierung muss aufrecht erhalten bleiben, sollte also gecoded werden",
+          "timestamp": "2026-07-28T06:46:52.888Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 3
     },
@@ -95,10 +103,11 @@
       ],
       "codesB": [
         "PBC4",
+        "PBC6",
         "eA11"
       ],
       "harmonized": null,
-      "status": "pending",
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 3
@@ -148,9 +157,7 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A4",
-        "Tech: Fernwärme",
-        "Tech: WP"
+        "A4"
       ],
       "codesB": [
         "A4",

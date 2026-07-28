@@ -31,6 +31,59 @@
       "action": "adopt",
       "code": "PBC6",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-27T10:12:48.935Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q18",
+      "action": "adopt",
+      "code": "PBC6",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-27T10:13:11.418Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "action": "adopt",
+      "code": "PBC6",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T06:45:27.606Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q18",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T06:51:34.083Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "action": "concede",
+      "code": "Tech: Fernwärme",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T06:51:39.083Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "action": "concede",
+      "code": "Tech: WP",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T07:16:36.559Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T07:19:27.021Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q18",
+      "action": "unflag_discussion",
+      "mode": "after_discussion"
     }
   ]
 }
