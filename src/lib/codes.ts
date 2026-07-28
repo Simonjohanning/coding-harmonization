@@ -42,6 +42,8 @@ export const CODE_LABELS: Record<string, string> = {
   eSN4: "Familie",
   eSN5: "Energieberater",
   eSN6: "Medien",
+  eSN7: "Ehepartner:in",
+  eSN8: "neutrale Institution",
 };
 
 // Legacy synonyms: SN4/5/6 typed in the coding dropdown map to eSN4/5/6.
@@ -49,6 +51,8 @@ const LEGACY_MAP: Record<string, string> = {
   SN4: "eSN4",
   SN5: "eSN5",
   SN6: "eSN6",
+  SN7: "eSN7",
+  SN8: "eSN8",
 };
 
 // Case-insensitive lookup: any casing (EPBC14, epbc14, ePBC14) resolves
