@@ -54,6 +54,14 @@
       "cellId": "wärmepumpe|Barista1976|31|Q18",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T06:51:34.083Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "action": "concede",
+      "code": "Tech: Fernwärme",
+      "mode": "no_discussion"
     }
   ]
 }
