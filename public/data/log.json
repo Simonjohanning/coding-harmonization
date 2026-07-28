@@ -70,6 +70,13 @@
       "action": "concede",
       "code": "Tech: WP",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-28T07:16:36.559Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
