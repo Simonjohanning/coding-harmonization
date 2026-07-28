@@ -80,7 +80,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 4,
+          "coder": "B",
+          "text": "medien nicht als einflussfaktor gemeint, sondern für einstellung.\nFiannzierung muss aufrecht erhalten bleiben, sollte also gecoded werden",
+          "timestamp": "2026-07-28T06:46:52.888Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 3
     },
