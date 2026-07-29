@@ -750,6 +750,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:50:00.414Z",
+      "coder": "A",
+      "cellId": "konventionelle|HarryHirsch|294|Q34",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "after_discussion"
     }
   ]
 }
