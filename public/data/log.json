@@ -695,6 +695,14 @@
       "action": "adopt",
       "code": "eSN5",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:54:37.395Z",
+      "coder": "A",
+      "cellId": "fernwärme|Thorny|266|Q25",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "no_discussion"
     }
   ]
 }
