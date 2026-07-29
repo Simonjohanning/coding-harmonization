@@ -957,6 +957,14 @@
       "cellId": "biomass|fishhead|55|Q28",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:03:47.861Z",
+      "coder": "A",
+      "cellId": "biomass|fishhead|55|Q30",
+      "action": "concede",
+      "code": "eVertrauen",
+      "mode": "no_discussion"
     }
   ]
 }
