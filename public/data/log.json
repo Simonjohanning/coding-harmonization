@@ -718,6 +718,14 @@
       "cellId": "konventionelle|Pepe|43|Q36",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:47:08.462Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q18",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "after_discussion"
     }
   ]
 }
