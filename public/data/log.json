@@ -658,6 +658,14 @@
       "action": "adopt",
       "code": "eSN6",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:06:10.249Z",
+      "coder": "A",
+      "cellId": "konventionelle|Pepe|43|Q35",
+      "action": "adopt",
+      "code": "eSN8",
+      "mode": "no_discussion"
     }
   ]
 }
