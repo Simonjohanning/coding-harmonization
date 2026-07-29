@@ -1609,6 +1609,7 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [
+        "A51",
         "A52",
         "PBC4"
       ],
@@ -1617,8 +1618,12 @@
         "A52",
         "PBC4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A51",
+        "A52",
+        "PBC4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
