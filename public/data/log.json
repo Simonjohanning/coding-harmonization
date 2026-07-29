@@ -573,6 +573,13 @@
       "action": "concede",
       "code": "eVertrauen",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:01:06.203Z",
+      "coder": "A",
+      "cellId": "fernwärme|Meisi|334|Q25",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
