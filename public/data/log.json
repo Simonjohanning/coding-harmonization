@@ -995,6 +995,14 @@
       "cellId": "biomass|fishhead|55|Q31",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:04:28.847Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|gelip|19|Q16",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "no_discussion"
     }
   ]
 }
