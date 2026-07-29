@@ -810,6 +810,13 @@
       "cellId": "fernwärme|Thorny|266|Q22",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:56:12.487Z",
+      "coder": "A",
+      "cellId": "fernwärme|Thorny|266|Q23",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
