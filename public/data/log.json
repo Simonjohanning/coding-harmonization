@@ -503,6 +503,14 @@
       "action": "concede",
       "code": "eVertrauen",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:57:37.627Z",
+      "coder": "A",
+      "cellId": "fernwärme|Malte74|562|Q25",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "no_discussion"
     }
   ]
 }
