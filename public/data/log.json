@@ -1018,6 +1018,14 @@
       "cellId": "wärmepumpe|gelip|19|Q17",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:04:50.929Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|gelip|19|Q18",
+      "action": "concede",
+      "code": "eUnsicherheit",
+      "mode": "no_discussion"
     }
   ]
 }
