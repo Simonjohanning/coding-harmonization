@@ -3075,17 +3075,15 @@
       "question": "Q18",
       "codesA": [
         "PBC3",
-        "eA12"
+        "eA12",
+        "eUnsicherheit"
       ],
       "codesB": [
         "PBC3",
         "eA12"
       ],
-      "harmonized": [
-        "PBC3",
-        "eA12"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
@@ -3097,20 +3095,18 @@
       "question": "Q19",
       "codesA": [
         "A4",
+        "A52",
         "PBC1",
-        "ePBC14"
+        "PBC4",
+        "eUnischerheit"
       ],
       "codesB": [
         "A4",
         "PBC1",
         "ePBC14"
       ],
-      "harmonized": [
-        "A4",
-        "PBC1",
-        "ePBC14"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
