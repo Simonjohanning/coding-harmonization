@@ -1473,16 +1473,20 @@
       "tech": "wärmepumpe",
       "question": "Q17",
       "codesA": [
-        "eSN4"
+        "eSN4",
+        "eSN7"
       ],
       "codesB": [
         "eSN4",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "eSN4",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
