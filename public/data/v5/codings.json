@@ -2238,14 +2238,15 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "A4",
-        "PBC4"
+        "A4"
       ],
       "codesB": [
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
