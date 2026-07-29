@@ -411,6 +411,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:45:48.058Z",
+      "coder": "A",
+      "cellId": "biomass|Karl|49|Q28",
+      "action": "concede",
+      "code": "eUnsicherheit",
+      "mode": "no_discussion"
     }
   ]
 }
