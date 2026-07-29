@@ -1026,6 +1026,14 @@
       "action": "concede",
       "code": "eUnsicherheit",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:05:52.465Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|gelip|19|Q19",
+      "action": "concede",
+      "code": "eUnischerheit",
+      "mode": "no_discussion"
     }
   ]
 }
