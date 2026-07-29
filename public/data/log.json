@@ -535,6 +535,14 @@
       "action": "concede",
       "code": "SN1",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:58:24.646Z",
+      "coder": "A",
+      "cellId": "fernwärme|Meisi|334|Q22",
+      "action": "adopt",
+      "code": "A3",
+      "mode": "no_discussion"
     }
   ]
 }
