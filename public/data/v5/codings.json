@@ -2127,7 +2127,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "habe verbraucher als konsumenten und daher als peer erfahrung gelesen, aber vllt ist verbraucherberater gemeint",
+          "timestamp": "2026-07-29T18:57:34.271Z"
+        }
+      ],
       "changedSinceLastVersion": true,
       "carriedFromVersion": null
     },
