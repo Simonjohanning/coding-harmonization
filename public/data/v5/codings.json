@@ -3098,7 +3098,6 @@
       "codesA": [
         "A4",
         "PBC1",
-        "PBC4",
         "ePBC14"
       ],
       "codesB": [
@@ -3106,8 +3105,12 @@
         "PBC1",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "PBC1",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
