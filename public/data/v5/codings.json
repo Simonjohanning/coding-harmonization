@@ -613,6 +613,7 @@
       "tech": "wärmepumpe",
       "question": "Q20",
       "codesA": [
+        "A4",
         "PBC1",
         "eA12"
       ],
