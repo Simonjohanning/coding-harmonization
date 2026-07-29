@@ -372,15 +372,17 @@
       "question": "Q20",
       "codesA": [
         "A1",
-        "A52",
         "ePBC14"
       ],
       "codesB": [
         "A1",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A1",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
