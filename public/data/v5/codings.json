@@ -169,7 +169,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "sollten wir dann eher PBC5 für zukünftige Preissteigerung kodieren?",
+          "timestamp": "2026-07-29T07:16:01.955Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
