@@ -256,15 +256,17 @@
       "question": "Q15",
       "codesA": [
         "A1",
-        "A2",
-        "PBC5"
+        "A2"
       ],
       "codesB": [
         "A1",
         "A2"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A1",
+        "A2"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
