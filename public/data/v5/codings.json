@@ -2385,14 +2385,18 @@
       "tech": "biomass",
       "question": "Q32",
       "codesA": [
-        "PBC7"
+        "PBC7",
+        "eA12"
       ],
       "codesB": [
         "PBC7",
         "eA12"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC7",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
