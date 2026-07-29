@@ -78,12 +78,14 @@ export async function commit(
   const coder = getCoder();
   const password = getPassword();
   if (!coder) return { ok: false, error: "No coder selected" };
-  if (!password) return { ok: false, error: "No password set" };
+  // Password is required for the Netlify function (production).
+  // In dev mode the local dev-server.mjs ignores it, so allow blank.
+  if (!password && !import.meta.env.DEV) return { ok: false, error: "No password set" };
 
   const res = await fetch("/api/commit", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ path, content, message, coder, password }),
+    body: JSON.stringify({ path, content, message, coder, password: password || "dev" }),
   });
   if (res.ok) return { ok: true };
   if (res.status === 409) return { ok: false, error: "conflict", conflict: true };

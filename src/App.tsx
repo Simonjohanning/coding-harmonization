@@ -66,22 +66,25 @@ export default function App() {
 function Landing({ onReady }: { onReady: (c: Coder, p: string) => void }) {
   const [c, setC] = useState<Coder>("A");
   const [p, setP] = useState("");
+  const devMode = import.meta.env.DEV;
   return (
     <div className="landing">
       <h1>Coding harmonization</h1>
+      {devMode && <p>Local dev mode — password not required.</p>}
       <label>Coder</label>
       <select value={c} onChange={e => setC(e.target.value as Coder)}>
         <option value="A">Coder A</option>
         <option value="B">Coder B</option>
       </select>
-      <label>Shared password</label>
+      <label>Shared password {devMode && "(optional in dev)"}</label>
       <input type="password" value={p} onChange={e => setP(e.target.value)}
-             placeholder="password for committing changes" />
+             placeholder={devMode ? "leave blank" : "password for committing changes"} />
       <button className="btn primary" onClick={() => {
-        if (!p.trim()) return;
+        if (!devMode && !p.trim()) return;
         setCoder(c);
-        setPassword(p.trim());
-        onReady(c, p.trim());
+        const pw = p.trim() || "dev";
+        setPassword(pw);
+        onReady(c, pw);
       }}>Continue</button>
     </div>
   );
