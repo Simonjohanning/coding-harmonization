@@ -138,6 +138,14 @@
       "action": "concede",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:14:40.944Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "action": "concede",
+      "code": "Tech: Fernwärme",
+      "mode": "no_discussion"
     }
   ]
 }
