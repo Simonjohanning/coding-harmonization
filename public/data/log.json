@@ -788,6 +788,13 @@
       "cellId": "biomass|Sabsi|440|Q31",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:55:34.769Z",
+      "coder": "A",
+      "cellId": "fernwärme|Thorny|266|Q21",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
