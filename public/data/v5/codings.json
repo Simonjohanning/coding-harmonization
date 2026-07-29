@@ -1401,8 +1401,7 @@
       "tech": "fernwärme",
       "question": "Q25",
       "codesA": [
-        "PBC1",
-        "eVertrauen"
+        "PBC1"
       ],
       "codesB": [
         "eA12"
