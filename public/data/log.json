@@ -122,6 +122,14 @@
       "cellId": "wärmepumpe|Barista1976|31|Q19",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:10:04.121Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Barista1976|31|Q19",
+      "action": "concede",
+      "code": "ePBC14",
+      "mode": "after_discussion"
     }
   ]
 }
