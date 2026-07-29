@@ -1452,7 +1452,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "kein FW-Anschluss = keine techn passfähigkeit.\neA12 müssen wir besprechen",
+          "timestamp": "2026-07-29T18:53:12.200Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
