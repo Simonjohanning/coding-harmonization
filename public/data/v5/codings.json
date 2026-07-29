@@ -36,12 +36,16 @@
         "PBC6"
       ],
       "codesB": [
-        "A4"
+        "A4",
+        "PBC6"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
