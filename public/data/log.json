@@ -643,6 +643,13 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:05:08.696Z",
+      "coder": "A",
+      "cellId": "konventionelle|Pepe|43|Q34",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
