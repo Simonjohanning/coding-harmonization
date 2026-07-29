@@ -3194,8 +3194,7 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [
-        "PBC1",
-        "Tech: Gas"
+        "PBC1"
       ],
       "codesB": [
         "A4",
