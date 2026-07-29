@@ -521,12 +521,10 @@
       "rowId": "HSV|38",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [
-        "?"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
