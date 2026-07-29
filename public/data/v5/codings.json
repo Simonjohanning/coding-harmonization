@@ -1642,7 +1642,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "eig würde ich hier wieder PBC5 kodieren, wenn ich es so lese",
+          "timestamp": "2026-07-29T18:54:06.852Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
