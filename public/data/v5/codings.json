@@ -3029,15 +3029,17 @@
       "question": "Q16",
       "codesA": [
         "A3",
-        "A4",
-        "PBC4"
+        "A4"
       ],
       "codesB": [
         "A3",
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A3",
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
