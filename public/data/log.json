@@ -352,6 +352,13 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:25:27.762Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|HSV|38|Q19",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
