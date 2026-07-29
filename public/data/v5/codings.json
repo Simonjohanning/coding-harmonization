@@ -778,7 +778,8 @@
         "SN1",
         "SN2",
         "eSN4",
-        "eSN6"
+        "eSN6",
+        "eSN7"
       ],
       "codesB": [
         "SN1",
@@ -787,10 +788,16 @@
         "eSN6",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "SN1",
+        "SN2",
+        "eSN4",
+        "eSN6",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
