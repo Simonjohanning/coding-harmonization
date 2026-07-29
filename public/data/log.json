@@ -580,6 +580,13 @@
       "cellId": "fernwärme|Meisi|334|Q25",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:01:15.453Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Murmi|52|Q15",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
