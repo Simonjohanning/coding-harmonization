@@ -2654,7 +2654,7 @@
         "PBC10"
       ],
       "harmonized": null,
-      "status": "pending",
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
@@ -2665,12 +2665,10 @@
       "tech": "biomass",
       "question": "Q28",
       "codesA": [
-        "A3",
         "A51",
         "A6",
         "PBC10",
-        "PBC5",
-        "ePBC16"
+        "PBC5"
       ],
       "codesB": [
         "A3",
