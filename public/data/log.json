@@ -199,6 +199,14 @@
       "cellId": "konventionelle|Carsten|260|Q37",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:19:57.403Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q37",
+      "action": "concede",
+      "code": "A2",
+      "mode": "after_discussion"
     }
   ]
 }
