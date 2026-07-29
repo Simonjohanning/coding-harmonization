@@ -331,7 +331,6 @@
       "question": "Q18",
       "codesA": [
         "A4",
-        "PBC4",
         "PBC6",
         "ePBC14"
       ],
@@ -340,8 +339,12 @@
         "PBC6",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC6",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
