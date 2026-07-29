@@ -661,17 +661,22 @@
       "question": "Q35",
       "codesA": [
         "SN2",
-        "eSN4"
+        "eSN4",
+        "eSN7"
       ],
       "codesB": [
         "SN2",
         "eSN4",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN2",
+        "eSN4",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
@@ -814,7 +819,7 @@
         "PBC6"
       ],
       "harmonized": null,
-      "status": "discussion",
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
