@@ -2351,7 +2351,8 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
-        "A51"
+        "A51",
+        "PBC12"
       ],
       "codesB": [
         "PBC12"
