@@ -487,6 +487,14 @@
       "cellId": "fernwärme|Malte74|562|Q21",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:50:55.289Z",
+      "coder": "A",
+      "cellId": "fernwärme|Malte74|562|Q24",
+      "action": "adopt",
+      "code": "ePBC14",
+      "mode": "no_discussion"
     }
   ]
 }
