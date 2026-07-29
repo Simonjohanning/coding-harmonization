@@ -580,18 +580,14 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "A4",
         "PBC4"
       ],
       "codesB": [
         "A4",
         "PBC4"
       ],
-      "harmonized": [
-        "A4",
-        "PBC4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
@@ -626,7 +622,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "PBC1 da die WP nicht zum Haus \"passt\", da der wohl der Wärmebedarf niedrig ist",
+          "timestamp": "2026-07-29T18:49:21.496Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
