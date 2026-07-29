@@ -230,6 +230,13 @@
       "cellId": "wärmepumpe|Chamaeleon|59|Q17",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:24:46.429Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q17",
+      "action": "unflag_discussion",
+      "mode": "after_discussion"
     }
   ]
 }
