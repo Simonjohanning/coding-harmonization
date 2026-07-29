@@ -3131,8 +3131,7 @@
       "tech": "wärmepumpe",
       "question": "Q20",
       "codesA": [
-        "eA10",
-        "eUnsicherheit"
+        "eA10"
       ],
       "codesB": [],
       "harmonized": null,
