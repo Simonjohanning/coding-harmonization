@@ -2391,6 +2391,7 @@
       "tech": "biomass",
       "question": "Q32",
       "codesA": [
+        "PBC7",
         "eA10"
       ],
       "codesB": [
