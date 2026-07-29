@@ -2195,7 +2195,9 @@
       "rowId": "Zipfeglatscher|83",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4",
         "PBC5"
