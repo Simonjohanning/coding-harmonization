@@ -855,6 +855,14 @@
       "action": "adopt",
       "code": "PBC7",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:59:13.773Z",
+      "coder": "A",
+      "cellId": "biomass|aKL80|237|Q32",
+      "action": "adopt",
+      "code": "PBC7",
+      "mode": "no_discussion"
     }
   ]
 }
