@@ -803,6 +803,13 @@
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:56:02.703Z",
+      "coder": "A",
+      "cellId": "fernwärme|Thorny|266|Q22",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
