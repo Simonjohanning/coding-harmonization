@@ -665,15 +665,14 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A4"
+        "A4",
+        "PBC4"
       ],
       "codesB": [
         "A4"
       ],
-      "harmonized": [
-        "A4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
@@ -844,7 +843,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "A7 geht für mich eher in Richtung wie ändern sich die Regeln und kann ich mich darauf verlassen, PBC10 greift hier auf, dass durch die Regeln die Lagerung Probleme macht",
+          "timestamp": "2026-07-29T18:50:58.031Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
