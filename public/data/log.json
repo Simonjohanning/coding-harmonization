@@ -863,6 +863,14 @@
       "action": "concede",
       "code": "eA10",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:00:54.125Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Flo|6|Q20",
+      "action": "concede",
+      "code": "-",
+      "mode": "no_discussion"
     }
   ]
 }
