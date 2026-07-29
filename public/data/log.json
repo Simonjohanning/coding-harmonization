@@ -871,6 +871,14 @@
       "action": "concede",
       "code": "-",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:00:57.641Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|HSV|38|Q15",
+      "action": "concede",
+      "code": "?",
+      "mode": "no_discussion"
     }
   ]
 }
