@@ -3097,7 +3097,6 @@
       "question": "Q19",
       "codesA": [
         "A4",
-        "A52",
         "PBC1",
         "ePBC14"
       ],
@@ -3106,8 +3105,12 @@
         "PBC1",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "PBC1",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
