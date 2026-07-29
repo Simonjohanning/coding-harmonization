@@ -824,6 +824,14 @@
       "cellId": "fernwärme|Thorny|266|Q25",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:58:33.490Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q18",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "no_discussion"
     }
   ]
 }
