@@ -245,6 +245,14 @@
       "action": "concede",
       "code": "A1",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:15:39.917Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q18",
+      "action": "concede",
+      "code": "eUnsicherheit",
+      "mode": "no_discussion"
     }
   ]
 }
