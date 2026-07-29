@@ -382,6 +382,13 @@
       "action": "adopt",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:45:08.875Z",
+      "coder": "A",
+      "cellId": "konventionelle|HarryHirsch|294|Q33",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
