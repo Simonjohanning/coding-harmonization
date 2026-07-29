@@ -1133,7 +1133,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "Komfort, da der Schornsteinfeger nicht kommen muss/nicht so viel machen muss",
+          "timestamp": "2026-07-29T18:51:59.432Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
