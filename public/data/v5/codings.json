@@ -648,7 +648,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "ist für mich auch eine Vorteil von Kapazität",
+          "timestamp": "2026-07-29T18:49:48.197Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
