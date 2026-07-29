@@ -437,7 +437,6 @@
       "tech": "wärmepumpe",
       "question": "Q17",
       "codesA": [
-        "PBC6",
         "SN1",
         "eSN8"
       ],
@@ -445,10 +444,13 @@
         "SN1",
         "eSN8"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "SN1",
+        "eSN8"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
