@@ -1074,6 +1074,13 @@
       "action": "adopt",
       "code": "eA11",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:06:47.397Z",
+      "coder": "A",
+      "cellId": "fernwärme|maddison|448|Q24",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
