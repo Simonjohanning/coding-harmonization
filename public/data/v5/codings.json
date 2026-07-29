@@ -213,7 +213,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "hier auch wieder PBC5 und nicht eA12",
+          "timestamp": "2026-07-29T18:46:35.010Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
