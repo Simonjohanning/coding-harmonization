@@ -1013,50 +1013,10 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-07-29T19:04:45.547Z",
+      "timestamp": "2026-07-29T19:05:41.780Z",
       "coder": "A",
       "cellId": "wärmepumpe|gelip|19|Q17",
       "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-07-29T19:04:50.929Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|gelip|19|Q18",
-      "action": "concede",
-      "code": "eUnsicherheit",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-07-29T19:04:56.578Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|gelip|19|Q19",
-      "action": "concede",
-      "code": "eUnischerheit",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-07-29T19:05:02.480Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|gelip|19|Q19",
-      "action": "concede",
-      "code": "PBC4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-07-29T19:05:05.962Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|gelip|19|Q19",
-      "action": "adopt",
-      "code": "ePBC14",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-07-29T19:05:25.682Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|gelip|19|Q19",
-      "action": "concede",
-      "code": "A52",
       "mode": "no_discussion"
     }
   ]
