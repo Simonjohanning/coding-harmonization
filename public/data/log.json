@@ -316,6 +316,13 @@
       "action": "concede",
       "code": "eUnsicherheit",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:19:57.097Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Flo|6|Q18",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
