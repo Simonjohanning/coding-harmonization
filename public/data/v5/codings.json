@@ -144,12 +144,16 @@
       "rowId": "Carsten|260",
       "tech": "konventionelle",
       "question": "Q33",
-      "codesA": [],
+      "codesA": [
+        "PBC1"
+      ],
       "codesB": [
         "PBC1"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC1"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
