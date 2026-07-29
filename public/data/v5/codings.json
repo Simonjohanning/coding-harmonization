@@ -2384,7 +2384,9 @@
       "rowId": "aKL80|237",
       "tech": "biomass",
       "question": "Q32",
-      "codesA": [],
+      "codesA": [
+        "PBC7"
+      ],
       "codesB": [
         "PBC7",
         "eA12"
