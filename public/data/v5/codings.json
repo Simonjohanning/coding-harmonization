@@ -106,7 +106,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "hier geht es wieder primär um Förderung und nicht Finanzierung.",
+          "timestamp": "2026-07-29T07:10:44.170Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
