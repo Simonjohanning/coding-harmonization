@@ -558,6 +558,13 @@
       "action": "adopt",
       "code": "eSN7",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:00:47.902Z",
+      "coder": "A",
+      "cellId": "fernwärme|Meisi|334|Q24",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
