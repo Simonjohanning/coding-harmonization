@@ -887,6 +887,14 @@
       "action": "adopt",
       "code": "A3",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:01:18.544Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Matt|2|Q20",
+      "action": "concede",
+      "code": "-",
+      "mode": "no_discussion"
     }
   ]
 }
