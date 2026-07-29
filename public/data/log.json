@@ -734,6 +734,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:48:38.930Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|HSV|38|Q18",
+      "action": "adopt",
+      "code": "A4",
+      "mode": "after_discussion"
     }
   ]
 }
