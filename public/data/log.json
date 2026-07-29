@@ -374,6 +374,14 @@
       "action": "concede",
       "code": "eVertrauen",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:30:25.883Z",
+      "coder": "A",
+      "cellId": "konventionelle|HarryHirsch|294|Q33",
+      "action": "adopt",
+      "code": "ePBC16",
+      "mode": "no_discussion"
     }
   ]
 }
