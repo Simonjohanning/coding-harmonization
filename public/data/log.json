@@ -337,6 +337,13 @@
       "cellId": "wärmepumpe|HSV|38|Q18",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:23:21.512Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Flo|6|Q18",
+      "action": "unflag_discussion",
+      "mode": "after_discussion"
     }
   ]
 }
