@@ -499,7 +499,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "James hatte ja da nohcmal nach der Förderung nachgefragt, ist aber zu suggestiv?",
+          "timestamp": "2026-07-29T18:47:43.279Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
