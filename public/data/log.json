@@ -300,6 +300,14 @@
       "action": "concede",
       "code": "A52",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:19:38.097Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Flo|6|Q17",
+      "action": "concede",
+      "code": "PBC6",
+      "mode": "no_discussion"
     }
   ]
 }
