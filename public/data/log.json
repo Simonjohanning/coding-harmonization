@@ -1081,6 +1081,14 @@
       "cellId": "fernwärme|maddison|448|Q24",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:07:37.298Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q33",
+      "action": "adopt",
+      "code": "PBC1",
+      "mode": "no_discussion"
     }
   ]
 }
