@@ -942,6 +942,14 @@
       "action": "adopt",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:03:34.961Z",
+      "coder": "A",
+      "cellId": "biomass|fishhead|55|Q29",
+      "action": "adopt",
+      "code": "eSN7",
+      "mode": "no_discussion"
     }
   ]
 }
