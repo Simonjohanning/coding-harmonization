@@ -1452,17 +1452,15 @@
       "question": "Q16",
       "codesA": [
         "A4",
+        "PBC4",
         "ePBC16"
       ],
       "codesB": [
         "A4",
         "ePBC16"
       ],
-      "harmonized": [
-        "A4",
-        "ePBC16"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
