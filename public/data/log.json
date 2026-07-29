@@ -215,6 +215,14 @@
       "action": "concede",
       "code": "eSN8",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:21:20.536Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q17",
+      "action": "adopt",
+      "code": "eSN7",
+      "mode": "no_discussion"
     }
   ]
 }
