@@ -1068,18 +1068,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-07-29T19:06:28.831Z",
+      "timestamp": "2026-07-29T19:07:17.582Z",
       "coder": "A",
       "cellId": "fernwärme|maddison|448|Q24",
       "action": "adopt",
       "code": "eA11",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-07-29T19:06:47.397Z",
-      "coder": "A",
-      "cellId": "fernwärme|maddison|448|Q24",
-      "action": "flag_discussion",
       "mode": "no_discussion"
     }
   ]
