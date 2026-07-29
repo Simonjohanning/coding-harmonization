@@ -480,6 +480,13 @@
       "cellId": "biomass|Karl|49|Q31",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:50:49.556Z",
+      "coder": "A",
+      "cellId": "fernwärme|Malte74|562|Q21",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
