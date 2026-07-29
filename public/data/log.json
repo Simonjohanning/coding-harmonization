@@ -903,6 +903,14 @@
       "action": "concede",
       "code": "eVertrauen",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:01:35.094Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q20",
+      "action": "concede",
+      "code": "-",
+      "mode": "no_discussion"
     }
   ]
 }
