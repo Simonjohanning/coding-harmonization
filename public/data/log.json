@@ -458,6 +458,14 @@
       "cellId": "biomass|Karl|49|Q30",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:49:56.723Z",
+      "coder": "A",
+      "cellId": "konventionelle|HarryHirsch|294|Q35",
+      "action": "adopt",
+      "code": "eSN7",
+      "mode": "after_discussion"
     }
   ]
 }
