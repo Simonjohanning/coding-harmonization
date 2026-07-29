@@ -2665,6 +2665,7 @@
       "tech": "biomass",
       "question": "Q28",
       "codesA": [
+        "A3",
         "A51",
         "A6",
         "PBC10",
