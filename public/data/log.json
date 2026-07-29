@@ -1034,6 +1034,14 @@
       "action": "concede",
       "code": "eUnischerheit",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:05:57.213Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|gelip|19|Q19",
+      "action": "adopt",
+      "code": "ePBC14",
+      "mode": "no_discussion"
     }
   ]
 }
