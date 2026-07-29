@@ -1145,14 +1145,18 @@
       "rowId": "Malte74|562",
       "tech": "fernwärme",
       "question": "Q22",
-      "codesA": [],
+      "codesA": [
+        "A3"
+      ],
       "codesB": [
         "A3"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A3"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
