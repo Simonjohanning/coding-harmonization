@@ -79,7 +79,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "Geht es nicht konkret um Förderung und Finanzierung ist damit nur implizit gemeint?\nFür mich kommt hier raus, dass Medien durchaus ein Einflussfaktor sind.",
+          "timestamp": "2026-07-29T07:08:52.486Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
