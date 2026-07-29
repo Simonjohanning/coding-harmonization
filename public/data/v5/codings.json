@@ -752,16 +752,19 @@
       "codesA": [
         "PBC10",
         "PBC5",
-        "ePBC16",
-        "eUnsicherheit"
+        "ePBC16"
       ],
       "codesB": [
         "PBC10",
         "PBC5",
         "ePBC16"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC10",
+        "PBC5",
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
