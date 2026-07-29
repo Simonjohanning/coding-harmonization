@@ -168,6 +168,14 @@
       "cellId": "konventionelle|Carsten|260|Q36",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:17:51.051Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q15",
+      "action": "concede",
+      "code": "PBC5",
+      "mode": "no_discussion"
     }
   ]
 }
