@@ -711,6 +711,13 @@
       "action": "concede",
       "code": "eUnsicherheit",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:38:52.403Z",
+      "coder": "A",
+      "cellId": "konventionelle|Pepe|43|Q36",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
