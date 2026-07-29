@@ -703,6 +703,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:54:42.328Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Zipfeglatscher|83|Q15",
+      "action": "concede",
+      "code": "eUnsicherheit",
+      "mode": "no_discussion"
     }
   ]
 }
