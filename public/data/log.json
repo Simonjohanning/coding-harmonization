@@ -403,6 +403,14 @@
       "cellId": "konventionelle|HarryHirsch|294|Q35",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:45:39.991Z",
+      "coder": "A",
+      "cellId": "konventionelle|HarryHirsch|294|Q37",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "no_discussion"
     }
   ]
 }
