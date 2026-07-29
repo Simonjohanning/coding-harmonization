@@ -1451,8 +1451,7 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
-        "A4",
-        "PBC4"
+        "A4"
       ],
       "codesB": [
         "A4",
