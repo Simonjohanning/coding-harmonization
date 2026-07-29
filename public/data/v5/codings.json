@@ -1673,14 +1673,7 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [
-        {
-          "version": 5,
-          "coder": "A",
-          "text": "Recherche online ist für mich irgendwie nochmal was anderes als Akteure, sondern einfach die Akkumulation von Wissen, daher ePBC14",
-          "timestamp": "2026-07-29T18:54:38.735Z"
-        }
-      ],
+      "discussion": [],
       "changedSinceLastVersion": true,
       "carriedFromVersion": null
     },
@@ -1718,7 +1711,7 @@
         "A7"
       ],
       "harmonized": null,
-      "status": "pending",
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
