@@ -261,6 +261,13 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:16:15.898Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q18",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
