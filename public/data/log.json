@@ -519,6 +519,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:57:50.294Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Matt|2|Q16",
+      "action": "concede",
+      "code": "PBC4",
+      "mode": "no_discussion"
     }
   ]
 }
