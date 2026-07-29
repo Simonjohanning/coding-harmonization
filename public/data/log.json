@@ -595,6 +595,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:01:37.954Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Murmi|52|Q16",
+      "action": "adopt",
+      "code": "ePBC16",
+      "mode": "no_discussion"
     }
   ]
 }
