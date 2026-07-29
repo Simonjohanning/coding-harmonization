@@ -176,6 +176,14 @@
       "action": "concede",
       "code": "PBC5",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:18:18.205Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Chamaeleon|59|Q16",
+      "action": "adopt",
+      "code": "PBC1",
+      "mode": "no_discussion"
     }
   ]
 }
