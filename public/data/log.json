@@ -344,6 +344,14 @@
       "cellId": "wärmepumpe|Flo|6|Q18",
       "action": "unflag_discussion",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:25:01.146Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Flo|6|Q18",
+      "action": "adopt",
+      "code": "ePBC14",
+      "mode": "no_discussion"
     }
   ]
 }
