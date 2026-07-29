@@ -1451,14 +1451,18 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
-        "A4"
+        "A4",
+        "ePBC16"
       ],
       "codesB": [
         "A4",
         "ePBC16"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
