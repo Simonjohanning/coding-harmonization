@@ -926,6 +926,14 @@
       "cellId": "biomass|fishhead|55|Q27",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:03:22.144Z",
+      "coder": "A",
+      "cellId": "biomass|fishhead|55|Q28",
+      "action": "adopt",
+      "code": "A3",
+      "mode": "no_discussion"
     }
   ]
 }
