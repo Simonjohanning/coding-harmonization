@@ -650,6 +650,14 @@
       "cellId": "konventionelle|Pepe|43|Q34",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:06:01.483Z",
+      "coder": "A",
+      "cellId": "konventionelle|Pepe|43|Q35",
+      "action": "adopt",
+      "code": "eSN6",
+      "mode": "no_discussion"
     }
   ]
 }
