@@ -1495,14 +1495,18 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "PBC4"
+        "PBC4",
+        "ePBC14"
       ],
       "codesB": [
         "PBC4",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC4",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
