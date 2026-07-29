@@ -2390,16 +2390,13 @@
       "rowId": "aKL80|237",
       "tech": "biomass",
       "question": "Q32",
-      "codesA": [
-        "PBC7",
-        "eA10"
-      ],
+      "codesA": [],
       "codesB": [
         "PBC7",
         "eA12"
       ],
       "harmonized": null,
-      "status": "discussion",
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
