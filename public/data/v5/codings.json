@@ -3075,15 +3075,17 @@
       "question": "Q18",
       "codesA": [
         "PBC3",
-        "eA12",
-        "eUnsicherheit"
+        "eA12"
       ],
       "codesB": [
         "PBC3",
         "eA12"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC3",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
