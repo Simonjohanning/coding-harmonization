@@ -231,7 +231,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "würde hier auch wieder PBC5 nehmen eA12 raus. Wirtschafltichkeit seh ich da nicht zwingend, bzw eher implizit.",
+          "timestamp": "2026-07-29T07:20:38.889Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
