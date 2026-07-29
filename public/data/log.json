@@ -1058,6 +1058,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T19:06:13.264Z",
+      "coder": "A",
+      "cellId": "fernwärme|maddison|448|Q24",
+      "action": "concede",
+      "code": "Tech: Gas",
+      "mode": "no_discussion"
     }
   ]
 }
