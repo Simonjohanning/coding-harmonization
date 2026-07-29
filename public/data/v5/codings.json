@@ -1151,15 +1151,17 @@
       "question": "Q24",
       "codesA": [
         "PBC6",
-        "ePBC14",
-        "eVertrauen"
+        "ePBC14"
       ],
       "codesB": [
         "PBC6",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC6",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
