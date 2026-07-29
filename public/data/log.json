@@ -192,6 +192,13 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:18:42.388Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q37",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
