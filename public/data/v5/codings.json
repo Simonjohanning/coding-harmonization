@@ -2164,7 +2164,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "geht ja auch um aufwand",
+          "timestamp": "2026-07-29T18:58:11.939Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
