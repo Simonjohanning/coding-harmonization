@@ -335,7 +335,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "A",
+          "text": "\"was mich der einbau kostet\" hintet für mich sehr auf Finanzierung, also das das Stemmen der Finanzierung wichtig ist für die Entscheidung.",
+          "timestamp": "2026-07-29T16:18:02.181Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
