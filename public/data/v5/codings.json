@@ -1243,9 +1243,7 @@
       "rowId": "Matt|2",
       "tech": "wärmepumpe",
       "question": "Q17",
-      "codesA": [
-        "SN1"
-      ],
+      "codesA": [],
       "codesB": [
         "eSN8"
       ],
