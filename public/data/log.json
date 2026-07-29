@@ -773,6 +773,14 @@
       "cellId": "konventionelle|Pepe|43|Q37",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T18:55:19.088Z",
+      "coder": "A",
+      "cellId": "biomass|Sabsi|440|Q31",
+      "action": "adopt",
+      "code": "A7",
+      "mode": "no_discussion"
     }
   ]
 }
