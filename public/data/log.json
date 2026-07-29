@@ -666,6 +666,13 @@
       "action": "adopt",
       "code": "eSN8",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T17:06:40.434Z",
+      "coder": "A",
+      "cellId": "konventionelle|Pepe|43|Q35",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
