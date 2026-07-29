@@ -146,6 +146,13 @@
       "action": "concede",
       "code": "Tech: Fernwärme",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:14:47.822Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
