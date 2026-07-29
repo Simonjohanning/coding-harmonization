@@ -511,6 +511,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T16:57:43.227Z",
+      "coder": "A",
+      "cellId": "fernwärme|Malte74|562|Q25",
+      "action": "adopt",
+      "code": "A4",
+      "mode": "no_discussion"
     }
   ]
 }
