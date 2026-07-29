@@ -153,6 +153,14 @@
       "cellId": "konventionelle|Carsten|260|Q34",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-29T07:16:05.356Z",
+      "coder": "A",
+      "cellId": "konventionelle|Carsten|260|Q34",
+      "action": "concede",
+      "code": "Tech: WP",
+      "mode": "after_discussion"
     }
   ]
 }
