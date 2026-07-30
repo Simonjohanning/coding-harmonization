@@ -2822,10 +2822,16 @@
       "codesB": [
         "A1",
         "A4",
-        "PBC10"
+        "PBC10",
+        "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A4",
+        "PBC10",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
