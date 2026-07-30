@@ -1465,7 +1465,8 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [
-        "A9"
+        "A9",
+        "PBC5"
       ],
       "codesB": [
         "A4",
