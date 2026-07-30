@@ -1494,6 +1494,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:36:57.584Z",
+      "coder": "B",
+      "cellId": "biomass|Sabsi|440|Q31",
+      "action": "concede",
+      "code": "eA12",
+      "mode": "after_discussion"
     }
   ]
 }
