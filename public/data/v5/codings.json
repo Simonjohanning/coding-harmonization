@@ -74,15 +74,17 @@
       "question": "Q18",
       "codesA": [
         "PBC6",
-        "ePBC14",
-        "eSN6"
+        "ePBC14"
       ],
       "codesB": [
         "PBC6",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC6",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
@@ -2845,13 +2847,11 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
-        "A4",
-        "PBC2",
-        "PBC4"
+        "PBC2"
       ],
       "codesB": [
-        "A4",
-        "PBC2"
+        "PBC2",
+        "PBC3"
       ],
       "harmonized": null,
       "status": "discussion",
