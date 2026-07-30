@@ -1472,6 +1472,12 @@
           "coder": "A",
           "text": "finde das trifft genau A9",
           "timestamp": "2026-07-29T18:52:27.783Z"
+        },
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Aber eben auch Strompreis-Sorge. A9 ist fine, aber Transparenz und Preisstabilität sind verschiedene Dinge",
+          "timestamp": "2026-07-30T11:24:16.889Z"
         }
       ],
       "changedSinceLastVersion": false,
