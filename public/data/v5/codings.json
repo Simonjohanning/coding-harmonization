@@ -1296,13 +1296,11 @@
       "tech": "wärmepumpe",
       "question": "Q17",
       "codesA": [],
-      "codesB": [
-        "eSN8"
-      ],
-      "harmonized": null,
-      "status": "pending",
+      "codesB": [],
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
