@@ -638,15 +638,17 @@
       "question": "Q20",
       "codesA": [
         "A4",
-        "PBC1",
         "eA12"
       ],
       "codesB": [
         "A4",
         "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
@@ -1736,7 +1738,6 @@
       "question": "Q35",
       "codesA": [
         "SN1",
-        "ePBC14",
         "eSN6",
         "eSN7",
         "eSN8"
@@ -1747,10 +1748,15 @@
         "eSN7",
         "eSN8"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN6",
+        "eSN7",
+        "eSN8"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
@@ -2798,8 +2804,7 @@
         "A1",
         "A4",
         "PBC10",
-        "PBC5",
-        "PBC9"
+        "PBC5"
       ],
       "codesB": [
         "A1",
