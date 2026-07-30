@@ -714,7 +714,14 @@
       "codesB": [],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Frage bezieht sich auf PBC erleichterung, nicht auf Personen, die Einfluss haben",
+          "timestamp": "2026-07-30T07:31:45.087Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
