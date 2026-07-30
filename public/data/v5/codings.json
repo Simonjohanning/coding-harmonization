@@ -3367,12 +3367,10 @@
       "rowId": "maddison|448",
       "tech": "fernwärme",
       "question": "Q26",
-      "codesA": [
-        "A52"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
