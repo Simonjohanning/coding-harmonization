@@ -1334,6 +1334,14 @@
       "action": "adopt",
       "code": "PBC2",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T11:40:23.224Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|gelip|19|Q17",
+      "action": "adopt",
+      "code": "PBC6",
+      "mode": "after_discussion"
     }
   ]
 }
