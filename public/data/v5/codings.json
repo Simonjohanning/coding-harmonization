@@ -875,12 +875,12 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
+        "A7",
         "PBC10",
         "PBC6"
       ],
       "codesB": [
         "A7",
-        "PBC10",
         "PBC6"
       ],
       "harmonized": null,
@@ -2823,16 +2823,10 @@
       "codesB": [
         "A1",
         "A4",
-        "PBC10",
-        "PBC5"
+        "PBC10"
       ],
-      "harmonized": [
-        "A1",
-        "A4",
-        "PBC10",
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
@@ -3398,12 +3392,11 @@
         "eA11"
       ],
       "codesB": [
+        "A4",
         "eA11"
       ],
-      "harmonized": [
-        "eA11"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
