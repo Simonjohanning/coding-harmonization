@@ -1446,6 +1446,14 @@
       "action": "add_bilateral",
       "code": "A4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:27:58.585Z",
+      "coder": "B",
+      "cellId": "biomass|fishhead|55|Q30",
+      "action": "concede",
+      "code": "PBC3",
+      "mode": "after_discussion"
     }
   ]
 }
