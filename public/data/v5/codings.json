@@ -56,9 +56,13 @@
       "codesA": [
         "ePBC14"
       ],
-      "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "codesB": [
+        "ePBC14"
+      ],
+      "harmonized": [
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
