@@ -1419,6 +1419,7 @@
       "question": "Q22",
       "codesA": [
         "A3",
+        "A4",
         "A9",
         "PBC5"
       ],
@@ -1428,8 +1429,13 @@
         "A9",
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A3",
+        "A4",
+        "A9",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
