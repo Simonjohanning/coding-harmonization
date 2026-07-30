@@ -589,3 +589,10 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   border-radius: var(--r-sm);
   margin: 0 0 8px;
 }
+
+/* Question label next to Q number in card header */
+.q-label {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 13px;
+}
