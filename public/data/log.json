@@ -1430,6 +1430,14 @@
       "action": "concede",
       "code": "SN2",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:26:06.366Z",
+      "coder": "A",
+      "cellId": "konventionelle|HarryHirsch|294|Q36",
+      "action": "concede",
+      "code": "eSN4",
+      "mode": "after_discussion"
     }
   ]
 }
