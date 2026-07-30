@@ -1193,6 +1193,13 @@
       "cellId": "konventionelle|Pepe|43|Q38",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T08:47:31.347Z",
+      "coder": "B",
+      "cellId": "fernwärme|Thorny|266|Q26",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
