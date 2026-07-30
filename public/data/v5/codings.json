@@ -2198,7 +2198,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Für verbraucher finde ich SN2 etwas zu vage",
+          "timestamp": "2026-07-30T11:38:38.177Z"
+        }
+      ],
       "changedSinceLastVersion": true,
       "carriedFromVersion": null
     },
