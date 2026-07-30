@@ -1614,6 +1614,14 @@
       "action": "concede",
       "code": "PBC6",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:53:13.017Z",
+      "coder": "B",
+      "cellId": "konventionelle|Carsten|260|Q37",
+      "action": "concede",
+      "code": "A4",
+      "mode": "after_discussion"
     }
   ]
 }
