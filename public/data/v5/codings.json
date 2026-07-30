@@ -2845,13 +2845,11 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
-        "A4",
-        "PBC2",
-        "PBC4"
+        "PBC2"
       ],
       "codesB": [
-        "A4",
-        "PBC2"
+        "PBC2",
+        "PBC3"
       ],
       "harmonized": null,
       "status": "discussion",
