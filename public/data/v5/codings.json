@@ -2847,14 +2847,18 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
+        "A4",
         "PBC2"
       ],
       "codesB": [
-        "PBC2",
-        "PBC3"
+        "A4",
+        "PBC2"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC2"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
