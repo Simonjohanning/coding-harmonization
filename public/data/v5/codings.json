@@ -3160,15 +3160,8 @@
       ],
       "codesB": [],
       "harmonized": null,
-      "status": "discussion",
-      "discussion": [
-        {
-          "version": 5,
-          "coder": "B",
-          "text": "Das ist mir zu generell zum sinnvollen kodieren",
-          "timestamp": "2026-07-30T08:47:42.859Z"
-        }
-      ],
+      "status": "pending",
+      "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
@@ -3271,8 +3264,15 @@
       ],
       "codesB": [],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Ich denke nicht, dass es hier um Zuverlässigkeit der Technologie geht, sondern vielleicht eher die Festigkeit der Entscheidung",
+          "timestamp": "2026-07-30T08:48:19.803Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     }
