@@ -1148,6 +1148,14 @@
       "cellId": "konventionelle|HarryHirsch|294|Q36",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T07:32:27.028Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q17",
+      "action": "adopt",
+      "code": "ePBC14",
+      "mode": "no_discussion"
     }
   ]
 }
