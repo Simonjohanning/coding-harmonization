@@ -731,12 +731,10 @@
       "rowId": "HarryHirsch|294",
       "tech": "konventionelle",
       "question": "Q36",
-      "codesA": [
-        "eSN4"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
