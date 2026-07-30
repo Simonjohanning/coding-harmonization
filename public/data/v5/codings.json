@@ -2199,11 +2199,13 @@
       ],
       "codesB": [
         "A2",
-        "A4",
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A2",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
