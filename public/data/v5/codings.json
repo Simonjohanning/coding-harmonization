@@ -1763,14 +1763,12 @@
         "PBC5"
       ],
       "codesB": [
+        "A4",
         "A7",
         "PBC5"
       ],
-      "harmonized": [
-        "A7",
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
