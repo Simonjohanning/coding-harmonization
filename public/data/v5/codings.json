@@ -2452,7 +2452,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "so hatten wir komfort nicht definiert",
+          "timestamp": "2026-07-30T11:39:19.778Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
