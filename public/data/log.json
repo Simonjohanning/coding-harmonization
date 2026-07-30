@@ -1286,14 +1286,6 @@
       "action": "adopt",
       "code": "PBC2",
       "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-07-30T11:23:41.964Z",
-      "coder": "B",
-      "cellId": "fernwärme|Meisi|334|Q24",
-      "action": "adopt",
-      "code": "A9",
-      "mode": "after_discussion"
     }
   ]
 }
