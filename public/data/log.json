@@ -1406,6 +1406,14 @@
       "action": "adopt",
       "code": "A1",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:24:35.849Z",
+      "coder": "A",
+      "cellId": "konventionelle|Pepe|43|Q38",
+      "action": "concede",
+      "code": "A2",
+      "mode": "after_discussion"
     }
   ]
 }
