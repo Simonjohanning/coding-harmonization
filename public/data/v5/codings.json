@@ -1506,14 +1506,18 @@
       "tech": "fernwärme",
       "question": "Q25",
       "codesA": [
-        "PBC1"
+        "PBC1",
+        "eA12"
       ],
       "codesB": [
         "PBC1",
         "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC1",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
