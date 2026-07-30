@@ -1893,11 +1893,13 @@
       ],
       "codesB": [
         "A7",
-        "eA12",
         "ePBC15"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A7",
+        "ePBC15"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
