@@ -1200,6 +1200,13 @@
       "cellId": "fernwärme|Thorny|266|Q26",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T08:47:42.859Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|gelip|19|Q20",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
