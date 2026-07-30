@@ -1470,6 +1470,14 @@
       "action": "concede",
       "code": "PBC5",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:31:46.826Z",
+      "coder": "B",
+      "cellId": "biomass|Sabsi|440|Q31",
+      "action": "concede",
+      "code": "eA12",
+      "mode": "after_discussion"
     }
   ]
 }
