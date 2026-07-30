@@ -1262,6 +1262,14 @@
       "action": "adopt",
       "code": "PBC5",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T11:15:28.115Z",
+      "coder": "B",
+      "cellId": "konventionelle|Pepe|43|Q35",
+      "action": "adopt",
+      "code": "eSN8",
+      "mode": "after_discussion"
     }
   ]
 }
