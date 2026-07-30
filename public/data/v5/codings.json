@@ -1284,12 +1284,10 @@
       "rowId": "Matt|2",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [
-        "ePBC14"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
