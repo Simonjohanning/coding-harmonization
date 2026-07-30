@@ -1163,6 +1163,14 @@
       "cellId": "wärmepumpe|Matt|2|Q15",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T07:32:51.255Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Matt|2|Q17",
+      "action": "concede",
+      "code": "eSN8",
+      "mode": "no_discussion"
     }
   ]
 }
