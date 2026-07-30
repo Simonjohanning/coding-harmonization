@@ -110,12 +110,14 @@
         "eA11"
       ],
       "codesB": [
-        "PBC4",
         "PBC6",
         "eA11"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC6",
+        "eA11"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
