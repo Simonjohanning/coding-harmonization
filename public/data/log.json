@@ -1464,11 +1464,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-07-30T13:29:58.465Z",
+      "timestamp": "2026-07-30T13:30:29.666Z",
       "coder": "A",
       "cellId": "biomass|fishhead|55|Q28",
       "action": "concede",
-      "code": "A6",
+      "code": "PBC5",
       "mode": "after_discussion"
     }
   ]
