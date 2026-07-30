@@ -3160,8 +3160,15 @@
       ],
       "codesB": [],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Das ist mir zu generell zum sinnvollen kodieren",
+          "timestamp": "2026-07-30T08:47:42.859Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
