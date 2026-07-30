@@ -1134,6 +1134,13 @@
       "cellId": "wärmepumpe|Barista1976|31|Q17",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T07:24:56.983Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Barista1976|31|Q17",
+      "action": "unflag_discussion",
+      "mode": "after_discussion"
     }
   ]
 }
