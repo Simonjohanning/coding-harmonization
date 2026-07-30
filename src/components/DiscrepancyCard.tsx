@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useState } from "react";
 import type { Cell, Coder, DiscussionEntry } from "../lib/types";
-import { isKnownCode, labelOf } from "../lib/codes";
+import { ALL_CODES, isKnownCode, labelOf, normalizeCode } from "../lib/codes";
 import { labelOfQuestion } from "../lib/questions";
 
 interface Props {
@@ -10,14 +10,16 @@ interface Props {
   version: number;
   disabled?: boolean;
   focused?: boolean;
+  conflict?: string;                       // if set, show conflict banner with this text
+  onDismissConflict?: () => void;
   onAdopt: (code: string) => void;
   onConcede: (code: string) => void;
+  onAddCode: (code: string, applyToBoth: boolean) => void;
   onFlagDiscussion: (initialComment?: string) => void;
   onUnflag: () => void;
   onAppendDiscussion: (entry: DiscussionEntry) => void;
 }
 
-// Draft persistence: survives polling refetches, filter switches, and refresh.
 const DRAFT_KEY = (cellId: string) => `harm_draft_${cellId}`;
 
 function loadDraft(cellId: string): string {
@@ -32,15 +34,14 @@ function saveDraft(cellId: string, text: string) {
 }
 
 const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCard(p, ref) {
-  const { cell, answer, coder, disabled, focused } = p;
+  const { cell, answer, coder, disabled, focused, conflict } = p;
   const [expanded, setExpanded] = useState(false);
   const [sharedOpen, setSharedOpen] = useState(false);
   const [draft, setDraft] = useState<string>(() => loadDraft(cell.cellId));
+  const [proposalDraft, setProposalDraft] = useState<string>("");
+  const [proposalError, setProposalError] = useState<string | null>(null);
 
-  // Persist draft on every keystroke
   useEffect(() => { saveDraft(cell.cellId, draft); }, [cell.cellId, draft]);
-
-  // If the cell id changes (component reused for a different cell), reload
   useEffect(() => { setDraft(loadDraft(cell.cellId)); }, [cell.cellId]);
 
   const mine = coder === "A" ? cell.codesA : cell.codesB;
@@ -79,6 +80,34 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
     saveDraft(cell.cellId, "");
   }
 
+  function handleCommentKey(e: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      if (isPending) submitFlag();
+      else if (inDiscussion) submitComment();
+    }
+  }
+
+  function submitProposal(applyToBoth: boolean) {
+    const raw = proposalDraft.trim();
+    if (!raw) return;
+    const norm = normalizeCode(raw);
+    if (!isKnownCode(norm)) {
+      setProposalError(`"${raw}" is not a canonical code.`);
+      return;
+    }
+    setProposalError(null);
+    p.onAddCode(norm, applyToBoth);
+    setProposalDraft("");
+  }
+
+  function handleProposalKey(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      submitProposal(e.shiftKey || e.ctrlKey || e.metaKey);
+    }
+  }
+
   return (
     <div className={"card" + (focused ? " focused" : "")} ref={ref} tabIndex={-1}>
       <div className="card-header">
@@ -106,6 +135,15 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
           </button>
         )}
       </div>
+
+      {conflict && (
+        <div className="conflict-banner">
+          <strong>Conflict:</strong> {conflict}.
+          <button className="btn sm" onClick={p.onDismissConflict} style={{ marginLeft: 8 }}>
+            Dismiss
+          </button>
+        </div>
+      )}
 
       {sharedOpen && shared.length > 0 && (
         <div className="shared-strip">
@@ -150,6 +188,35 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
         </div>
       )}
 
+      {inDiscussion && (
+        <div className="propose-row">
+          <span className="propose-label">Propose code:</span>
+          <input
+            type="text"
+            list="all-codes"
+            value={proposalDraft}
+            onChange={e => { setProposalDraft(e.target.value); setProposalError(null); }}
+            onKeyDown={handleProposalKey}
+            placeholder="e.g. PBC6"
+            disabled={disabled}
+            className="propose-input"
+          />
+          <datalist id="all-codes">
+            {ALL_CODES.map(c => (
+              <option key={c} value={c}>{c} — {labelOf(c)}</option>
+            ))}
+          </datalist>
+          <button className="btn sm" disabled={disabled || !proposalDraft.trim()}
+            onClick={() => submitProposal(false)}>Add to mine</button>
+          <button className="btn sm primary" disabled={disabled || !proposalDraft.trim()}
+            onClick={() => submitProposal(true)}
+            title="Apply to both coders (agreed during discussion)">
+            Apply to both
+          </button>
+          {proposalError && <span className="error" style={{ marginLeft: 8 }}>{proposalError}</span>}
+        </div>
+      )}
+
       <div className="row-actions">
         {isPending && (
           <button className="btn warn" onClick={submitFlag} disabled={disabled}>
@@ -189,9 +256,10 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
           <textarea
             value={draft}
             onChange={e => setDraft(e.target.value)}
+            onKeyDown={handleCommentKey}
             placeholder={inDiscussion
-              ? "Add a comment (visible to both coders)…"
-              : "Type an initial comment then click Flag with comment…"}
+              ? "Add a comment (Ctrl+Enter to submit)…"
+              : "Initial comment then Flag with comment (Ctrl+Enter to submit)…"}
             disabled={disabled}
           />
           {inDiscussion && (
