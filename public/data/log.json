@@ -1344,15 +1344,7 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-07-30T13:07:53.897Z",
-      "coder": "A",
-      "cellId": "fernwärme|Meisi|334|Q24",
-      "action": "adopt",
-      "code": "A4",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-07-30T13:07:59.181Z",
+      "timestamp": "2026-07-30T13:07:25.198Z",
       "coder": "A",
       "cellId": "fernwärme|Meisi|334|Q24",
       "action": "adopt",
@@ -1360,9 +1352,9 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-07-30T13:08:05.132Z",
+      "timestamp": "2026-07-30T13:08:17.380Z",
       "coder": "A",
-      "cellId": "fernwärme|Meisi|334|Q22",
+      "cellId": "fernwärme|Meisi|334|Q24",
       "action": "adopt",
       "code": "A4",
       "mode": "after_discussion"
