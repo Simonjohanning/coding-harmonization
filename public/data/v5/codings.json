@@ -1466,20 +1466,15 @@
       "question": "Q24",
       "codesA": [
         "A4",
-        "A9",
-        "PBC5"
+        "A9"
       ],
       "codesB": [
         "A4",
         "A9",
         "PBC5"
       ],
-      "harmonized": [
-        "A4",
-        "A9",
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 5,
