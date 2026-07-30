@@ -1794,14 +1794,15 @@
       "tech": "konventionelle",
       "question": "Q38",
       "codesA": [
-        "A2",
         "PBC5"
       ],
       "codesB": [
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
