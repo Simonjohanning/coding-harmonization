@@ -1764,13 +1764,11 @@
       ],
       "codesB": [
         "A7",
-        "PBC5"
+        "PBC5",
+        "eA12"
       ],
-      "harmonized": [
-        "A7",
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
