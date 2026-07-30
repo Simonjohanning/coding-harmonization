@@ -1530,10 +1530,14 @@
         "PBC5"
       ],
       "codesB": [
-        "A2"
+        "A2",
+        "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A2",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
