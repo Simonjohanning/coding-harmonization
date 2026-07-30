@@ -2288,9 +2288,13 @@
       "codesA": [
         "A1"
       ],
-      "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "codesB": [
+        "A1"
+      ],
+      "harmonized": [
+        "A1"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
