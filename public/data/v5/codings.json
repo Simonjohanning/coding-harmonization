@@ -2169,7 +2169,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Ist schon sehr implizit. Aber ja, Installationskosten werden am Ende herauskommen (müssen). In FGGs hatten wir es noch granularer",
+          "timestamp": "2026-07-30T11:27:51.170Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
