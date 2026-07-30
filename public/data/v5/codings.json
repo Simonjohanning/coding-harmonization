@@ -1734,7 +1734,9 @@
         "A2",
         "PBC5"
       ],
-      "codesB": [],
+      "codesB": [
+        "PBC5"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": [],
