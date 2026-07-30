@@ -1156,6 +1156,13 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T07:32:32.145Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Matt|2|Q15",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
