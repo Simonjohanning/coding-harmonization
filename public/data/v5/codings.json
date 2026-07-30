@@ -2203,8 +2203,15 @@
       ],
       "codesB": [],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Sehe ich auch Klimanutzen, aber bin ich nicht sicher, dass wir das als Entscheidungsfaktor kodieren sollten",
+          "timestamp": "2026-07-30T08:47:31.347Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
