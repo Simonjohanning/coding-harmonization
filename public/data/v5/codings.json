@@ -1770,10 +1770,12 @@
       "question": "Q37",
       "codesA": [
         "A2",
+        "A7",
         "PBC5",
         "ePBC15"
       ],
       "codesB": [
+        "A4",
         "A7",
         "PBC5",
         "ePBC15"
@@ -1892,13 +1894,11 @@
       ],
       "codesB": [
         "A7",
+        "eA12",
         "ePBC15"
       ],
-      "harmonized": [
-        "A7",
-        "ePBC15"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
