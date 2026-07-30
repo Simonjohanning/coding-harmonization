@@ -1270,6 +1270,14 @@
       "action": "adopt",
       "code": "eSN8",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T11:20:28.834Z",
+      "coder": "B",
+      "cellId": "biomass|Sabsi|440|Q27",
+      "action": "adopt",
+      "code": "PBC5",
+      "mode": "after_discussion"
     }
   ]
 }
