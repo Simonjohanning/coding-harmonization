@@ -58,7 +58,8 @@ export interface LogEntry {
     | "concede"
     | "flag_discussion"
     | "resolved_after_discussion"
-    | "unflag_discussion";
+    | "unflag_discussion"
+    | "add_bilateral";
   code?: string;
   mode: "no_discussion" | "after_discussion";
 }
