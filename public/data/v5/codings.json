@@ -190,6 +190,12 @@
           "coder": "A",
           "text": "sollten wir dann eher PBC5 für zukünftige Preissteigerung kodieren?",
           "timestamp": "2026-07-29T07:16:01.955Z"
+        },
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Ja, vielleicht sinnvoll, wenn Strompreissorge generell preissorge ist. Angst/Unsicherheit vor Preisen haben wir ja auch bei Konventionellen (eigentlich allen außer Biomasse)",
+          "timestamp": "2026-07-30T08:54:33.225Z"
         }
       ],
       "changedSinceLastVersion": false,
