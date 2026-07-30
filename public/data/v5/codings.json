@@ -636,15 +636,17 @@
       "question": "Q20",
       "codesA": [
         "A4",
-        "PBC1",
         "eA12"
       ],
       "codesB": [
         "A4",
         "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
@@ -1165,14 +1167,10 @@
         "PBC10"
       ],
       "codesB": [
-        "A51",
         "PBC10"
       ],
-      "harmonized": [
-        "A51",
-        "PBC10"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 5,
@@ -2793,8 +2791,7 @@
         "A1",
         "A4",
         "PBC10",
-        "PBC5",
-        "PBC9"
+        "PBC5"
       ],
       "codesB": [
         "A1",
