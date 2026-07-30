@@ -2178,15 +2178,17 @@
       "question": "Q22",
       "codesA": [
         "A4",
-        "PBC4",
-        "PBC6"
+        "PBC4"
       ],
       "codesB": [
         "A4",
         "PBC4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC4"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
