@@ -138,8 +138,17 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   box-shadow: var(--shadow-md), 0 0 0 3px var(--accent-soft);
 }
 .card-header {
-  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  display: flex; align-items: center; gap: 8px; flex-wrap: nowrap;
   margin-bottom: 10px;
+  min-width: 0;
+}
+.card-header > .pill,
+.card-header > .shared-badge { flex-shrink: 0; }
+.card-header > .id {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card-header .id {
   font-weight: 600;
@@ -595,4 +604,53 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   color: var(--text-muted);
   font-weight: 400;
   font-size: 13px;
+}
+
+
+/* Conflict banner ---------------------------------------------------------- */
+.conflict-banner {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  border-left: 4px solid var(--danger);
+  color: var(--danger);
+  padding: 8px 12px;
+  border-radius: var(--r-sm);
+  margin: 6px 0 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* Propose new code row ----------------------------------------------------- */
+.propose-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: var(--r-sm);
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
+.propose-row .propose-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-fg);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.propose-row .propose-input {
+  padding: 5px 8px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-sm);
+  background: white;
+  min-width: 140px;
+  font-family: ui-monospace, monospace;
+}
+.propose-row .propose-input:focus {
+  outline: 2px solid var(--accent-soft);
+  border-color: var(--accent);
 }
