@@ -2205,7 +2205,6 @@
       "question": "Q23",
       "codesA": [
         "SN1",
-        "SN2",
         "eSN5",
         "eSN8"
       ],
@@ -2214,8 +2213,12 @@
         "eSN5",
         "eSN8"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5",
+        "eSN8"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
@@ -2224,7 +2227,7 @@
           "timestamp": "2026-07-30T11:38:38.177Z"
         }
       ],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
