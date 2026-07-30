@@ -11,6 +11,7 @@ interface Props {
 }
 
 type StatusFilter = "all" | "pending" | "discussion" | "resolved" | "auto";
+type SortMode = "ingest" | "recent" | "flagged";
 
 export default function Reconcile({ version, coder, isCurrent }: Props) {
   const [codings, setCodings] = useState<Codings | null>(null);
@@ -23,6 +24,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   const [status, setStatus] = useState<StatusFilter>("pending");
   const [changedOnly, setChangedOnly] = useState(false);
   const [bothCodedOnly, setBothCodedOnly] = useState(true);
+  const [sort, setSort] = useState<SortMode>("ingest");
 
   const [focusIdx, setFocusIdx] = useState(0);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -55,8 +57,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     const interval = setInterval(async () => {
       if (document.visibilityState !== "visible") return;
       if (savingRef.current) return;
-      // Skip polls for 15s after any successful write — GitHub's raw content
-      // CDN can lag behind a commit and would revert the just-saved state.
       if (Date.now() - lastWriteRef.current < 15000) return;
       try {
         const { codings: fresh } = await loadVersion(version);
@@ -70,6 +70,8 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
           })),
         };
         setCodings(norm);
+        // Also refresh log so "flagged first" sort stays current
+        try { setLog(await loadLog()); } catch { /* ignore */ }
       } catch {
         // ignore transient errors
       }
@@ -82,16 +84,60 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     return Array.from(new Set(codings.cells.map(c => c.tech))).sort();
   }, [codings]);
 
+  // Build cellId -> first flag timestamp from log (for "flagged first" sort)
+  const firstFlaggedAt = useMemo(() => {
+    const m = new Map<string, string>();
+    if (!log) return m;
+    for (const e of log.entries) {
+      if (e.action !== "flag_discussion") continue;
+      const cur = m.get(e.cellId);
+      if (!cur || e.timestamp < cur) m.set(e.cellId, e.timestamp);
+    }
+    return m;
+  }, [log]);
+
+  // Last activity timestamp per cell (most recent discussion entry, or first flag)
+  function lastActivity(c: Cell): string | undefined {
+    if (c.discussion && c.discussion.length > 0) {
+      return c.discussion[c.discussion.length - 1].timestamp;
+    }
+    return firstFlaggedAt.get(c.cellId);
+  }
+
   const filtered = useMemo(() => {
     if (!codings) return [];
-    return codings.cells.filter(c => {
+    const base = codings.cells.filter(c => {
       if (status !== "all" && c.status !== status) return false;
       if (tech !== "all" && c.tech !== tech) return false;
       if (changedOnly && !c.changedSinceLastVersion) return false;
       if (bothCodedOnly && (c.codesA.length === 0 || c.codesB.length === 0)) return false;
       return true;
     });
-  }, [codings, status, tech, changedOnly, bothCodedOnly]);
+
+    if (sort === "ingest") return base;
+
+    if (sort === "recent") {
+      // most recent activity first; cells with no activity go last, in ingest order
+      const withIdx = base.map((c, i) => ({ c, i, t: lastActivity(c) }));
+      withIdx.sort((x, y) => {
+        if (x.t && y.t) return y.t.localeCompare(x.t);
+        if (x.t) return -1;
+        if (y.t) return 1;
+        return x.i - y.i;
+      });
+      return withIdx.map(x => x.c);
+    }
+
+    // "flagged": cells with a flag first (oldest flag first); unflagged in ingest order
+    const withIdx = base.map((c, i) => ({ c, i, t: firstFlaggedAt.get(c.cellId) }));
+    withIdx.sort((x, y) => {
+      if (x.t && y.t) return x.t.localeCompare(y.t);
+      if (x.t) return -1;
+      if (y.t) return 1;
+      return x.i - y.i;
+    });
+    return withIdx.map(x => x.c);
+  }, [codings, status, tech, changedOnly, bothCodedOnly, sort, firstFlaggedAt]);
 
   useEffect(() => {
     setFocusIdx(i => Math.min(i, Math.max(0, filtered.length - 1)));
@@ -197,6 +243,13 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
             {techs.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
         </label>
+        <label>Sort
+          <select value={sort} onChange={e => setSort(e.target.value as SortMode)}>
+            <option value="ingest">Ingest order</option>
+            <option value="recent">Most recent activity</option>
+            <option value="flagged">Flagged first (oldest flag)</option>
+          </select>
+        </label>
         <label>
           <input type="checkbox" checked={bothCodedOnly}
             onChange={e => setBothCodedOnly(e.target.checked)} />
@@ -253,19 +306,23 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
           }, [makeLogEntry(coder, cell.cellId, "concede",
               cell.status === "discussion" ? "after_discussion" : "no_discussion", code)])
           }
-          onFlagDiscussion={() => updateCell(cell.cellId,
-            c => ({ ...c, status: "discussion" }),
-            [makeLogEntry(coder, cell.cellId, "flag_discussion", "no_discussion")])
-          }
+          onFlagDiscussion={(initialComment) => {
+            const entries: DiscussionEntry[] = initialComment ? [{
+              version, coder,
+              text: initialComment,
+              timestamp: new Date().toISOString(),
+            }] : [];
+            return updateCell(cell.cellId,
+              c => ({
+                ...c,
+                status: "discussion",
+                discussion: [...c.discussion, ...entries],
+              }),
+              [makeLogEntry(coder, cell.cellId, "flag_discussion", "no_discussion")]);
+          }}
           onUnflag={() => updateCell(cell.cellId,
             c => ({ ...c, status: "pending" }),
             [makeLogEntry(coder, cell.cellId, "unflag_discussion", "after_discussion")])
-          }
-          onResolveAfterDiscussion={() => updateCell(cell.cellId, c => {
-            const b = new Set(c.codesB);
-            const inter = c.codesA.filter(x => b.has(x)).sort();
-            return { ...c, status: "resolved", harmonized: inter };
-          }, [makeLogEntry(coder, cell.cellId, "resolved_after_discussion", "after_discussion")])
           }
           onAppendDiscussion={(entry: DiscussionEntry) => updateCell(cell.cellId,
             c => ({ ...c, discussion: [...c.discussion, entry] }),
