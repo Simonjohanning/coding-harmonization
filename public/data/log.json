@@ -1238,6 +1238,14 @@
       "cellId": "wärmepumpe|gelip|19|Q20",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T11:13:43.483Z",
+      "coder": "B",
+      "cellId": "konventionelle|Carsten|260|Q37",
+      "action": "adopt",
+      "code": "PBC5",
+      "mode": "after_discussion"
     }
   ]
 }
