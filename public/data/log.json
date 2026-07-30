@@ -1310,6 +1310,14 @@
       "action": "add_bilateral",
       "code": "PBC5",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T11:26:14.555Z",
+      "coder": "B",
+      "cellId": "konventionelle|Pepe|43|Q34",
+      "action": "concede",
+      "code": "eA12",
+      "mode": "after_discussion"
     }
   ]
 }
