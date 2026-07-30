@@ -879,6 +879,7 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
+        "A7",
         "PBC10",
         "PBC6"
       ],
@@ -887,8 +888,12 @@
         "PBC10",
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A7",
+        "PBC10",
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
