@@ -1658,12 +1658,10 @@
       "rowId": "Murmi|52",
       "tech": "wärmepumpe",
       "question": "Q20",
-      "codesA": [
-        "eA10"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
