@@ -1398,6 +1398,14 @@
       "action": "concede",
       "code": "A52",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:23:25.195Z",
+      "coder": "B",
+      "cellId": "fernwärme|Thorny|266|Q26",
+      "action": "adopt",
+      "code": "A1",
+      "mode": "after_discussion"
     }
   ]
 }
