@@ -176,16 +176,13 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A4",
-        "PBC5"
+        "A4"
       ],
       "codesB": [
-        "A4",
-        "PBC5"
+        "A4"
       ],
       "harmonized": [
-        "A4",
-        "PBC5"
+        "A4"
       ],
       "status": "resolved",
       "discussion": [
