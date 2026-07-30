@@ -1590,6 +1590,14 @@
       "action": "concede",
       "code": "ePBC14",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:47:53.930Z",
+      "coder": "A",
+      "cellId": "biomass|Karl|49|Q31",
+      "action": "adopt",
+      "code": "A7",
+      "mode": "after_discussion"
     }
   ]
 }
