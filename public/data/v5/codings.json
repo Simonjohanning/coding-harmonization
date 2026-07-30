@@ -879,12 +879,12 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
-        "A7",
         "PBC10",
         "PBC6"
       ],
       "codesB": [
         "A7",
+        "PBC10",
         "PBC6"
       ],
       "harmonized": null,
@@ -3402,11 +3402,12 @@
         "eA11"
       ],
       "codesB": [
-        "A4",
         "eA11"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "eA11"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
