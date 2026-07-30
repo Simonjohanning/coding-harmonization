@@ -900,16 +900,20 @@
       "tech": "biomass",
       "question": "Q31",
       "codesA": [
+        "A7",
         "ePBC15"
       ],
       "codesB": [
         "A7",
         "ePBC15"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A7",
+        "ePBC15"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
