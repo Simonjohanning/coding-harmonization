@@ -604,14 +604,18 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
+        "A4",
         "PBC4"
       ],
       "codesB": [
         "A4",
         "PBC4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
