@@ -627,12 +627,16 @@
       "rowId": "HSV|38",
       "tech": "wärmepumpe",
       "question": "Q19",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
@@ -2823,10 +2827,16 @@
       "codesB": [
         "A1",
         "A4",
-        "PBC10"
+        "PBC10",
+        "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A4",
+        "PBC10",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
