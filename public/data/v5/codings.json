@@ -3164,15 +3164,22 @@
         "eSN7"
       ],
       "codesB": [
+        "PBC6",
         "SN1",
         "SN2",
         "eSN4",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC6",
+        "SN1",
+        "SN2",
+        "eSN4",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
-      "changedSinceLastVersion": true,
+      "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
     {
