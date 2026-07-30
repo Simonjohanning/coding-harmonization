@@ -1289,7 +1289,14 @@
       "codesB": [],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "hat für mich nichts mit der entscheidung zu tun",
+          "timestamp": "2026-07-30T11:40:57.416Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
