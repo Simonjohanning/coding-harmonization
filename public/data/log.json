@@ -1390,6 +1390,14 @@
       "action": "concede",
       "code": "eA10",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T13:21:41.696Z",
+      "coder": "A",
+      "cellId": "fernwärme|maddison|448|Q26",
+      "action": "concede",
+      "code": "A52",
+      "mode": "after_discussion"
     }
   ]
 }
