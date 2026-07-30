@@ -1171,6 +1171,13 @@
       "action": "concede",
       "code": "eSN8",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T07:32:57.770Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Murmi|52|Q20",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
