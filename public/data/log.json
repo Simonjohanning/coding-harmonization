@@ -1186,6 +1186,13 @@
       "action": "adopt",
       "code": "PBC5",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-07-30T07:57:27.798Z",
+      "coder": "B",
+      "cellId": "konventionelle|Pepe|43|Q38",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
