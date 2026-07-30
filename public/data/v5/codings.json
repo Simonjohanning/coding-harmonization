@@ -1738,8 +1738,15 @@
         "PBC5"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "fossile unabhängigkeit sehe ich hier nicht (nur dass sie nicht nötig ist)",
+          "timestamp": "2026-07-30T07:57:27.798Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
