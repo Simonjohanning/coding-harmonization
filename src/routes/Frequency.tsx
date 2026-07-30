@@ -6,6 +6,7 @@ import {
 import type { Codings, Answers, Labels } from "../lib/types";
 import { commit, loadLabels, loadVersion } from "../lib/data";
 import { familyOf, labelOf, normalizeCode, codeSortKey } from "../lib/codes";
+import { labelOfQuestion } from "../lib/questions";
 
 interface Props { version: number; }
 
@@ -396,7 +397,10 @@ function ExpandedAnswers({
               ? a.answer.slice(0, 220) + "…" : a.answer;
             return (
               <div key={id} className="expanded-answer">
-                <div className="meta">{a.rowId} · {a.question}</div>
+                <div className="meta">
+                  {a.rowId} · {a.question}
+                  {labelOfQuestion(a.question) && ` — ${labelOfQuestion(a.question)}`}
+                </div>
                 <div className="text">{preview}</div>
                 {a.answer.length > 220 && (
                   <button className="expand-btn"

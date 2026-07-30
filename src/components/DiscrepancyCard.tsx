@@ -1,6 +1,7 @@
-import { forwardRef, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import type { Cell, Coder, DiscussionEntry } from "../lib/types";
 import { isKnownCode, labelOf } from "../lib/codes";
+import { labelOfQuestion } from "../lib/questions";
 
 interface Props {
   cell: Cell;
@@ -11,17 +12,36 @@ interface Props {
   focused?: boolean;
   onAdopt: (code: string) => void;
   onConcede: (code: string) => void;
-  onFlagDiscussion: () => void;
+  onFlagDiscussion: (initialComment?: string) => void;
   onUnflag: () => void;
-  onResolveAfterDiscussion: () => void;
   onAppendDiscussion: (entry: DiscussionEntry) => void;
+}
+
+// Draft persistence: survives polling refetches, filter switches, and refresh.
+const DRAFT_KEY = (cellId: string) => `harm_draft_${cellId}`;
+
+function loadDraft(cellId: string): string {
+  try { return localStorage.getItem(DRAFT_KEY(cellId)) || ""; }
+  catch { return ""; }
+}
+function saveDraft(cellId: string, text: string) {
+  try {
+    if (text) localStorage.setItem(DRAFT_KEY(cellId), text);
+    else localStorage.removeItem(DRAFT_KEY(cellId));
+  } catch { /* ignore quota */ }
 }
 
 const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCard(p, ref) {
   const { cell, answer, coder, disabled, focused } = p;
   const [expanded, setExpanded] = useState(false);
   const [sharedOpen, setSharedOpen] = useState(false);
-  const [draft, setDraft] = useState("");
+  const [draft, setDraft] = useState<string>(() => loadDraft(cell.cellId));
+
+  // Persist draft on every keystroke
+  useEffect(() => { saveDraft(cell.cellId, draft); }, [cell.cellId, draft]);
+
+  // If the cell id changes (component reused for a different cell), reload
+  useEffect(() => { setDraft(loadDraft(cell.cellId)); }, [cell.cellId]);
 
   const mine = coder === "A" ? cell.codesA : cell.codesB;
   const theirs = coder === "A" ? cell.codesB : cell.codesA;
@@ -30,11 +50,34 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
   const onlyTheirs = theirs.filter(c => !mine.includes(c));
   const otherCoder: Coder = coder === "A" ? "B" : "A";
   const inDiscussion = cell.status === "discussion";
+  const isPending = cell.status === "pending";
 
   const answerTruncated = answer.length > 240;
   const sharedTooltip = shared
     .map(c => c + (labelOf(c) ? "  " + labelOf(c) : ""))
     .join("\n");
+
+  function submitFlag() {
+    const text = draft.trim();
+    p.onFlagDiscussion(text || undefined);
+    if (text) {
+      setDraft("");
+      saveDraft(cell.cellId, "");
+    }
+  }
+
+  function submitComment() {
+    const text = draft.trim();
+    if (!text) return;
+    p.onAppendDiscussion({
+      version: p.version,
+      coder,
+      text,
+      timestamp: new Date().toISOString(),
+    });
+    setDraft("");
+    saveDraft(cell.cellId, "");
+  }
 
   return (
     <div className={"card" + (focused ? " focused" : "")} ref={ref} tabIndex={-1}>
@@ -48,6 +91,9 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
         )}
         <span className="id">
           {cell.rowId} <span className="muted">·</span> {cell.question}
+          {labelOfQuestion(cell.question) && (
+            <span className="q-label"> — {labelOfQuestion(cell.question)}</span>
+          )}
         </span>
         <span style={{ flex: 1 }} />
         {shared.length > 0 && (
@@ -105,31 +151,34 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
       )}
 
       <div className="row-actions">
-        {!inDiscussion ? (
-          <button className="btn warn" onClick={p.onFlagDiscussion} disabled={disabled}>
-            Flag for discussion
+        {isPending && (
+          <button className="btn warn" onClick={submitFlag} disabled={disabled}>
+            {draft.trim() ? "Flag with comment" : "Flag for discussion"}
           </button>
-        ) : (
-          <>
-            <button className="btn" onClick={p.onUnflag} disabled={disabled}>
-              Unflag
-            </button>
-            <button className="btn primary" onClick={p.onResolveAfterDiscussion} disabled={disabled}>
-              Mark agreed (intersection)
-            </button>
-          </>
+        )}
+        {inDiscussion && (
+          <button className="btn" onClick={p.onUnflag} disabled={disabled}>
+            Unflag (back to pending)
+          </button>
         )}
         <span style={{ flex: 1 }} />
         <span className="muted">You are Coder {coder} · other = {otherCoder}</span>
       </div>
 
-      {inDiscussion && (
+      {(isPending || inDiscussion) && (
         <div className="discussion">
-          <h5>Discussion</h5>
-          {cell.discussion.length === 0 && (
+          <h5>
+            {inDiscussion ? "Discussion" : "Initial comment (optional)"}
+            {cell.discussion.length > 0 && (
+              <span className="muted" style={{ marginLeft: 8, fontSize: 11, textTransform: "none" }}>
+                — {cell.discussion.length} comment{cell.discussion.length === 1 ? "" : "s"}
+              </span>
+            )}
+          </h5>
+          {inDiscussion && cell.discussion.length === 0 && (
             <div className="muted">No comments yet.</div>
           )}
-          {cell.discussion.map((d, i) => (
+          {inDiscussion && cell.discussion.map((d, i) => (
             <div key={i} className="entry">
               <span className="who">
                 Coder {d.coder} · v{d.version} · {new Date(d.timestamp).toLocaleString()}
@@ -140,23 +189,19 @@ const DiscrepancyCard = forwardRef<HTMLDivElement, Props>(function DiscrepancyCa
           <textarea
             value={draft}
             onChange={e => setDraft(e.target.value)}
-            placeholder="Add a comment (visible to both coders)…"
+            placeholder={inDiscussion
+              ? "Add a comment (visible to both coders)…"
+              : "Type an initial comment then click Flag with comment…"}
             disabled={disabled}
           />
-          <div style={{ marginTop: 8 }}>
-            <button className="btn sm primary" disabled={!draft.trim() || disabled}
-              onClick={() => {
-                p.onAppendDiscussion({
-                  version: p.version,
-                  coder,
-                  text: draft.trim(),
-                  timestamp: new Date().toISOString(),
-                });
-                setDraft("");
-              }}>
-              Post comment
-            </button>
-          </div>
+          {inDiscussion && (
+            <div style={{ marginTop: 8 }}>
+              <button className="btn sm primary" disabled={!draft.trim() || disabled}
+                onClick={submitComment}>
+                Post comment
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>
