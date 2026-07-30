@@ -2886,6 +2886,7 @@
       "question": "Q31",
       "codesA": [
         "A4",
+        "A7",
         "ePBC15"
       ],
       "codesB": [
@@ -2893,8 +2894,12 @@
         "A7",
         "ePBC15"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A7",
+        "ePBC15"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
