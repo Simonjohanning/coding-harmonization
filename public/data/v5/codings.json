@@ -3174,8 +3174,15 @@
       ],
       "codesB": [],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 5,
+          "coder": "B",
+          "text": "Das ist mir zu generell und zu wenig auf die Technologie und Entscheidung gemüntzt",
+          "timestamp": "2026-07-30T11:05:14.963Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
     },
