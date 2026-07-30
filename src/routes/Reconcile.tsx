@@ -13,6 +13,53 @@ interface Props {
 type StatusFilter = "all" | "pending" | "discussion" | "resolved" | "auto";
 type SortMode = "ingest" | "recent" | "flagged";
 
+// Local per-cell record of a write we made, so we can distinguish
+// "CDN is stale" (poll returns pre-write state) from "other coder changed
+// it" (poll returns a version that's neither pre- nor post-write).
+interface WriteWatch {
+  preWrite: Cell;
+  postWrite: Cell;
+  createdAt: number;
+}
+
+// Compare two Cell records for content equality on the fields
+// we care about for sync.
+function cellsEqual(a: Cell, b: Cell): boolean {
+  if (a.status !== b.status) return false;
+  if (!arraysEqual(a.codesA, b.codesA)) return false;
+  if (!arraysEqual(a.codesB, b.codesB)) return false;
+  if (!arraysEqual(a.harmonized || [], b.harmonized || [])) return false;
+  if (a.discussion.length !== b.discussion.length) return false;
+  for (let i = 0; i < a.discussion.length; i++) {
+    const x = a.discussion[i], y = b.discussion[i];
+    if (x.text !== y.text || x.timestamp !== y.timestamp || x.coder !== y.coder) return false;
+  }
+  return true;
+}
+function arraysEqual(a: readonly string[], b: readonly string[]): boolean {
+  if (a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return false;
+  return true;
+}
+
+// Summarize what changed between pre and post to show on a conflict banner
+function describeWrite(pre: Cell, post: Cell): string {
+  const parts: string[] = [];
+  if (pre.status !== post.status) parts.push(`status ${pre.status} → ${post.status}`);
+  const addedA = post.codesA.filter(c => !pre.codesA.includes(c));
+  const removedA = pre.codesA.filter(c => !post.codesA.includes(c));
+  const addedB = post.codesB.filter(c => !pre.codesB.includes(c));
+  const removedB = pre.codesB.filter(c => !post.codesB.includes(c));
+  if (addedA.length) parts.push(`A +${addedA.join(",")}`);
+  if (removedA.length) parts.push(`A −${removedA.join(",")}`);
+  if (addedB.length) parts.push(`B +${addedB.join(",")}`);
+  if (removedB.length) parts.push(`B −${removedB.join(",")}`);
+  if (post.discussion.length > pre.discussion.length) {
+    parts.push(`+${post.discussion.length - pre.discussion.length} comment(s)`);
+  }
+  return parts.join(", ") || "no visible change";
+}
+
 export default function Reconcile({ version, coder, isCurrent }: Props) {
   const [codings, setCodings] = useState<Codings | null>(null);
   const [answersById, setAnswersById] = useState<Record<string, string>>({});
@@ -29,18 +76,16 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
   const [focusIdx, setFocusIdx] = useState(0);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
+  // Per-cell watch after a write — populated on success, consumed by poll.
+  const watchesRef = useRef<Map<string, WriteWatch>>(new Map());
+
+  // Conflict flags (banner shown until dismissed). Keyed by cellId.
+  const [conflicts, setConflicts] = useState<Map<string, string>>(new Map());
+
   useEffect(() => {
     (async () => {
       const { answers, codings } = await loadVersion(version);
-      const norm: Codings = {
-        ...codings,
-        cells: codings.cells.map(c => ({
-          ...c,
-          codesA: c.codesA.map(normalizeCode),
-          codesB: c.codesB.map(normalizeCode),
-          harmonized: c.harmonized ? c.harmonized.map(normalizeCode) : c.harmonized,
-        })),
-      };
+      const norm: Codings = normalizeCodings(codings);
       setCodings(norm);
       const map: Record<string, string> = {};
       for (const a of answers.cells) map[a.cellId] = a.answer;
@@ -51,26 +96,50 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
 
   // Poll for remote changes every 30s.
   const savingRef = useRef(false);
-  const lastWriteRef = useRef(0);
   useEffect(() => { savingRef.current = saving; }, [saving]);
   useEffect(() => {
     const interval = setInterval(async () => {
       if (document.visibilityState !== "visible") return;
       if (savingRef.current) return;
-      if (Date.now() - lastWriteRef.current < 15000) return;
       try {
         const { codings: fresh } = await loadVersion(version);
-        const norm: Codings = {
-          ...fresh,
-          cells: fresh.cells.map(c => ({
-            ...c,
-            codesA: c.codesA.map(normalizeCode),
-            codesB: c.codesB.map(normalizeCode),
-            harmonized: c.harmonized ? c.harmonized.map(normalizeCode) : c.harmonized,
-          })),
-        };
-        setCodings(norm);
-        // Also refresh log so "flagged first" sort stays current
+        const now = Date.now();
+        const watchMap = watchesRef.current;
+
+        const reconciled: Cell[] = fresh.cells.map(remoteCellRaw => {
+          const remoteCell = normalizeCell(remoteCellRaw);
+          const w = watchMap.get(remoteCell.cellId);
+          if (!w) return remoteCell;
+
+          // Expire watches after 5 minutes regardless.
+          if (now - w.createdAt > 5 * 60 * 1000) {
+            watchMap.delete(remoteCell.cellId);
+            return remoteCell;
+          }
+
+          if (cellsEqual(remoteCell, w.postWrite)) {
+            // CDN caught up with my write. Stop watching.
+            watchMap.delete(remoteCell.cellId);
+            return remoteCell;
+          }
+          if (cellsEqual(remoteCell, w.preWrite)) {
+            // CDN still serving pre-write state. Keep my local state,
+            // keep watching so a later poll can confirm.
+            return w.postWrite;
+          }
+          // Diverged: other coder wrote after me. Accept remote,
+          // flag for the coder to review.
+          watchMap.delete(remoteCell.cellId);
+          const summary = describeWrite(w.preWrite, w.postWrite);
+          setConflicts(prev => {
+            const next = new Map(prev);
+            next.set(remoteCell.cellId, `your write (${summary}) was overwritten by the other coder`);
+            return next;
+          });
+          return remoteCell;
+        });
+
+        setCodings({ ...fresh, cells: reconciled });
         try { setLog(await loadLog()); } catch { /* ignore */ }
       } catch {
         // ignore transient errors
@@ -84,7 +153,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     return Array.from(new Set(codings.cells.map(c => c.tech))).sort();
   }, [codings]);
 
-  // Build cellId -> first flag timestamp from log (for "flagged first" sort)
   const firstFlaggedAt = useMemo(() => {
     const m = new Map<string, string>();
     if (!log) return m;
@@ -96,7 +164,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     return m;
   }, [log]);
 
-  // Last activity timestamp per cell (most recent discussion entry, or first flag)
   function lastActivity(c: Cell): string | undefined {
     if (c.discussion && c.discussion.length > 0) {
       return c.discussion[c.discussion.length - 1].timestamp;
@@ -117,7 +184,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     if (sort === "ingest") return base;
 
     if (sort === "recent") {
-      // most recent activity first; cells with no activity go last, in ingest order
       const withIdx = base.map((c, i) => ({ c, i, t: lastActivity(c) }));
       withIdx.sort((x, y) => {
         if (x.t && y.t) return y.t.localeCompare(x.t);
@@ -128,7 +194,6 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
       return withIdx.map(x => x.c);
     }
 
-    // "flagged": cells with a flag first (oldest flag first); unflagged in ingest order
     const withIdx = base.map((c, i) => ({ c, i, t: firstFlaggedAt.get(c.cellId) }));
     withIdx.sort((x, y) => {
       if (x.t && y.t) return x.t.localeCompare(y.t);
@@ -187,9 +252,12 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     logEntries: ReturnType<typeof makeLogEntry>[]
   ) {
     if (!codings || !log) return;
+    const preWrite = codings.cells.find(c => c.cellId === cellId);
+    if (!preWrite) return;
     setSaving(true);
     setError(null);
-    const newCells = codings.cells.map(c => c.cellId === cellId ? updater(c) : c);
+    const postWrite = updater(preWrite);
+    const newCells = codings.cells.map(c => c.cellId === cellId ? postWrite : c);
     const newCodings: Codings = { ...codings, cells: newCells };
     const newLog: LogFile = { entries: [...log.entries, ...logEntries] };
 
@@ -213,7 +281,17 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
     setCodings(newCodings);
     setLog(newLog);
     setSaving(false);
-    lastWriteRef.current = Date.now();
+    // Register the watch so the poll can distinguish stale CDN from divergence.
+    watchesRef.current.set(cellId, {
+      preWrite, postWrite, createdAt: Date.now(),
+    });
+    // Dismiss any prior conflict banner on this cell since I just wrote.
+    setConflicts(prev => {
+      if (!prev.has(cellId)) return prev;
+      const next = new Map(prev);
+      next.delete(cellId);
+      return next;
+    });
   }
 
   function tryAutoResolve(cell: Cell): Cell {
@@ -269,6 +347,7 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
         <span><span className="kbd">j</span> / <span className="kbd">↓</span> next</span>
         <span><span className="kbd">k</span> / <span className="kbd">↑</span> previous</span>
         <span><span className="kbd">g</span> / <span className="kbd">G</span> top / bottom</span>
+        <span><span className="kbd">Ctrl</span>+<span className="kbd">Enter</span> submit comment</span>
         <span style={{ flex: 1 }} />
         {filtered.length > 0 && (
           <span>{focusIdx + 1} / {filtered.length}</span>
@@ -291,6 +370,15 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
           version={version}
           disabled={!isCurrent || saving}
           focused={i === focusIdx}
+          conflict={conflicts.get(cell.cellId)}
+          onDismissConflict={() => {
+            setConflicts(prev => {
+              if (!prev.has(cell.cellId)) return prev;
+              const next = new Map(prev);
+              next.delete(cell.cellId);
+              return next;
+            });
+          }}
           onAdopt={(code) => updateCell(cell.cellId, c => {
             const key = coder === "A" ? "codesA" : "codesB";
             if (c[key].includes(code)) return c;
@@ -305,6 +393,22 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
             return tryAutoResolve(updated);
           }, [makeLogEntry(coder, cell.cellId, "concede",
               cell.status === "discussion" ? "after_discussion" : "no_discussion", code)])
+          }
+          onAddCode={(code, applyToBoth) => updateCell(cell.cellId, c => {
+            const myKey = coder === "A" ? "codesA" : "codesB";
+            const otherKey = coder === "A" ? "codesB" : "codesA";
+            let updated: Cell = { ...c };
+            if (!updated[myKey].includes(code)) {
+              updated = { ...updated, [myKey]: [...updated[myKey], code].sort() } as Cell;
+            }
+            if (applyToBoth && !updated[otherKey].includes(code)) {
+              updated = { ...updated, [otherKey]: [...updated[otherKey], code].sort() } as Cell;
+            }
+            return tryAutoResolve(updated);
+          }, [makeLogEntry(coder, cell.cellId,
+              applyToBoth ? "add_bilateral" : "adopt",
+              cell.status === "discussion" ? "after_discussion" : "no_discussion",
+              code)])
           }
           onFlagDiscussion={(initialComment) => {
             const entries: DiscussionEntry[] = initialComment ? [{
@@ -332,4 +436,19 @@ export default function Reconcile({ version, coder, isCurrent }: Props) {
       ))}
     </div>
   );
+}
+
+// --- helpers ---
+
+function normalizeCell(c: Cell): Cell {
+  return {
+    ...c,
+    codesA: c.codesA.map(normalizeCode),
+    codesB: c.codesB.map(normalizeCode),
+    harmonized: c.harmonized ? c.harmonized.map(normalizeCode) : c.harmonized,
+  };
+}
+
+function normalizeCodings(codings: Codings): Codings {
+  return { ...codings, cells: codings.cells.map(normalizeCell) };
 }
