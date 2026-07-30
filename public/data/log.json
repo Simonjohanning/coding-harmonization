@@ -1544,19 +1544,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-07-30T13:42:41.581Z",
-      "coder": "A",
+      "timestamp": "2026-07-30T13:43:04.000Z",
+      "coder": "B",
       "cellId": "biomass|fishhead|55|Q27",
-      "action": "concede",
-      "code": "ePBC14",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-07-30T13:42:51.581Z",
-      "coder": "A",
-      "cellId": "biomass|fishhead|55|Q27",
-      "action": "concede",
-      "code": "PBC9",
+      "action": "adopt",
+      "code": "PBC5",
       "mode": "after_discussion"
     }
   ]
