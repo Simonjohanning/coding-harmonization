@@ -2462,14 +2462,15 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
-        "A51",
         "PBC12"
       ],
       "codesB": [
         "PBC12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 5,
