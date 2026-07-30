@@ -1769,6 +1769,7 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
+        "A4",
         "A7",
         "PBC5",
         "ePBC15"
@@ -1779,8 +1780,13 @@
         "PBC5",
         "ePBC15"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A7",
+        "PBC5",
+        "ePBC15"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": 4
