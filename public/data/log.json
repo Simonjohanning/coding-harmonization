@@ -1336,15 +1336,7 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-07-30T11:42:54.110Z",
-      "coder": "B",
-      "cellId": "konventionelle|Carsten|260|Q34",
-      "action": "add_bilateral",
-      "code": "PBC5",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-07-30T11:42:58.656Z",
+      "timestamp": "2026-07-30T11:43:14.320Z",
       "coder": "B",
       "cellId": "konventionelle|Carsten|260|Q34",
       "action": "concede",
