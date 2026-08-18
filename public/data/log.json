@@ -2332,6 +2332,14 @@
       "action": "adopt",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:32:42.415Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|alex0020|375|Q16",
+      "action": "adopt",
+      "code": "A4",
+      "mode": "no_discussion"
     }
   ]
 }
