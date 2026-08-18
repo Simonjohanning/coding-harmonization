@@ -2075,6 +2075,14 @@
       "action": "concede",
       "code": "A1",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:37:45.603Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Special K|927|Q19",
+      "action": "concede",
+      "code": "A2",
+      "mode": "no_discussion"
     }
   ]
 }
