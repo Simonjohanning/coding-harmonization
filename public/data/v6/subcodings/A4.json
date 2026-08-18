@@ -1507,7 +1507,9 @@
       "rowId": "ulimer|952",
       "tech": "konventionelle",
       "question": "Q33",
-      "codesA": [],
+      "codesA": [
+        "A41"
+      ],
       "codesB": [
         "A41",
         "A42",
