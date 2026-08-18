@@ -2387,6 +2387,14 @@
       "action": "adopt",
       "code": "A52",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:40:56.334Z",
+      "coder": "A",
+      "cellId": "konventionelle|Puchi|381|Q38",
+      "action": "adopt",
+      "code": "eA11",
+      "mode": "after_discussion"
     }
   ]
 }
