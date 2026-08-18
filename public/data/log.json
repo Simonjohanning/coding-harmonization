@@ -2589,11 +2589,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:41:48.234Z",
-      "coder": "A",
-      "cellId": "biomass|Michel68|300|Q29",
+      "timestamp": "2026-08-18T12:42:03.907Z",
+      "coder": "B",
+      "cellId": "fernwärme|Knorke|1150|Q23",
       "action": "adopt",
-      "code": "eSN5",
+      "code": "SN1",
       "mode": "after_discussion"
     }
   ]
