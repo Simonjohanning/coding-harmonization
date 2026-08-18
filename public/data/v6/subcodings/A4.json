@@ -1169,7 +1169,9 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A43"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
