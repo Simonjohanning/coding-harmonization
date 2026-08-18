@@ -5393,7 +5393,9 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [],
+      "codesA": [
+        "A51"
+      ],
       "codesB": [
         "A4",
         "A51",
