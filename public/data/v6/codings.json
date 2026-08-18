@@ -6320,11 +6320,16 @@
         "eSN7"
       ],
       "codesB": [
+        "SN1",
         "eSN5",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
