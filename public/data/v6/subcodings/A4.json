@@ -384,7 +384,9 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A41"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
