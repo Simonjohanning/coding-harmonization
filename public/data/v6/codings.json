@@ -2100,15 +2100,17 @@
       "question": "Q31",
       "codesA": [
         "L",
-        "PBC3",
         "PBC5"
       ],
       "codesB": [
         "L",
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "L",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
