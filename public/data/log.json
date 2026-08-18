@@ -2132,14 +2132,7 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:19:53.132Z",
-      "coder": "A",
-      "cellId": "konventionelle|Doc Brown|525|Q33",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:20:51.017Z",
+      "timestamp": "2026-08-18T11:20:22.034Z",
       "coder": "A",
       "cellId": "konventionelle|Doc Brown|525|Q36",
       "action": "adopt",
@@ -2147,35 +2140,19 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:21:55.351Z",
+      "timestamp": "2026-08-18T11:21:23.166Z",
       "coder": "A",
       "cellId": "fernwärme|Frankenmaedle|126|Q21",
-      "action": "adopt",
-      "code": "A3",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:21:58.866Z",
-      "coder": "A",
-      "cellId": "fernwärme|Frankenmaedle|126|Q23",
-      "action": "adopt",
-      "code": "eSN4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:22:04.767Z",
-      "coder": "A",
-      "cellId": "fernwärme|Frankenmaedle|126|Q24",
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:22:09.950Z",
+      "timestamp": "2026-08-18T11:22:19.466Z",
       "coder": "A",
-      "cellId": "fernwärme|Frankenmaedle|126|Q23",
+      "cellId": "fernwärme|Frankenmaedle|126|Q21",
       "action": "adopt",
-      "code": "eSN7",
+      "code": "A3",
       "mode": "no_discussion"
     }
   ]
