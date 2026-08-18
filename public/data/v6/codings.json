@@ -2525,15 +2525,10 @@
       ],
       "codesB": [
         "A1",
-        "A4",
         "PBC10"
       ],
-      "harmonized": [
-        "A1",
-        "A4",
-        "PBC10"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -2574,14 +2569,10 @@
         "eSN7"
       ],
       "codesB": [
-        "SN1",
         "eSN7"
       ],
-      "harmonized": [
-        "SN1",
-        "eSN7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -3856,14 +3847,10 @@
         "A51"
       ],
       "codesB": [
-        "A4",
-        "A51"
+        "A4"
       ],
-      "harmonized": [
-        "A4",
-        "A51"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -4195,6 +4182,7 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
+        "A4",
         "PBC4"
       ],
       "codesB": [
