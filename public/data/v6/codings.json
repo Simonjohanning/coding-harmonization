@@ -1663,10 +1663,17 @@
         "A1",
         "A3",
         "A4",
-        "PBC6"
+        "PBC6",
+        "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A3",
+        "A4",
+        "PBC6",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
