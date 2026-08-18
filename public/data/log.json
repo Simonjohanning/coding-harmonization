@@ -2731,6 +2731,14 @@
       "action": "concede",
       "code": "eSN5",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:06:47.955Z",
+      "coder": "B",
+      "cellId": "konventionelle|Doc Brown|525|Q37",
+      "action": "concede",
+      "code": "ePBC15",
+      "mode": "after_discussion"
     }
   ]
 }
