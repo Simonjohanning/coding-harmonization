@@ -1790,7 +1790,8 @@
       "tech": "konventionelle",
       "question": "Q38",
       "codesA": [
-        "A52"
+        "A52",
+        "eA12"
       ],
       "codesB": [
         "eA12"
