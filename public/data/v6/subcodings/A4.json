@@ -755,7 +755,8 @@
       "question": "Q16",
       "codesA": [],
       "codesB": [
-        "A41"
+        "A41",
+        "A43"
       ],
       "harmonized": null,
       "status": "pending",
