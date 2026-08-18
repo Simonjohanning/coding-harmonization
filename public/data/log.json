@@ -1818,6 +1818,14 @@
       "cellId": "fernwärme|Dani|999|Q21",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:10:41.358Z",
+      "coder": "A",
+      "cellId": "fernwärme|Dani|999|Q23",
+      "action": "concede",
+      "code": "eSN4",
+      "mode": "no_discussion"
     }
   ]
 }
