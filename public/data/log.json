@@ -1928,15 +1928,15 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:23:19.914Z",
+      "timestamp": "2026-08-18T10:23:58.514Z",
       "coder": "A",
-      "cellId": "solar|Micki5|829|Q39",
+      "cellId": "wärmepumpe|Marcel|930|Q17",
       "action": "concede",
-      "code": "PBC5",
+      "code": "eSN4",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:24:21.499Z",
+      "timestamp": "2026-08-18T10:24:53.664Z",
       "coder": "A",
       "cellId": "solar|Mona|968|Q39",
       "action": "concede",
@@ -1944,41 +1944,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:24:25.847Z",
+      "timestamp": "2026-08-18T10:25:48.231Z",
       "coder": "A",
       "cellId": "solar|Mona|968|Q39",
       "action": "concede",
       "code": "A4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:24:39.963Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|Naddi|778|Q17",
-      "action": "adopt",
-      "code": "eSN7",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:25:27.147Z",
-      "coder": "A",
-      "cellId": "biomass|Paulchen|898|Q27",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:25:33.514Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|Naddi|778|Q17",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:25:40.380Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|Special K|927|Q17",
-      "action": "adopt",
-      "code": "eSN7",
       "mode": "no_discussion"
     }
   ]
