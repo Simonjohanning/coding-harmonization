@@ -1773,6 +1773,14 @@
       "action": "adopt",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T09:04:41.776Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Special K|927|Q18",
+      "action": "adopt",
+      "code": "PBC1",
+      "mode": "no_discussion"
     }
   ]
 }
