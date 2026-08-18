@@ -2771,6 +2771,14 @@
       "action": "concede",
       "code": "PBC10",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:12:48.306Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "add_bilateral",
+      "code": "eSN5",
+      "mode": "after_discussion"
     }
   ]
 }
