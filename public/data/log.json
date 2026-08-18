@@ -1749,6 +1749,14 @@
       "action": "adopt",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T09:01:48.775Z",
+      "coder": "B",
+      "cellId": "solar|Mona|968|Q43",
+      "action": "concede",
+      "code": "PBC16",
+      "mode": "no_discussion"
     }
   ]
 }
