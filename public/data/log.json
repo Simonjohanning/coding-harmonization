@@ -2765,11 +2765,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:12:27.744Z",
-      "coder": "A",
-      "cellId": "konventionelle|Puchi|381|Q38",
+      "timestamp": "2026-08-18T13:12:32.698Z",
+      "coder": "B",
+      "cellId": "konventionelle|Taxifahrer|456|Q33",
       "action": "concede",
-      "code": "eA11",
+      "code": "PBC10",
       "mode": "after_discussion"
     }
   ]
