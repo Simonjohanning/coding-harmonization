@@ -1283,12 +1283,16 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [],
+      "codesA": [
+        "A41"
+      ],
       "codesB": [
         "A41"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
