@@ -1316,12 +1316,16 @@
       "rowId": "fishhead|55",
       "tech": "biomass",
       "question": "Q27",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A42"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
