@@ -1881,6 +1881,13 @@
       "action": "adopt",
       "code": "L",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:18:14.543Z",
+      "coder": "A",
+      "cellId": "biomass|Karen|1180|Q31",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
