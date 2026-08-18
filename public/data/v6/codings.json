@@ -2100,17 +2100,15 @@
       "question": "Q31",
       "codesA": [
         "L",
+        "PBC3",
         "PBC5"
       ],
       "codesB": [
         "L",
         "PBC5"
       ],
-      "harmonized": [
-        "L",
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -2519,16 +2517,18 @@
       "tech": "fernwärme",
       "question": "Q21",
       "codesA": [
-        "A1",
         "A4",
         "PBC10"
       ],
       "codesB": [
-        "A1",
+        "A4",
         "PBC10"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC10"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -2570,6 +2570,7 @@
         "eSN7"
       ],
       "codesB": [
+        "SN1",
         "eSN7"
       ],
       "harmonized": null,
