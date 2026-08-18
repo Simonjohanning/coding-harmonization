@@ -1996,6 +1996,13 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:29:05.966Z",
+      "coder": "A",
+      "cellId": "biomass|mandy|741|Q30",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
