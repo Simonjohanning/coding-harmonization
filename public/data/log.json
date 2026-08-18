@@ -2132,34 +2132,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:19:53.132Z",
-      "coder": "A",
-      "cellId": "konventionelle|Doc Brown|525|Q33",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:20:02.083Z",
-      "coder": "A",
-      "cellId": "konventionelle|Doc Brown|525|Q34",
-      "action": "adopt",
-      "code": "eA12",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:20:05.699Z",
-      "coder": "A",
-      "cellId": "konventionelle|Doc Brown|525|Q35",
-      "action": "adopt",
-      "code": "SN1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:20:10.316Z",
+      "timestamp": "2026-08-18T11:20:22.034Z",
       "coder": "A",
       "cellId": "konventionelle|Doc Brown|525|Q36",
       "action": "adopt",
-      "code": "ePBC15",
+      "code": "A7",
       "mode": "no_discussion"
     }
   ]
