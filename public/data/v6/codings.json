@@ -3435,19 +3435,13 @@
       "tech": "solar",
       "question": "Q41",
       "codesA": [
-        "SN1",
-        "eSN5",
-        "eSN8"
+        "SN1"
       ],
       "codesB": [
-        "SN1",
-        "eSN5",
-        "eSN8"
+        "SN1"
       ],
       "harmonized": [
-        "SN1",
-        "eSN5",
-        "eSN8"
+        "SN1"
       ],
       "status": "resolved",
       "discussion": [],
@@ -3824,9 +3818,13 @@
       "codesA": [
         "PBC12"
       ],
-      "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "codesB": [
+        "PBC12"
+      ],
+      "harmonized": [
+        "PBC12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -4219,14 +4217,10 @@
         "PBC4"
       ],
       "codesB": [
-        "A4",
-        "PBC4"
+        "A4"
       ],
-      "harmonized": [
-        "A4",
-        "PBC4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -4735,17 +4729,11 @@
       ],
       "codesB": [
         "A4",
-        "A52",
         "A8",
-        "PBC1"
+        "PBC10"
       ],
-      "harmonized": [
-        "A4",
-        "A52",
-        "A8",
-        "PBC1"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -6321,17 +6309,14 @@
       "question": "Q17",
       "codesA": [
         "SN1",
-        "eSN5",
         "eSN7"
       ],
       "codesB": [
         "SN1",
-        "eSN5",
         "eSN7"
       ],
       "harmonized": [
         "SN1",
-        "eSN5",
         "eSN7"
       ],
       "status": "resolved",
