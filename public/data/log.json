@@ -2099,6 +2099,14 @@
       "action": "concede",
       "code": "A1",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:38:54.937Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Itsy|812|Q20",
+      "action": "concede",
+      "code": "PBC9",
+      "mode": "no_discussion"
     }
   ]
 }
