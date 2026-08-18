@@ -3556,16 +3556,12 @@
       "rowId": "Mona|968",
       "tech": "solar",
       "question": "Q42",
-      "codesA": [
-        "ePBC16"
-      ],
+      "codesA": [],
       "codesB": [
         "ePBC16"
       ],
-      "harmonized": [
-        "ePBC16"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -4727,6 +4723,7 @@
       ],
       "codesB": [
         "A4",
+        "A52",
         "A8",
         "PBC10"
       ],
@@ -4748,16 +4745,12 @@
       "rowId": "Taxifahrer|456",
       "tech": "konventionelle",
       "question": "Q34",
-      "codesA": [
-        "PBC5"
-      ],
+      "codesA": [],
       "codesB": [
         "PBC5"
       ],
-      "harmonized": [
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -6574,10 +6567,14 @@
         "PBC6"
       ],
       "codesB": [
+        "A4",
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
