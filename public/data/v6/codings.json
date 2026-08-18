@@ -453,8 +453,15 @@
         "ePBC15"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hab hier A3 für diese Abhängigkeit kodiert",
+          "timestamp": "2026-08-18T10:08:35.691Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
