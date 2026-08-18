@@ -2733,11 +2733,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:08:45.026Z",
-      "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q34",
+      "timestamp": "2026-08-18T13:08:51.308Z",
+      "coder": "B",
+      "cellId": "konventionelle|Taxifahrer|456|Q33",
       "action": "adopt",
-      "code": "PBC5",
+      "code": "A52",
       "mode": "after_discussion"
     }
   ]
