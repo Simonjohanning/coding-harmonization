@@ -3379,14 +3379,15 @@
       "tech": "solar",
       "question": "Q39",
       "codesA": [
-        "A1",
-        "A4"
+        "A1"
       ],
       "codesB": [
         "A1"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A1"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -3741,8 +3742,15 @@
         "A4"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "wie würdest du rauch/ruß kodieren?",
+          "timestamp": "2026-08-18T10:25:27.147Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
