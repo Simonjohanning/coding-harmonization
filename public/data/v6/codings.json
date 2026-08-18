@@ -4522,12 +4522,10 @@
       "rowId": "Special K|927",
       "tech": "wärmepumpe",
       "question": "Q19",
-      "codesA": [
-        "A2"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
