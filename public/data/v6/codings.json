@@ -1074,12 +1074,16 @@
       "rowId": "Doc Brown|525",
       "tech": "konventionelle",
       "question": "Q35",
-      "codesA": [],
+      "codesA": [
+        "SN1"
+      ],
       "codesB": [
         "SN1"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "SN1"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
