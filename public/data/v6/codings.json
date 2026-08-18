@@ -4195,18 +4195,14 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
-        "A4",
         "PBC4"
       ],
       "codesB": [
         "A4",
         "PBC4"
       ],
-      "harmonized": [
-        "A4",
-        "PBC4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
