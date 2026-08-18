@@ -600,7 +600,9 @@
       "rowId": "Itsy|812",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A41",
         "A42",
