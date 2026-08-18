@@ -1735,11 +1735,35 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T09:02:01.181Z",
+      "timestamp": "2026-08-18T09:01:35.553Z",
+      "coder": "B",
+      "cellId": "solar|Mona|968|Q43",
+      "action": "adopt",
+      "code": "ePBC16",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T09:01:43.922Z",
+      "coder": "B",
+      "cellId": "solar|Mona|968|Q43",
+      "action": "adopt",
+      "code": "PBC4",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T09:01:48.775Z",
       "coder": "B",
       "cellId": "solar|Mona|968|Q43",
       "action": "concede",
       "code": "PBC16",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T09:02:42.674Z",
+      "coder": "B",
+      "cellId": "biomass|Paulchen|898|Q27",
+      "action": "concede",
+      "code": "PBC10",
       "mode": "no_discussion"
     }
   ]
