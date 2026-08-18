@@ -1226,7 +1226,9 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A43"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
