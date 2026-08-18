@@ -2525,10 +2525,15 @@
       ],
       "codesB": [
         "A1",
+        "A4",
         "PBC10"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A4",
+        "PBC10"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
