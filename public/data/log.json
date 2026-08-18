@@ -2075,6 +2075,14 @@
       "action": "concede",
       "code": "A2",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:36:04.057Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|wupper1983|757|Q18",
+      "action": "concede",
+      "code": "PBC1",
+      "mode": "no_discussion"
     }
   ]
 }
