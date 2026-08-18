@@ -1805,14 +1805,15 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A7",
-        "eA12"
+        "A7"
       ],
       "codesB": [
         "A7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
