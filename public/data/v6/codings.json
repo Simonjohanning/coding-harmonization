@@ -899,7 +899,8 @@
       "tech": "fernwärme",
       "question": "Q21",
       "codesA": [
-        "A51"
+        "A51",
+        "PBC3"
       ],
       "codesB": [
         "A1",
