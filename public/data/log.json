@@ -1895,6 +1895,14 @@
       "cellId": "fernwärme|Knorke|1150|Q23",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:19:29.411Z",
+      "coder": "A",
+      "cellId": "biomass|Lexi|809|Q27",
+      "action": "adopt",
+      "code": "L",
+      "mode": "no_discussion"
     }
   ]
 }
