@@ -4709,6 +4709,7 @@
       "codesB": [
         "A4",
         "A8",
+        "PBC1",
         "PBC10"
       ],
       "harmonized": null,
@@ -5487,18 +5488,14 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
-        "A3",
         "A4"
       ],
       "codesB": [
         "A3",
         "A4"
       ],
-      "harmonized": [
-        "A3",
-        "A4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -5605,17 +5602,15 @@
       "question": "Q15",
       "codesA": [
         "A2",
-        "A4"
+        "A4",
+        "eA12"
       ],
       "codesB": [
         "A2",
         "A4"
       ],
-      "harmonized": [
-        "A2",
-        "A4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
