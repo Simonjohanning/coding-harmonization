@@ -2675,6 +2675,14 @@
       "action": "adopt",
       "code": "A51",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:56:20.812Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "adopt",
+      "code": "SN1",
+      "mode": "after_discussion"
     }
   ]
 }
