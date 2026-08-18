@@ -4698,7 +4698,9 @@
       "rowId": "Taxifahrer|456",
       "tech": "konventionelle",
       "question": "Q35",
-      "codesA": [],
+      "codesA": [
+        "SN1"
+      ],
       "codesB": [
         "SN1",
         "eSN5"
