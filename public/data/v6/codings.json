@@ -1358,7 +1358,9 @@
         "PBC6"
       ],
       "harmonized": [
-        "A4",
+        "A41",
+        "A42",
+        "A43",
         "PBC6"
       ],
       "status": "resolved",
