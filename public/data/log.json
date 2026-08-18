@@ -1972,6 +1972,14 @@
       "cellId": "wärmepumpe|Naddi|778|Q17",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:25:40.380Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Special K|927|Q17",
+      "action": "adopt",
+      "code": "eSN7",
+      "mode": "no_discussion"
     }
   ]
 }
