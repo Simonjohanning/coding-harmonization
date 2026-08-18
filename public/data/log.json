@@ -2077,19 +2077,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:37:45.603Z",
+      "timestamp": "2026-08-18T10:38:17.436Z",
       "coder": "A",
-      "cellId": "wärmepumpe|Special K|927|Q19",
+      "cellId": "wärmepumpe|Naddi|778|Q20",
       "action": "concede",
-      "code": "A2",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:37:53.370Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|Special K|927|Q20",
-      "action": "concede",
-      "code": "A4",
+      "code": "A1",
       "mode": "no_discussion"
     }
   ]
