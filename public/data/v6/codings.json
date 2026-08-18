@@ -3379,15 +3379,14 @@
       "tech": "solar",
       "question": "Q39",
       "codesA": [
-        "A1"
+        "A1",
+        "A4"
       ],
       "codesB": [
         "A1"
       ],
-      "harmonized": [
-        "A1"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
