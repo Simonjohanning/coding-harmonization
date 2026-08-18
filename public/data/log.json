@@ -2613,15 +2613,7 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:48:11.495Z",
-      "coder": "A",
-      "cellId": "konventionelle|Puchi|381|Q37",
-      "action": "adopt",
-      "code": "A4",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:49:27.842Z",
+      "timestamp": "2026-08-18T12:47:36.476Z",
       "coder": "B",
       "cellId": "fernwärme|Knorke|1150|Q21",
       "action": "adopt",
@@ -2629,23 +2621,23 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:51:02.342Z",
+      "timestamp": "2026-08-18T12:49:09.292Z",
       "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "PBC1",
+      "cellId": "konventionelle|Puchi|381|Q37",
+      "action": "concede",
+      "code": "A4",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:51:07.141Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T12:50:38.769Z",
+      "coder": "A",
       "cellId": "konventionelle|Taxifahrer|456|Q33",
       "action": "adopt",
-      "code": "A52",
+      "code": "A8",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:51:12.420Z",
+      "timestamp": "2026-08-18T12:52:04.252Z",
       "coder": "B",
       "cellId": "konventionelle|Taxifahrer|456|Q33",
       "action": "concede",
