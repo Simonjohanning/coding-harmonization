@@ -2446,8 +2446,15 @@
         "ePBC15"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hier hast du wieder Monopol mit ePBC15 und ich mit A3 kodiert. Können wir uns einfach auf eins einigen",
+          "timestamp": "2026-08-18T10:19:07.761Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
