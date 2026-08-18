@@ -1958,6 +1958,14 @@
       "action": "concede",
       "code": "PBC4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:26:07.299Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|diana1981|759|Q15",
+      "action": "adopt",
+      "code": "A4",
+      "mode": "no_discussion"
     }
   ]
 }
