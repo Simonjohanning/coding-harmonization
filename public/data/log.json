@@ -2709,27 +2709,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:06:00.091Z",
+      "timestamp": "2026-08-18T13:05:02.963Z",
       "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "cellId": "solar|Micki5|829|Q41",
       "action": "adopt",
-      "code": "A52",
+      "code": "SN1",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:06:04.673Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "timestamp": "2026-08-18T13:06:14.575Z",
+      "coder": "A",
+      "cellId": "solar|Mona|968|Q42",
       "action": "adopt",
-      "code": "PBC1",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:06:08.348Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "concede",
-      "code": "PBC10",
+      "code": "ePBC16",
       "mode": "after_discussion"
     }
   ]
