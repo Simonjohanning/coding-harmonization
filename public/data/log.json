@@ -2310,6 +2310,14 @@
       "action": "adopt",
       "code": "PBC2",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:30:42.532Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|alex0020|375|Q17",
+      "action": "adopt",
+      "code": "SN2",
+      "mode": "no_discussion"
     }
   ]
 }
