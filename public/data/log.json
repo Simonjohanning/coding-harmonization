@@ -2717,10 +2717,26 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:08:01.542Z",
-      "coder": "A",
-      "cellId": "konventionelle|Puchi|381|Q37",
-      "action": "add_bilateral",
+      "timestamp": "2026-08-18T13:06:27.059Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "adopt",
+      "code": "SN1",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:06:31.011Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "concede",
+      "code": "eSN5",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:08:12.310Z",
+      "coder": "B",
+      "cellId": "biomass|mandy|741|Q30",
+      "action": "adopt",
       "code": "A4",
       "mode": "after_discussion"
     }
