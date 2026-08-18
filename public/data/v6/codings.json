@@ -1040,19 +1040,16 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [
-        "A3",
         "A4",
         "A52",
         "A8"
       ],
       "codesB": [
-        "A3",
         "A4",
         "A52",
         "A8"
       ],
       "harmonized": [
-        "A3",
         "A4",
         "A52",
         "A8"
@@ -1656,7 +1653,6 @@
       "tech": "solar",
       "question": "Q39",
       "codesA": [
-        "A1",
         "A3",
         "A4",
         "PBC6",
@@ -1665,7 +1661,9 @@
       "codesB": [
         "A1",
         "A3",
-        "PBC6"
+        "A4",
+        "PBC6",
+        "eA12"
       ],
       "harmonized": null,
       "status": "discussion",
