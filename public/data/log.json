@@ -1872,6 +1872,14 @@
       "cellId": "konventionelle|Hyles|948|Q38",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:16:04.676Z",
+      "coder": "A",
+      "cellId": "biomass|Karen|1180|Q27",
+      "action": "adopt",
+      "code": "L",
+      "mode": "no_discussion"
     }
   ]
 }
