@@ -1729,10 +1729,12 @@
       "question": "Q42",
       "codesA": [
         "PBC7",
-        "SN1"
+        "SN1",
+        "ePBC14"
       ],
       "codesB": [
-        "PBC7"
+        "PBC7",
+        "ePBC14"
       ],
       "harmonized": null,
       "status": "discussion",
