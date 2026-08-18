@@ -285,10 +285,15 @@
       ],
       "codesB": [
         "A1",
-        "A4"
+        "A4",
+        "eA12"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A1",
+        "A4",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -3972,7 +3977,7 @@
       "question": "Q38",
       "codesA": [],
       "codesB": [
-        "Sn7"
+        "eSN7"
       ],
       "harmonized": null,
       "status": "pending",
@@ -5190,7 +5195,7 @@
       "codesB": [
         "SN1",
         "SN2",
-        "SN4",
+        "eSN4",
         "eSN6",
         "eSN7"
       ],
