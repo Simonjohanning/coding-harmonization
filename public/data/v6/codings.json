@@ -3296,12 +3296,16 @@
       "rowId": "Michel68|300",
       "tech": "biomass",
       "question": "Q30",
-      "codesA": [],
+      "codesA": [
+        "PBC6"
+      ],
       "codesB": [
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
