@@ -2326,42 +2326,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:31:32.147Z",
+      "timestamp": "2026-08-18T11:32:24.766Z",
       "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q17",
+      "cellId": "wärmepumpe|alex0020|375|Q19",
       "action": "adopt",
-      "code": "eSN7",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:31:42.065Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q16",
-      "action": "adopt",
-      "code": "A4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:31:58.631Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q16",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:32:04.565Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q18",
-      "action": "adopt",
-      "code": "PBC2",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:32:09.081Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q18",
-      "action": "adopt",
-      "code": "PBC6",
+      "code": "ePBC16",
       "mode": "no_discussion"
     }
   ]
