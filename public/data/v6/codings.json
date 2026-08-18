@@ -1094,18 +1094,14 @@
       "tech": "konventionelle",
       "question": "Q36",
       "codesA": [
-        "A7",
-        "ePBC15"
+        "A7"
       ],
       "codesB": [
         "A7",
         "ePBC15"
       ],
-      "harmonized": [
-        "A7",
-        "ePBC15"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -1271,18 +1267,14 @@
       "tech": "fernwärme",
       "question": "Q21",
       "codesA": [
-        "A3",
-        "A4"
+        "A3"
       ],
       "codesB": [
         "A3",
         "A4"
       ],
-      "harmonized": [
-        "A3",
-        "A4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -1330,18 +1322,14 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [
-        "A4",
-        "PBC6"
+        "A4"
       ],
       "codesB": [
         "A4",
         "PBC6"
       ],
-      "harmonized": [
-        "A4",
-        "PBC6"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
