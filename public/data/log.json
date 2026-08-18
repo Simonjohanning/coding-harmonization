@@ -1789,6 +1789,13 @@
       "action": "adopt",
       "code": "PBC1",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:04:40.290Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Bea|755|Q18",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
