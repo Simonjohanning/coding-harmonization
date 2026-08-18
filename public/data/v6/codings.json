@@ -1828,15 +1828,14 @@
       "tech": "konventionelle",
       "question": "Q35",
       "codesA": [
-        "SN1"
+        "SN1",
+        "eSN8"
       ],
       "codesB": [
         "SN1"
       ],
-      "harmonized": [
-        "SN1"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
