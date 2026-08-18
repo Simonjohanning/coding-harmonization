@@ -2721,13 +2721,10 @@
       "rowId": "Lexi|809",
       "tech": "biomass",
       "question": "Q32",
-      "codesA": [
-        "A1",
-        "A2"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -4096,12 +4093,16 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q34",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
