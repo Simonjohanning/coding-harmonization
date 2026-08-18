@@ -2621,11 +2621,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:49:27.842Z",
+      "timestamp": "2026-08-18T12:49:57.484Z",
       "coder": "B",
-      "cellId": "fernwärme|Knorke|1150|Q21",
+      "cellId": "konventionelle|Puchi|381|Q37",
       "action": "adopt",
-      "code": "A4",
+      "code": "PBC4",
       "mode": "after_discussion"
     }
   ]
