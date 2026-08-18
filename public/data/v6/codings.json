@@ -4706,8 +4706,15 @@
         "eSN5"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hab hier noch eSN4, weil geht ja auch um Familie",
+          "timestamp": "2026-08-18T11:28:19.753Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
