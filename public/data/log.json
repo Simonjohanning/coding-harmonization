@@ -2069,27 +2069,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:35:54.737Z",
+      "timestamp": "2026-08-18T10:37:37.336Z",
       "coder": "A",
-      "cellId": "wärmepumpe|khl|901|Q20",
+      "cellId": "wärmepumpe|Special K|927|Q20",
       "action": "concede",
-      "code": "A2",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:36:04.057Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|wupper1983|757|Q18",
-      "action": "concede",
-      "code": "PBC1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:36:12.108Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|wupper1983|757|Q18",
-      "action": "concede",
-      "code": "SN1",
+      "code": "A1",
       "mode": "no_discussion"
     }
   ]
