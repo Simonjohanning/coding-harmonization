@@ -2263,6 +2263,14 @@
       "cellId": "konventionelle|Taxifahrer|456|Q34",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:27:41.502Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q35",
+      "action": "adopt",
+      "code": "SN1",
+      "mode": "no_discussion"
     }
   ]
 }
