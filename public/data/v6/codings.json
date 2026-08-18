@@ -5455,6 +5455,7 @@
       "tech": "wärmepumpe",
       "question": "Q15",
       "codesA": [
+        "A4",
         "A51",
         "PBC2",
         "PBC9"
@@ -5465,8 +5466,13 @@
         "PBC2",
         "PBC9"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A51",
+        "PBC2",
+        "PBC9"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
