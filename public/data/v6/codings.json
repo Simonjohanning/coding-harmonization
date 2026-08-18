@@ -6104,12 +6104,10 @@
       "rowId": "khl|901",
       "tech": "wärmepumpe",
       "question": "Q20",
-      "codesA": [
-        "A2"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
