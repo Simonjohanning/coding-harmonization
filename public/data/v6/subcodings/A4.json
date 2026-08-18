@@ -565,7 +565,9 @@
       "rowId": "Hermi|784",
       "tech": "solar",
       "question": "Q43",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A41",
         "A42",
