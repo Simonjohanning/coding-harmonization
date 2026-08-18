@@ -2077,18 +2077,27 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:38:17.436Z",
+      "timestamp": "2026-08-18T10:37:45.603Z",
       "coder": "A",
-      "cellId": "wärmepumpe|Naddi|778|Q20",
+      "cellId": "wärmepumpe|Special K|927|Q19",
       "action": "concede",
-      "code": "A1",
+      "code": "A2",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:38:35.421Z",
+      "timestamp": "2026-08-18T10:37:53.370Z",
       "coder": "A",
-      "cellId": "wärmepumpe|Naddi|778|Q18",
-      "action": "flag_discussion",
+      "cellId": "wärmepumpe|Special K|927|Q20",
+      "action": "concede",
+      "code": "A4",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:38:51.054Z",
+      "coder": "A",
+      "cellId": "biomass|Lexi|809|Q32",
+      "action": "concede",
+      "code": "A1",
       "mode": "no_discussion"
     }
   ]
