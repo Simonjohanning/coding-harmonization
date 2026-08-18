@@ -4709,7 +4709,7 @@
       "codesB": [
         "A4",
         "A8",
-        "PBC1"
+        "PBC10"
       ],
       "harmonized": null,
       "status": "discussion",
@@ -4752,14 +4752,18 @@
       "tech": "konventionelle",
       "question": "Q35",
       "codesA": [
-        "SN1"
+        "SN1",
+        "eSN5"
       ],
       "codesB": [
         "SN1",
         "eSN5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
