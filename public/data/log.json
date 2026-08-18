@@ -2677,43 +2677,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:57:26.162Z",
-      "coder": "B",
-      "cellId": "wärmepumpe|khl|901|Q17",
-      "action": "adopt",
-      "code": "SN1",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:57:30.132Z",
-      "coder": "B",
-      "cellId": "wärmepumpe|khl|901|Q17",
+      "timestamp": "2026-08-18T12:57:23.522Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|wupper1983|757|Q17",
       "action": "concede",
-      "code": "eSN5",
+      "code": "eSN8",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:57:48.749Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "A52",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:57:52.787Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
+      "timestamp": "2026-08-18T12:59:03.189Z",
+      "coder": "A",
+      "cellId": "fernwärme|Dani|999|Q25",
+      "action": "concede",
       "code": "PBC1",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:57:57.027Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "concede",
-      "code": "PBC10",
       "mode": "after_discussion"
     }
   ]
