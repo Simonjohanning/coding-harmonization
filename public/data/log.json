@@ -2203,11 +2203,35 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:24:40.801Z",
+      "timestamp": "2026-08-18T11:23:13.917Z",
       "coder": "A",
-      "cellId": "konventionelle|Puchi|381|Q33",
+      "cellId": "biomass|Lexi|809|Q32",
+      "action": "concede",
+      "code": "A1",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:23:33.117Z",
+      "coder": "A",
+      "cellId": "biomass|Michel68|300|Q30",
       "action": "adopt",
-      "code": "A8",
+      "code": "PBC6",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:23:36.618Z",
+      "coder": "A",
+      "cellId": "biomass|Lexi|809|Q32",
+      "action": "concede",
+      "code": "A2",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:24:54.950Z",
+      "coder": "A",
+      "cellId": "konventionelle|Puchi|381|Q34",
+      "action": "adopt",
+      "code": "A4",
       "mode": "no_discussion"
     }
   ]
