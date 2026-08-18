@@ -2250,16 +2250,17 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:25:40.617Z",
+      "timestamp": "2026-08-18T11:26:21.952Z",
       "coder": "A",
-      "cellId": "konventionelle|Puchi|381|Q38",
-      "action": "flag_discussion",
+      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "action": "adopt",
+      "code": "A4",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:26:48.418Z",
+      "timestamp": "2026-08-18T11:27:25.370Z",
       "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "cellId": "konventionelle|Taxifahrer|456|Q34",
       "action": "flag_discussion",
       "mode": "no_discussion"
     }
