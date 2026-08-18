@@ -1472,7 +1472,8 @@
       "tech": "biomass",
       "question": "Q30",
       "codesA": [
-        "A41"
+        "A41",
+        "A43"
       ],
       "codesB": [
         "A43"
