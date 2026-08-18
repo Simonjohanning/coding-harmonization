@@ -2519,11 +2519,12 @@
         "A3"
       ],
       "codesB": [
-        "A3",
-        "ePBC15"
+        "A3"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A3"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
