@@ -2201,6 +2201,14 @@
       "action": "adopt",
       "code": "eSN7",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:23:13.917Z",
+      "coder": "A",
+      "cellId": "biomass|Lexi|809|Q32",
+      "action": "concede",
+      "code": "A1",
+      "mode": "no_discussion"
     }
   ]
 }
