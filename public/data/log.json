@@ -2509,19 +2509,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:25:02.504Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T12:25:17.850Z",
+      "coder": "A",
       "cellId": "solar|Hermi|784|Q42",
-      "action": "add_bilateral",
-      "code": "ePBC14",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:25:11.597Z",
-      "coder": "B",
-      "cellId": "solar|Hermi|784|Q39",
-      "action": "adopt",
-      "code": "eA12",
+      "action": "concede",
+      "code": "SN1",
       "mode": "after_discussion"
     }
   ]
