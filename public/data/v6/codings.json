@@ -1697,12 +1697,10 @@
       "rowId": "Hyles|948",
       "tech": "konventionelle",
       "question": "Q33",
-      "codesA": [
-        "A51"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
