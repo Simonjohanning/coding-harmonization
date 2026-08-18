@@ -1919,6 +1919,14 @@
       "action": "adopt",
       "code": "PBC5",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:21:57.945Z",
+      "coder": "A",
+      "cellId": "biomass|Lexi|809|Q29",
+      "action": "concede",
+      "code": "ePBC6",
+      "mode": "no_discussion"
     }
   ]
 }
