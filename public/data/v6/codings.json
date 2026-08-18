@@ -888,12 +888,16 @@
       "rowId": "DOppELpuNKt28|475",
       "tech": "fernwärme",
       "question": "Q25",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
