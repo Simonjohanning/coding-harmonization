@@ -1322,14 +1322,18 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [
-        "A4"
+        "A4",
+        "PBC6"
       ],
       "codesB": [
         "A4",
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
