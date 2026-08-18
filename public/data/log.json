@@ -2573,19 +2573,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:38:19.772Z",
-      "coder": "B",
-      "cellId": "fernwärme|Knorke|1150|Q21",
-      "action": "adopt",
-      "code": "A4",
+      "timestamp": "2026-08-18T12:37:23.800Z",
+      "coder": "A",
+      "cellId": "biomass|Karen|1180|Q31",
+      "action": "concede",
+      "code": "PBC3",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:38:50.540Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T12:39:26.050Z",
+      "coder": "A",
       "cellId": "fernwärme|Knorke|1150|Q23",
-      "action": "adopt",
-      "code": "SN1",
+      "action": "concede",
+      "code": "eSN4",
       "mode": "after_discussion"
     }
   ]
