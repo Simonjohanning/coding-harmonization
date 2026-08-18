@@ -2547,6 +2547,14 @@
       "action": "concede",
       "code": "A52",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:28:15.816Z",
+      "coder": "A",
+      "cellId": "konventionelle|Hyles|948|Q34",
+      "action": "concede",
+      "code": "eA12",
+      "mode": "after_discussion"
     }
   ]
 }
