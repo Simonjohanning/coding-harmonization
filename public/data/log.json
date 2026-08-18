@@ -2709,27 +2709,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:05:36.724Z",
-      "coder": "A",
+      "timestamp": "2026-08-18T13:05:02.963Z",
+      "coder": "B",
       "cellId": "solar|Micki5|829|Q41",
-      "action": "add_bilateral",
-      "code": "eSN8",
+      "action": "adopt",
+      "code": "SN1",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:07:26.267Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T13:08:01.542Z",
+      "coder": "A",
       "cellId": "konventionelle|Puchi|381|Q37",
       "action": "add_bilateral",
       "code": "A4",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:07:30.394Z",
-      "coder": "B",
-      "cellId": "konventionelle|Puchi|381|Q37",
-      "action": "adopt",
-      "code": "PBC4",
       "mode": "after_discussion"
     }
   ]
