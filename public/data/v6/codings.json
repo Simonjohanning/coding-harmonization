@@ -451,11 +451,13 @@
       ],
       "codesB": [
         "A3",
-        "A4",
-        "ePBC15"
+        "A4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A3",
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
