@@ -1950,6 +1950,14 @@
       "action": "concede",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:24:39.963Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Naddi|778|Q17",
+      "action": "adopt",
+      "code": "eSN7",
+      "mode": "no_discussion"
     }
   ]
 }
