@@ -1040,16 +1040,19 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [
+        "A3",
         "A4",
         "A52",
         "A8"
       ],
       "codesB": [
+        "A3",
         "A4",
         "A52",
         "A8"
       ],
       "harmonized": [
+        "A3",
         "A4",
         "A52",
         "A8"
