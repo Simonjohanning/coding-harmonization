@@ -2627,6 +2627,14 @@
       "action": "adopt",
       "code": "PBC4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:48:46.787Z",
+      "coder": "B",
+      "cellId": "konventionelle|Puchi|381|Q38",
+      "action": "concede",
+      "code": "eSN7",
+      "mode": "after_discussion"
     }
   ]
 }
