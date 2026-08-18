@@ -2691,6 +2691,14 @@
       "action": "concede",
       "code": "PBC1",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:01:25.260Z",
+      "coder": "B",
+      "cellId": "konventionelle|Doc Brown|525|Q37",
+      "action": "concede",
+      "code": "ePBC15",
+      "mode": "after_discussion"
     }
   ]
 }
