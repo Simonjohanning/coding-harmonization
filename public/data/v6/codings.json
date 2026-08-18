@@ -2852,14 +2852,15 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "PBC5",
         "PBC6"
       ],
       "codesB": [
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
