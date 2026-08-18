@@ -2177,6 +2177,14 @@
       "action": "adopt",
       "code": "PBC6",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:22:57.984Z",
+      "coder": "A",
+      "cellId": "konventionelle|Doc Brown|525|Q36",
+      "action": "adopt",
+      "code": "ePBC15",
+      "mode": "no_discussion"
     }
   ]
 }
