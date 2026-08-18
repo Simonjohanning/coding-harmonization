@@ -6025,14 +6025,15 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
-        "A4",
         "PBC5"
       ],
       "codesB": [
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
