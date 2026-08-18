@@ -1508,7 +1508,8 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [
-        "A41"
+        "A41",
+        "A42"
       ],
       "codesB": [
         "A41",
