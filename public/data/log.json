@@ -2294,6 +2294,14 @@
       "cellId": "wärmepumpe|alex0020|375|Q16",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:30:30.148Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|alex0020|375|Q17",
+      "action": "adopt",
+      "code": "eSN4",
+      "mode": "no_discussion"
     }
   ]
 }
