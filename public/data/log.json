@@ -1662,6 +1662,14 @@
       "action": "adopt",
       "code": "A7",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T08:48:28.283Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Bea|755|Q15",
+      "action": "adopt",
+      "code": "eA12",
+      "mode": "no_discussion"
     }
   ]
 }
