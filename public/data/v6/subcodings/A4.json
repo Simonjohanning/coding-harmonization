@@ -399,7 +399,8 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [
-        "A41"
+        "A41",
+        "A42"
       ],
       "codesB": [
         "A41",
