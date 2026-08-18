@@ -349,15 +349,20 @@
       "question": "Q18",
       "codesA": [
         "A7",
-        "PBC6"
+        "PBC6",
+        "ePBC14"
       ],
       "codesB": [
         "A7",
         "PBC6",
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A7",
+        "PBC6",
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
