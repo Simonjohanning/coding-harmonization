@@ -781,7 +781,9 @@
       "rowId": "Matt|2",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [],
+      "codesA": [
+        "A41"
+      ],
       "codesB": [
         "A41",
         "A42",
