@@ -1303,7 +1303,9 @@
       "rowId": "Frankenmaedle|126",
       "tech": "fernwärme",
       "question": "Q23",
-      "codesA": [],
+      "codesA": [
+        "eSN4"
+      ],
       "codesB": [
         "eSN4",
         "eSN7"
