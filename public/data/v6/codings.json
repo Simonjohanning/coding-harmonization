@@ -1847,9 +1847,12 @@
       "tech": "konventionelle",
       "question": "Q36",
       "codesA": [
+        "A2",
+        "A52",
         "PBC3"
       ],
       "codesB": [
+        "A2",
         "A7"
       ],
       "harmonized": null,
