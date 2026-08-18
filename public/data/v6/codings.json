@@ -1321,7 +1321,9 @@
       "rowId": "Frankenmaedle|126",
       "tech": "fernwärme",
       "question": "Q24",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4",
         "PBC6"
