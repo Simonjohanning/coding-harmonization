@@ -915,8 +915,15 @@
         "PBC3"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "für mich ist das der Komfort gedanke, ich muss mich um nichts extra kümmern und es ist warm. weiß nicht ob es nicht etwas zu weit hergeholt ist A1 zB zu kodieren",
+          "timestamp": "2026-08-18T10:09:36.439Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
