@@ -1653,6 +1653,7 @@
       "tech": "solar",
       "question": "Q39",
       "codesA": [
+        "A1",
         "A3",
         "A4",
         "PBC6",
@@ -1662,8 +1663,7 @@
         "A1",
         "A3",
         "A4",
-        "PBC6",
-        "eA12"
+        "PBC6"
       ],
       "harmonized": null,
       "status": "discussion",
