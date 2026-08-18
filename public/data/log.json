@@ -1836,23 +1836,17 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:11:58.058Z",
+      "timestamp": "2026-08-18T10:12:25.875Z",
       "coder": "A",
-      "cellId": "solar|Hermi|784|Q39",
-      "action": "flag_discussion",
+      "cellId": "solar|Hermi|784|Q40",
+      "action": "concede",
+      "code": "A52",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:12:57.609Z",
+      "timestamp": "2026-08-18T10:13:40.925Z",
       "coder": "A",
-      "cellId": "solar|Hermi|784|Q42",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:13:11.242Z",
-      "coder": "A",
-      "cellId": "konventionelle|Hyles|948|Q34",
+      "cellId": "konventionelle|Hyles|948|Q35",
       "action": "flag_discussion",
       "mode": "no_discussion"
     }
