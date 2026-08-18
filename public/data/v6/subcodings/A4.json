@@ -832,7 +832,9 @@
       "rowId": "Meisi|334",
       "tech": "fernwärme",
       "question": "Q24",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A42",
         "A43"
