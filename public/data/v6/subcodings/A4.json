@@ -442,7 +442,9 @@
       "tech": "solar",
       "question": "Q43",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A41"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
