@@ -2574,10 +2574,14 @@
         "eSN7"
       ],
       "codesB": [
+        "SN1",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
