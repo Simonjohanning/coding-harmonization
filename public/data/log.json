@@ -2279,6 +2279,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:29:23.469Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|alex0020|375|Q15",
+      "action": "adopt",
+      "code": "A51",
+      "mode": "no_discussion"
     }
   ]
 }
