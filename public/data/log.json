@@ -1718,6 +1718,14 @@
       "action": "concede",
       "code": "A3",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T08:58:13.826Z",
+      "coder": "B",
+      "cellId": "biomass|Lexi|809|Q27",
+      "action": "adopt",
+      "code": "A2",
+      "mode": "no_discussion"
     }
   ]
 }
