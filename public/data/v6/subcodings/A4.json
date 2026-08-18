@@ -839,7 +839,9 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A42"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
