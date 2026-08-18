@@ -4659,8 +4659,15 @@
         "PBC10"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hab hier PBC1 und A52",
+          "timestamp": "2026-08-18T11:26:48.418Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
