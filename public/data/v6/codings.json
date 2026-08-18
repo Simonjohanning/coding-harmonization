@@ -3556,14 +3556,18 @@
       "tech": "solar",
       "question": "Q42",
       "codesA": [
-        "PBC9"
+        "PBC9",
+        "ePBC16"
       ],
       "codesB": [
         "PBC9",
         "ePBC16"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC9",
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
