@@ -1988,6 +1988,14 @@
       "action": "concede",
       "code": "A3",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:28:56.516Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|khl|901|Q18",
+      "action": "adopt",
+      "code": "ePBC14",
+      "mode": "no_discussion"
     }
   ]
 }
