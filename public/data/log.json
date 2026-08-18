@@ -2403,6 +2403,14 @@
       "action": "adopt",
       "code": "PBC4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:46:12.958Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Bea|755|Q18",
+      "action": "concede",
+      "code": "PBC12",
+      "mode": "after_discussion"
     }
   ]
 }
