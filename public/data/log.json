@@ -2709,11 +2709,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:05:36.724Z",
-      "coder": "A",
-      "cellId": "solar|Micki5|829|Q41",
-      "action": "add_bilateral",
-      "code": "eSN8",
+      "timestamp": "2026-08-18T13:06:00.091Z",
+      "coder": "B",
+      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "action": "adopt",
+      "code": "A52",
       "mode": "after_discussion"
     }
   ]
