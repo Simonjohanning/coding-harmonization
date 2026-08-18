@@ -1847,10 +1847,11 @@
       "tech": "konventionelle",
       "question": "Q36",
       "codesA": [
-        "A7",
+        "A2",
         "PBC3"
       ],
       "codesB": [
+        "A2",
         "A7"
       ],
       "harmonized": null,
