@@ -2453,11 +2453,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:11:20.765Z",
+      "timestamp": "2026-08-18T12:11:02.502Z",
+      "coder": "B",
+      "cellId": "fernwärme|Dani|999|Q21",
+      "action": "add_bilateral",
+      "code": "PBC9",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:12:33.527Z",
       "coder": "B",
       "cellId": "fernwärme|Dani|999|Q21",
       "action": "concede",
-      "code": "A1",
+      "code": "PBC10",
       "mode": "after_discussion"
     }
   ]
