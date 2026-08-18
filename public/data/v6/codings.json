@@ -4736,12 +4736,16 @@
       "rowId": "Taxifahrer|456",
       "tech": "konventionelle",
       "question": "Q37",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
