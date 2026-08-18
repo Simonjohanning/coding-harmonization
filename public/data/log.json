@@ -1865,6 +1865,13 @@
       "action": "adopt",
       "code": "eA12",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:15:59.259Z",
+      "coder": "A",
+      "cellId": "konventionelle|Hyles|948|Q38",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
