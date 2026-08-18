@@ -1728,15 +1728,16 @@
       "tech": "solar",
       "question": "Q42",
       "codesA": [
-        "PBC7"
+        "PBC7",
+        "SN1",
+        "ePBC14"
       ],
       "codesB": [
-        "PBC7"
+        "PBC7",
+        "ePBC14"
       ],
-      "harmonized": [
-        "PBC7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -1805,7 +1806,6 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A52",
         "eA12"
       ],
       "codesB": [
