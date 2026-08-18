@@ -1868,12 +1868,10 @@
       "rowId": "Itsy|812",
       "tech": "wärmepumpe",
       "question": "Q18",
-      "codesA": [
-        "SN2"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
