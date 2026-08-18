@@ -1543,12 +1543,16 @@
       "rowId": "wupper1983|757",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [],
+      "codesA": [
+        "A43"
+      ],
       "codesB": [
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
