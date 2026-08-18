@@ -2485,7 +2485,15 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:20:12.816Z",
+      "timestamp": "2026-08-18T12:19:46.662Z",
+      "coder": "B",
+      "cellId": "konventionelle|Doc Brown|525|Q33",
+      "action": "add_bilateral",
+      "code": "A3",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:20:54.948Z",
       "coder": "A",
       "cellId": "konventionelle|Doc Brown|525|Q33",
       "action": "adopt",
@@ -2493,11 +2501,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:22:02.762Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T12:22:19.253Z",
+      "coder": "A",
       "cellId": "solar|Hermi|784|Q39",
       "action": "adopt",
-      "code": "A4",
+      "code": "A1",
       "mode": "after_discussion"
     }
   ]
