@@ -6286,13 +6286,11 @@
       ],
       "codesB": [
         "SN1",
+        "eSN5",
         "eSN7"
       ],
-      "harmonized": [
-        "SN1",
-        "eSN7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
