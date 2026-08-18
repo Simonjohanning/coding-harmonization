@@ -2284,6 +2284,14 @@
       "cellId": "wärmepumpe|alex0020|375|Q15",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:30:05.465Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q38",
+      "action": "adopt",
+      "code": "ePBC16",
+      "mode": "no_discussion"
     }
   ]
 }
