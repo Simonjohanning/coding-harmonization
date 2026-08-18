@@ -1920,14 +1920,18 @@
       "tech": "biomass",
       "question": "Q27",
       "codesA": [
-        "A2"
+        "A2",
+        "L"
       ],
       "codesB": [
         "A2",
         "L"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A2",
+        "L"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
