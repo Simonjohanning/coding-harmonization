@@ -2122,6 +2122,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:18:12.649Z",
+      "coder": "A",
+      "cellId": "fernwärme|DOppELpuNKt28|475|Q23",
+      "action": "adopt",
+      "code": "SN1",
+      "mode": "no_discussion"
     }
   ]
 }
