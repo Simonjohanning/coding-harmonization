@@ -3678,8 +3678,7 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "PBC12",
-        "SN2"
+        "PBC12"
       ],
       "codesB": [],
       "harmonized": null,
