@@ -851,7 +851,9 @@
       "rowId": "DOppELpuNKt28|475",
       "tech": "fernwärme",
       "question": "Q23",
-      "codesA": [],
+      "codesA": [
+        "SN1"
+      ],
       "codesB": [
         "SN1",
         "SN2"
