@@ -1094,14 +1094,18 @@
       "tech": "konventionelle",
       "question": "Q36",
       "codesA": [
-        "A7"
+        "A7",
+        "ePBC15"
       ],
       "codesB": [
         "A7",
         "ePBC15"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A7",
+        "ePBC15"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -1267,14 +1271,18 @@
       "tech": "fernwärme",
       "question": "Q21",
       "codesA": [
-        "A3"
+        "A3",
+        "A4"
       ],
       "codesB": [
         "A3",
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A3",
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -1303,19 +1311,13 @@
       "rowId": "Frankenmaedle|126",
       "tech": "fernwärme",
       "question": "Q23",
-      "codesA": [
-        "eSN4",
-        "eSN7"
-      ],
+      "codesA": [],
       "codesB": [
         "eSN4",
         "eSN7"
       ],
-      "harmonized": [
-        "eSN4",
-        "eSN7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
