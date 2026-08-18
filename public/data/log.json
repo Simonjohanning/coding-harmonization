@@ -2093,51 +2093,26 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:38:51.054Z",
+      "timestamp": "2026-08-18T10:39:28.388Z",
       "coder": "A",
-      "cellId": "biomass|Lexi|809|Q32",
-      "action": "concede",
-      "code": "A1",
+      "cellId": "fernwärme|Dani|999|Q25",
+      "action": "flag_discussion",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:38:54.937Z",
+      "timestamp": "2026-08-18T10:39:37.657Z",
       "coder": "A",
-      "cellId": "wärmepumpe|Itsy|812|Q20",
-      "action": "concede",
-      "code": "PBC9",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:39:01.639Z",
-      "coder": "A",
-      "cellId": "biomass|Lexi|809|Q32",
+      "cellId": "wärmepumpe|Bea|755|Q20",
       "action": "concede",
       "code": "A2",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:39:48.190Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|Bea|755|Q20",
-      "action": "concede",
-      "code": "A4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:40:00.404Z",
+      "timestamp": "2026-08-18T10:40:25.127Z",
       "coder": "A",
       "cellId": "wärmepumpe|wupper1983|757|Q18",
       "action": "concede",
       "code": "PBC1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:40:04.154Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|wupper1983|757|Q18",
-      "action": "concede",
-      "code": "SN1",
       "mode": "no_discussion"
     }
   ]
