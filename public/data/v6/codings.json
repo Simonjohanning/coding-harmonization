@@ -3856,10 +3856,14 @@
         "A51"
       ],
       "codesB": [
-        "A4"
+        "A4",
+        "A51"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A51"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
