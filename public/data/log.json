@@ -2435,6 +2435,14 @@
       "action": "concede",
       "code": "ePBC15",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:08:09.522Z",
+      "coder": "B",
+      "cellId": "fernwärme|Knorke|1150|Q22",
+      "action": "adopt",
+      "code": "A3",
+      "mode": "after_discussion"
     }
   ]
 }
