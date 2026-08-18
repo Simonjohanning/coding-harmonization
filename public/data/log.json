@@ -1789,6 +1789,14 @@
       "action": "adopt",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T09:04:53.787Z",
+      "coder": "B",
+      "cellId": "biomass|Paulchen|898|Q28",
+      "action": "concede",
+      "code": "A51",
+      "mode": "no_discussion"
     }
   ]
 }
