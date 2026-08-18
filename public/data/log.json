@@ -1875,23 +1875,24 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:17:23.743Z",
+      "timestamp": "2026-08-18T10:18:02.195Z",
+      "coder": "A",
+      "cellId": "biomass|Karen|1180|Q31",
+      "action": "adopt",
+      "code": "L",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:18:14.543Z",
       "coder": "A",
       "cellId": "biomass|Karen|1180|Q31",
       "action": "flag_discussion",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:17:35.260Z",
+      "timestamp": "2026-08-18T10:19:23.813Z",
       "coder": "A",
-      "cellId": "fernwärme|Knorke|1150|Q21",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:19:07.761Z",
-      "coder": "A",
-      "cellId": "fernwärme|Knorke|1150|Q22",
+      "cellId": "fernwärme|Knorke|1150|Q23",
       "action": "flag_discussion",
       "mode": "no_discussion"
     }
