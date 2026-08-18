@@ -654,7 +654,8 @@
       "tech": "fernwärme",
       "question": "Q25",
       "codesA": [
-        "A41"
+        "A41",
+        "A42"
       ],
       "codesB": [
         "A41",
