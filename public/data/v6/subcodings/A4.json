@@ -601,6 +601,7 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
+        "A41",
         "A42"
       ],
       "codesB": [
