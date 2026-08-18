@@ -6007,8 +6007,15 @@
         "A4"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hatten wir letzte Runde glaube auch Komfort an eine ähnliche Aussage hinkodiert",
+          "timestamp": "2026-08-18T10:26:55.148Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
