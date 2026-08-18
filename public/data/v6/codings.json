@@ -4195,9 +4195,12 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
+        "A4",
         "PBC4"
       ],
-      "codesB": [],
+      "codesB": [
+        "A4"
+      ],
       "harmonized": null,
       "status": "discussion",
       "discussion": [
