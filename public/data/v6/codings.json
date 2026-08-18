@@ -1093,7 +1093,9 @@
       "rowId": "Doc Brown|525",
       "tech": "konventionelle",
       "question": "Q36",
-      "codesA": [],
+      "codesA": [
+        "ePBC15"
+      ],
       "codesB": [
         "A7",
         "ePBC15"
