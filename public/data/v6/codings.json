@@ -2588,15 +2588,17 @@
       "question": "Q29",
       "codesA": [
         "SN1",
-        "ePBC6",
         "eSN8"
       ],
       "codesB": [
         "SN1",
         "eSN8"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "SN1",
+        "eSN8"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
