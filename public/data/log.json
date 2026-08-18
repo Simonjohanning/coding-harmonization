@@ -2587,6 +2587,14 @@
       "action": "concede",
       "code": "eSN4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:41:48.234Z",
+      "coder": "A",
+      "cellId": "biomass|Michel68|300|Q29",
+      "action": "adopt",
+      "code": "eSN5",
+      "mode": "after_discussion"
     }
   ]
 }
