@@ -4708,11 +4708,17 @@
       ],
       "codesB": [
         "A4",
+        "A52",
         "A8",
-        "PBC10"
+        "PBC1"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A52",
+        "A8",
+        "PBC1"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -4752,18 +4758,14 @@
       "tech": "konventionelle",
       "question": "Q35",
       "codesA": [
-        "SN1",
-        "eSN5"
+        "SN1"
       ],
       "codesB": [
         "SN1",
         "eSN5"
       ],
-      "harmonized": [
-        "SN1",
-        "eSN5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
