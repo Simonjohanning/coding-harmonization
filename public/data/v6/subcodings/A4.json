@@ -1471,7 +1471,9 @@
       "rowId": "mandy|741",
       "tech": "biomass",
       "question": "Q30",
-      "codesA": [],
+      "codesA": [
+        "A41"
+      ],
       "codesB": [
         "A43"
       ],
