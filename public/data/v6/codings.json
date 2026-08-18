@@ -4651,7 +4651,8 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [
-        "A4"
+        "A4",
+        "PBC1"
       ],
       "codesB": [
         "A4",
