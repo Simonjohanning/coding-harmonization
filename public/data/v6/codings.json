@@ -4125,12 +4125,16 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q36",
-      "codesA": [],
+      "codesA": [
+        "PBC6"
+      ],
       "codesB": [
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
