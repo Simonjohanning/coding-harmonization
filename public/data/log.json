@@ -2507,6 +2507,14 @@
       "action": "adopt",
       "code": "A1",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:25:02.504Z",
+      "coder": "B",
+      "cellId": "solar|Hermi|784|Q42",
+      "action": "add_bilateral",
+      "code": "ePBC14",
+      "mode": "after_discussion"
     }
   ]
 }
