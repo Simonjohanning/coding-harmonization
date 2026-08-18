@@ -1573,8 +1573,15 @@
         "PBC6"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "eA12 für modernster Technik, A4 für Stromsparen, kann aber auch A1 sein",
+          "timestamp": "2026-08-18T10:11:58.058Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
