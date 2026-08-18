@@ -3539,9 +3539,7 @@
       "rowId": "Mona|968",
       "tech": "solar",
       "question": "Q42",
-      "codesA": [
-        "A51"
-      ],
+      "codesA": [],
       "codesB": [
         "ePBC16"
       ],
