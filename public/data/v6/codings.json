@@ -1130,11 +1130,9 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [],
-      "codesB": [
-        "ePBC15"
-      ],
-      "harmonized": null,
-      "status": "discussion",
+      "codesB": [],
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
