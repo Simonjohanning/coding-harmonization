@@ -5423,9 +5423,7 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [
-        "A4"
-      ],
+      "codesA": [],
       "codesB": [
         "A3",
         "A4"
@@ -5436,8 +5434,8 @@
         {
           "version": 6,
           "coder": "A",
-          "text": "hier hab ich PBC1 für abh von hersteller",
-          "timestamp": "2026-08-18T11:32:59.798Z"
+          "text": "hier hab ich A4 und PBC1 für abh von herstellet",
+          "timestamp": "2026-08-18T11:33:32.949Z"
         }
       ],
       "changedSinceLastVersion": false,
