@@ -1130,9 +1130,11 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [],
-      "codesB": [],
-      "harmonized": [],
-      "status": "resolved",
+      "codesB": [
+        "ePBC15"
+      ],
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -1842,8 +1844,11 @@
       "rowId": "Hyles|948",
       "tech": "konventionelle",
       "question": "Q36",
-      "codesA": [],
+      "codesA": [
+        "A2"
+      ],
       "codesB": [
+        "A2",
         "A7"
       ],
       "harmonized": null,
