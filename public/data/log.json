@@ -2589,11 +2589,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:42:30.484Z",
+      "timestamp": "2026-08-18T12:41:48.234Z",
       "coder": "A",
       "cellId": "biomass|Michel68|300|Q29",
       "action": "adopt",
       "code": "eSN5",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:42:55.553Z",
+      "coder": "A",
+      "cellId": "solar|Mona|968|Q42",
+      "action": "concede",
+      "code": "A51",
       "mode": "after_discussion"
     }
   ]
