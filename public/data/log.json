@@ -1694,6 +1694,14 @@
       "action": "adopt",
       "code": "PBC7",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T08:53:35.998Z",
+      "coder": "B",
+      "cellId": "biomass|Karen|1180|Q30",
+      "action": "concede",
+      "code": "ePBC14",
+      "mode": "no_discussion"
     }
   ]
 }
