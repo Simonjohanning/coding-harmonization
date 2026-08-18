@@ -5449,6 +5449,7 @@
       "tech": "wärmepumpe",
       "question": "Q17",
       "codesA": [
+        "SN2",
         "eSN4"
       ],
       "codesB": [
