@@ -1663,10 +1663,17 @@
         "A1",
         "A3",
         "A4",
-        "PBC6"
+        "PBC6",
+        "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A3",
+        "A4",
+        "PBC6",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -1806,9 +1813,12 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
+        "A2",
+        "A52",
         "eA12"
       ],
       "codesB": [
+        "A2",
         "A7"
       ],
       "harmonized": null,
