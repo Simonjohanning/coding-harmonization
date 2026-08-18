@@ -5448,7 +5448,9 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q17",
-      "codesA": [],
+      "codesA": [
+        "eSN4"
+      ],
       "codesB": [
         "SN1",
         "SN2",
