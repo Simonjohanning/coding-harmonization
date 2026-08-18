@@ -2485,11 +2485,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:19:46.662Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T12:20:12.816Z",
+      "coder": "A",
       "cellId": "konventionelle|Doc Brown|525|Q33",
-      "action": "add_bilateral",
-      "code": "A3",
+      "action": "adopt",
+      "code": "A8",
       "mode": "after_discussion"
     }
   ]
