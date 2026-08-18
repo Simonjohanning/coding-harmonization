@@ -4708,11 +4708,17 @@
       ],
       "codesB": [
         "A4",
+        "A52",
         "A8",
         "PBC1"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A52",
+        "A8",
+        "PBC1"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
