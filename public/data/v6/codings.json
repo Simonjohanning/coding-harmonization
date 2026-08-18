@@ -3557,16 +3557,12 @@
       "rowId": "Mona|968",
       "tech": "solar",
       "question": "Q42",
-      "codesA": [
-        "ePBC16"
-      ],
+      "codesA": [],
       "codesB": [
         "ePBC16"
       ],
-      "harmonized": [
-        "ePBC16"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -6300,6 +6296,7 @@
         "eSN7"
       ],
       "codesB": [
+        "SN1",
         "eSN5",
         "eSN7"
       ],
