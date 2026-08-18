@@ -3307,6 +3307,7 @@
       "question": "Q29",
       "codesA": [
         "SN1",
+        "eSN5",
         "eSN8"
       ],
       "codesB": [
@@ -3314,8 +3315,12 @@
         "eSN5",
         "eSN8"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5",
+        "eSN8"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
