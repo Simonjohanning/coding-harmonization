@@ -2536,7 +2536,8 @@
       "codesA": [
         "A1",
         "A2",
-        "A4"
+        "A4",
+        "L"
       ],
       "codesB": [
         "A1",
@@ -2544,8 +2545,13 @@
         "A4",
         "L"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A1",
+        "A2",
+        "A4",
+        "L"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
