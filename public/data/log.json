@@ -2145,6 +2145,13 @@
       "action": "adopt",
       "code": "A7",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:21:00.265Z",
+      "coder": "A",
+      "cellId": "konventionelle|Doc Brown|525|Q37",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
