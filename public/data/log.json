@@ -2093,27 +2093,10 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:38:51.054Z",
+      "timestamp": "2026-08-18T10:39:28.388Z",
       "coder": "A",
-      "cellId": "biomass|Lexi|809|Q32",
-      "action": "concede",
-      "code": "A1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:38:54.937Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|Itsy|812|Q20",
-      "action": "concede",
-      "code": "PBC9",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:39:01.639Z",
-      "coder": "A",
-      "cellId": "biomass|Lexi|809|Q32",
-      "action": "concede",
-      "code": "A2",
+      "cellId": "fernwärme|Dani|999|Q25",
+      "action": "flag_discussion",
       "mode": "no_discussion"
     }
   ]
