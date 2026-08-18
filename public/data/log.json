@@ -2451,6 +2451,14 @@
       "action": "concede",
       "code": "ePBC15",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:11:02.502Z",
+      "coder": "B",
+      "cellId": "fernwärme|Dani|999|Q21",
+      "action": "add_bilateral",
+      "code": "PBC9",
+      "mode": "after_discussion"
     }
   ]
 }
