@@ -658,7 +658,9 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A42"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
