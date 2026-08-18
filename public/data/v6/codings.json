@@ -3437,14 +3437,9 @@
       "tech": "solar",
       "question": "Q41",
       "codesA": [
-        "SN1",
-        "eSN5",
-        "eSN8"
+        "SN1"
       ],
-      "codesB": [
-        "eSN5",
-        "eSN8"
-      ],
+      "codesB": [],
       "harmonized": null,
       "status": "discussion",
       "discussion": [],
@@ -4718,6 +4713,7 @@
       ],
       "codesB": [
         "A4",
+        "A52",
         "A8",
         "PBC10"
       ],
