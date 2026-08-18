@@ -583,12 +583,16 @@
       "rowId": "Itsy|812",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A42"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
