@@ -4144,7 +4144,9 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q37",
-      "codesA": [],
+      "codesA": [
+        "PBC4"
+      ],
       "codesB": [
         "A4"
       ],
