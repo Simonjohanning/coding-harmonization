@@ -2233,6 +2233,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:25:01.384Z",
+      "coder": "A",
+      "cellId": "konventionelle|Puchi|381|Q36",
+      "action": "adopt",
+      "code": "PBC6",
+      "mode": "no_discussion"
     }
   ]
 }
