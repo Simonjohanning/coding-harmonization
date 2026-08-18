@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell as RCell, Legend, CartesianGrid,
 } from "recharts";
-import type { Codings, Answers, Labels } from "../lib/types";
-import { commit, loadLabels, loadVersion } from "../lib/data";
+import type { Codings, Answers, Labels, SubcodingRegistry } from "../lib/types";
+import { commit, loadLabels, loadSubcoding, loadSubcodingRegistry, loadVersion } from "../lib/data";
 import { familyOf, labelOf, normalizeCode, codeSortKey } from "../lib/codes";
 import { labelOfQuestion } from "../lib/questions";
 
@@ -39,6 +40,10 @@ export default function Frequency({ version }: Props) {
   const [hidden, setHidden] = useState<Set<string>>(new Set());
   const [expandedCode, setExpandedCode] = useState<string | null>(null);
   const [labelDrafts, setLabelDrafts] = useState<Record<string, string>>({});
+  const nav = useNavigate();
+  const [registry, setRegistry] = useState<SubcodingRegistry | null>(null);
+  const [subcodeLabels, setSubcodeLabels] = useState<Record<string, string>>({});
+  const [hideSubcoded, setHideSubcoded] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -56,6 +61,26 @@ export default function Frequency({ version }: Props) {
       setCodings(norm); setAnswers(answers); setLabels(lbl);
     })();
   }, [version]);
+
+  useEffect(() => {
+    (async () => {
+      const reg = await loadSubcodingRegistry(version);
+      setRegistry(reg);
+      if (!reg) { setSubcodeLabels({}); return; }
+      const collected: Record<string, string> = {};
+      for (const entry of reg.entries) {
+        const sub = await loadSubcoding(version, entry.parent);
+        if (!sub) continue;
+        for (const sc of sub.subcodes) collected[sc.id] = sc.label;
+      }
+      setSubcodeLabels(collected);
+    })();
+  }, [version]);
+
+  const subcodedParents = useMemo(
+    () => new Set(registry?.entries.map(e => e.parent) ?? []),
+    [registry]
+  );
 
   const techs = useMemo(() => {
     if (!codings) return [];
@@ -109,8 +134,13 @@ export default function Frequency({ version }: Props) {
 
   if (!codings || !answers) return <div className="muted">Loading v{version}…</div>;
 
+  function getLabel(code: string): string {
+    return labelOf(code) || subcodeLabels[code] || "";
+  }
+
   function sortCodes(codes: string[]): string[] {
-    return [...codes].sort((a, b) => {
+    const src = hideSubcoded ? codes.filter(c => !subcodedParents.has(c)) : codes;
+    return [...src].sort((a, b) => {
       let va: number | string, vb: number | string;
       if (sort.by === "code") { va = a; vb = b; }
       else if (sort.by === "total") { va = agg.get(a)!.total; vb = agg.get(b)!.total; }
@@ -141,7 +171,7 @@ export default function Frequency({ version }: Props) {
     const visible = codes.filter(c => !hidden.has(c));
     const data = visible.map(code => ({
       code,
-      label: labelOf(code) || code,
+      label: getLabel(code) || code,
       total: agg.get(code)!.total,
       ...Object.fromEntries(techs.map(t => [t, agg.get(code)!.byTech[t] || 0])),
     }));
@@ -218,6 +248,11 @@ export default function Frequency({ version }: Props) {
             <option value="lollipop">Lollipop</option>
           </select>
         </label>
+        <label>
+          <input type="checkbox" checked={hideSubcoded}
+            onChange={e => setHideSubcoded(e.target.checked)} />
+          Hide subcoded parents
+        </label>
         <button className="btn sm" onClick={() => setHidden(new Set())}>
           Show all in chart
         </button>
@@ -262,6 +297,9 @@ export default function Frequency({ version }: Props) {
               expandedCode={expandedCode}
               onToggleExpand={(code) => setExpandedCode(prev => prev === code ? null : code)}
               answersByCellId={answersByCellId}
+              getLabel={getLabel}
+              subcodedParents={subcodedParents}
+              onRefine={(code) => nav(`/subcoding/${code}`)}
             />
           </div>
         );
@@ -286,6 +324,9 @@ interface TableProps {
   expandedCode: string | null;
   onToggleExpand: (code: string) => void;
   answersByCellId: Map<string, { tech: string; rowId: string; question: string; answer: string }>;
+  getLabel: (code: string) => string;
+  subcodedParents: Set<string>;
+  onRefine: (code: string) => void;
 }
 
 function FreqTable(p: TableProps) {
@@ -339,8 +380,14 @@ function FreqTable(p: TableProps) {
                   <button className="expand-btn" onClick={() => p.onToggleExpand(code)}>
                     {isExpanded ? "▾" : "▸"} {code}
                   </button>
+                  <button className="refine-btn" onClick={() => p.onRefine(code)}
+                    title={p.subcodedParents.has(code)
+                      ? "Continue subcoding this code"
+                      : "Create subcodes for this code"}>
+                    {p.subcodedParents.has(code) ? "Refining…" : "Refine"}
+                  </button>
                 </td>
-                <td className="codebook-label">{labelOf(code)}</td>
+                <td className="codebook-label">{p.getLabel(code)}</td>
                 <td className="numeric"><strong>{row.total}</strong></td>
                 {p.techs.map(t => (
                   <td key={t} className="numeric">{row.byTech[t] || 0}</td>

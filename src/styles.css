@@ -654,3 +654,134 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   outline: 2px solid var(--accent-soft);
   border-color: var(--accent);
 }
+/* Append these to src/styles.css */
+
+/* --- Subcoding: definitions list on the header card --- */
+
+.subcode-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.subcode-def {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  background: var(--accent-soft);
+  border: 1px solid #5eead4;
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--accent-fg);
+}
+.subcode-def.editing {
+  background: white;
+  border-color: var(--accent);
+  padding: 3px 6px;
+}
+.subcode-def .code {
+  font-weight: 600;
+}
+.subcode-def .label {
+  color: var(--accent-fg);
+  opacity: 0.85;
+}
+.subcode-def .mini {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0 2px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.subcode-def .mini:hover { opacity: 1; }
+.subcode-def input {
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-sm);
+  padding: 3px 6px;
+  min-width: 200px;
+}
+
+/* --- Subcoding: cell card picker row --- */
+
+.subcode-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
+.subcode-picker .propose-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.subcode-pick {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+.pick-code {
+  padding: 4px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text);
+  font-weight: 500;
+}
+.pick-code:hover { background: var(--panel-2); }
+.subcode-pick.selected .pick-code {
+  background: var(--coder-a-soft);
+  border-color: #fcd34d;
+  color: var(--coder-a-fg);
+  font-weight: 600;
+}
+
+/* --- Subcoding: wizard rows --- */
+
+.wizard-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  align-items: center;
+}
+.wizard-id {
+  width: 120px;
+  padding: 6px 8px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-sm);
+  font-family: ui-monospace, monospace;
+}
+.wizard-label {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-sm);
+  max-width: 400px;
+}
+
+/* --- Refine button in the frequency table --- */
+
+.refine-btn {
+  background: none;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-sm);
+  padding: 2px 8px;
+  font-size: 11px;
+  color: var(--accent);
+  cursor: pointer;
+  margin-left: 8px;
+}
+.refine-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}

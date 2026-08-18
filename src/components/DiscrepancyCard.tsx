@@ -325,7 +325,10 @@ function Chip({
   removeSymbol?: string;
 }) {
   const label = labelOf(code);
-  const known = isKnownCode(code);
+  // Unknown-code highlighting exists to catch typos during coding; the
+  // harmonized row can legitimately contain subcodes (e.g. PBC61) that are
+  // not in the canonical codebook, so skip the red styling there.
+  const known = variant === "harm" || isKnownCode(code);
   return (
     <span className={"chip " + variant + (known ? "" : " unknown")} title={label}>
       <span className="code">{code}</span>

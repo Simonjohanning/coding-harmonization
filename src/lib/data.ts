@@ -6,6 +6,8 @@ import type {
   LogFile,
   Labels,
   Manifest,
+  Subcoding,
+  SubcodingRegistry,
 } from "./types";
 
 // Raw JSON is fetched from the repo. In dev this is served from /data/*
@@ -40,6 +42,22 @@ export async function loadLabels(): Promise<Labels> {
     return await getJSON<Labels>("labels.json");
   } catch {
     return {};
+  }
+}
+
+export async function loadSubcodingRegistry(version: number): Promise<SubcodingRegistry | null> {
+  try {
+    return await getJSON<SubcodingRegistry>(`v${version}/subcodings/registry.json`);
+  } catch {
+    return null;
+  }
+}
+
+export async function loadSubcoding(version: number, parent: string): Promise<Subcoding | null> {
+  try {
+    return await getJSON<Subcoding>(`v${version}/subcodings/${parent}.json`);
+  } catch {
+    return null;
   }
 }
 
@@ -98,7 +116,8 @@ export function makeLogEntry(
   cellId: string,
   action: LogEntry["action"],
   mode: LogEntry["mode"],
-  code?: string
+  code?: string,
+  parent?: string,
 ): LogEntry {
   return {
     timestamp: new Date().toISOString(),
@@ -106,6 +125,7 @@ export function makeLogEntry(
     cellId,
     action,
     code,
+    parent,
     mode,
   };
 }

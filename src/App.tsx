@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink, Route, Routes, useSearchParams } from "react-router-dom";
 import Reconcile from "./routes/Reconcile";
 import Frequency from "./routes/Frequency";
+import Subcoding from "./routes/Subcoding";
 import {
   getCoder, setCoder, getPassword, setPassword, loadManifest,
 } from "./lib/data";
@@ -58,6 +59,7 @@ export default function App() {
         <Route path="/" element={<Reconcile version={version} coder={coder} isCurrent={version === manifest.current} />} />
         <Route path="/reconcile" element={<Reconcile version={version} coder={coder} isCurrent={version === manifest.current} />} />
         <Route path="/frequency" element={<Frequency version={version} />} />
+        <Route path="/subcoding/:parent" element={<Subcoding coder={coder} />} />
       </Routes>
     </div>
   );
