@@ -29,7 +29,14 @@
     {
       "n": 6,
       "created": "2026-08-18T08:31:59.582257+00:00",
-      "note": "round 3"
+      "note": "round 3",
+      "subcodings": {
+        "A4": {
+          "minorVersion": 1,
+          "created": "2026-08-18T14:33:30.799Z",
+          "completedAt": null
+        }
+      }
     }
   ]
 }
