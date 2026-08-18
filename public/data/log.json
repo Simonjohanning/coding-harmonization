@@ -1804,6 +1804,13 @@
       "action": "adopt",
       "code": "PBC3",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:08:35.691Z",
+      "coder": "A",
+      "cellId": "fernwärme|Bini|966|Q22",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
