@@ -2779,6 +2779,14 @@
       "action": "add_bilateral",
       "code": "eSN5",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:12:53.218Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "adopt",
+      "code": "SN1",
+      "mode": "after_discussion"
     }
   ]
 }
