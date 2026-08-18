@@ -1628,7 +1628,8 @@
       "codesB": [
         "A4",
         "PBC16",
-        "PBC2"
+        "PBC2",
+        "ePBC16"
       ],
       "harmonized": null,
       "status": "pending",
