@@ -5398,7 +5398,8 @@
       "tech": "wärmepumpe",
       "question": "Q15",
       "codesA": [
-        "A51"
+        "A51",
+        "PBC2"
       ],
       "codesB": [
         "A4",
