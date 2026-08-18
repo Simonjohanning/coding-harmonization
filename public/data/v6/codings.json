@@ -5431,8 +5431,15 @@
         "A4"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hier hab ich PBC1 für Abh von herstellet",
+          "timestamp": "2026-08-18T11:31:58.631Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
