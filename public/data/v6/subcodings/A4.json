@@ -1525,6 +1525,7 @@
       "tech": "wärmepumpe",
       "question": "Q15",
       "codesA": [
+        "A41",
         "A42"
       ],
       "codesB": [
