@@ -6498,7 +6498,6 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "PBC1",
         "SN1",
         "ePBC14"
       ],
