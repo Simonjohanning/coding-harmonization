@@ -2116,43 +2116,19 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:18:04.451Z",
+      "timestamp": "2026-08-18T11:17:15.320Z",
       "coder": "A",
-      "cellId": "fernwärme|DOppELpuNKt28|475|Q22",
+      "cellId": "fernwärme|DOppELpuNKt28|475|Q21",
       "action": "adopt",
-      "code": "A4",
+      "code": "ePBC16",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:18:12.649Z",
+      "timestamp": "2026-08-18T11:18:47.432Z",
       "coder": "A",
       "cellId": "fernwärme|DOppELpuNKt28|475|Q23",
       "action": "adopt",
-      "code": "SN1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:18:16.883Z",
-      "coder": "A",
-      "cellId": "fernwärme|DOppELpuNKt28|475|Q24",
-      "action": "adopt",
-      "code": "PBC1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:18:24.501Z",
-      "coder": "A",
-      "cellId": "fernwärme|DOppELpuNKt28|475|Q25",
-      "action": "adopt",
-      "code": "A4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:18:38.582Z",
-      "coder": "A",
-      "cellId": "konventionelle|Doc Brown|525|Q33",
-      "action": "adopt",
-      "code": "A4",
+      "code": "SN2",
       "mode": "no_discussion"
     }
   ]
