@@ -3384,10 +3384,16 @@
         "ePBC16"
       ],
       "codesB": [
-        "A4"
+        "A4",
+        "PBC4",
+        "ePBC16"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "PBC4",
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -3657,8 +3663,7 @@
         "A51"
       ],
       "codesB": [
-        "A4",
-        "PBC10"
+        "A4"
       ],
       "harmonized": null,
       "status": "pending",
