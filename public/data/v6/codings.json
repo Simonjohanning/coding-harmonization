@@ -2574,14 +2574,10 @@
         "eSN7"
       ],
       "codesB": [
-        "SN1",
         "eSN7"
       ],
-      "harmonized": [
-        "SN1",
-        "eSN7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -3856,14 +3852,10 @@
         "A51"
       ],
       "codesB": [
-        "A4",
-        "A51"
+        "A4"
       ],
-      "harmonized": [
-        "A4",
-        "A51"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -4195,11 +4187,11 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
+        "A4",
         "PBC4"
       ],
       "codesB": [
-        "A4",
-        "PBC4"
+        "A4"
       ],
       "harmonized": null,
       "status": "discussion",
@@ -4219,10 +4211,10 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q38",
-      "codesA": [
-        "eA11"
+      "codesA": [],
+      "codesB": [
+        "eSN7"
       ],
-      "codesB": [],
       "harmonized": null,
       "status": "discussion",
       "discussion": [
