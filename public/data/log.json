@@ -1859,7 +1859,7 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:15:25.643Z",
+      "timestamp": "2026-08-18T10:15:54.043Z",
       "coder": "A",
       "cellId": "konventionelle|Hyles|948|Q38",
       "action": "adopt",
@@ -1867,11 +1867,10 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:16:32.348Z",
+      "timestamp": "2026-08-18T10:17:00.477Z",
       "coder": "A",
-      "cellId": "biomass|Karen|1180|Q28",
-      "action": "concede",
-      "code": "PBC5",
+      "cellId": "biomass|Karen|1180|Q29",
+      "action": "flag_discussion",
       "mode": "no_discussion"
     }
   ]
