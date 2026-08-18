@@ -2509,23 +2509,7 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:25:02.504Z",
-      "coder": "B",
-      "cellId": "solar|Hermi|784|Q42",
-      "action": "add_bilateral",
-      "code": "ePBC14",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:26:31.504Z",
-      "coder": "B",
-      "cellId": "konventionelle|Hyles|948|Q34",
-      "action": "add_bilateral",
-      "code": "A2",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:27:55.299Z",
+      "timestamp": "2026-08-18T12:25:17.850Z",
       "coder": "A",
       "cellId": "solar|Hermi|784|Q42",
       "action": "concede",
@@ -2533,7 +2517,7 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:28:08.033Z",
+      "timestamp": "2026-08-18T12:27:28.916Z",
       "coder": "A",
       "cellId": "konventionelle|Hyles|948|Q34",
       "action": "adopt",
@@ -2541,17 +2525,9 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:28:11.599Z",
+      "timestamp": "2026-08-18T12:28:23.182Z",
       "coder": "A",
-      "cellId": "konventionelle|Hyles|948|Q34",
-      "action": "concede",
-      "code": "A52",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:28:15.816Z",
-      "coder": "A",
-      "cellId": "konventionelle|Hyles|948|Q34",
+      "cellId": "solar|Hermi|784|Q39",
       "action": "concede",
       "code": "eA12",
       "mode": "after_discussion"
