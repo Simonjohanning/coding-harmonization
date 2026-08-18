@@ -1351,12 +1351,16 @@
       "rowId": "Frankenmaedle|126",
       "tech": "fernwärme",
       "question": "Q25",
-      "codesA": [],
+      "codesA": [
+        "PBC6"
+      ],
       "codesB": [
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
