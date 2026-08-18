@@ -934,14 +934,18 @@
       "tech": "solar",
       "question": "Q43",
       "codesA": [
-        "A41"
+        "A41",
+        "A43"
       ],
       "codesB": [
         "A41",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
