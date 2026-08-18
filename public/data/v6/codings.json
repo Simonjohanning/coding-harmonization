@@ -3313,12 +3313,16 @@
       "rowId": "Michel68|300",
       "tech": "biomass",
       "question": "Q31",
-      "codesA": [],
+      "codesA": [
+        "A4"
+      ],
       "codesB": [
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
