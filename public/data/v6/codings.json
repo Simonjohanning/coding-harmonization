@@ -1271,14 +1271,18 @@
       "tech": "fernwärme",
       "question": "Q21",
       "codesA": [
-        "A3"
+        "A3",
+        "A4"
       ],
       "codesB": [
         "A3",
         "A4"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A3",
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
