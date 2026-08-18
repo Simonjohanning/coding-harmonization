@@ -6498,14 +6498,15 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
-        "SN1",
         "ePBC14"
       ],
       "codesB": [
         "ePBC14"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "ePBC14"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
