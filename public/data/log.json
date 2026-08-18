@@ -2573,11 +2573,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:38:19.772Z",
-      "coder": "B",
+      "timestamp": "2026-08-18T12:37:23.800Z",
+      "coder": "A",
+      "cellId": "biomass|Karen|1180|Q31",
+      "action": "concede",
+      "code": "PBC3",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:38:39.402Z",
+      "coder": "A",
       "cellId": "fernwärme|Knorke|1150|Q21",
-      "action": "adopt",
-      "code": "A4",
+      "action": "add_bilateral",
+      "code": "A1",
       "mode": "after_discussion"
     }
   ]
