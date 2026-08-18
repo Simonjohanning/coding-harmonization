@@ -2019,6 +2019,14 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:29:55.833Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|khl|901|Q18",
+      "action": "concede",
+      "code": "ePBC16",
+      "mode": "no_discussion"
     }
   ]
 }
