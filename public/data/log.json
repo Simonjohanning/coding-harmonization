@@ -1811,6 +1811,13 @@
       "cellId": "fernwärme|Bini|966|Q22",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:09:36.439Z",
+      "coder": "A",
+      "cellId": "fernwärme|Dani|999|Q21",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
