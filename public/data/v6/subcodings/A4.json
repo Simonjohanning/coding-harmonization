@@ -636,12 +636,16 @@
       "rowId": "Knorke|1150",
       "tech": "fernwärme",
       "question": "Q21",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A42"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
