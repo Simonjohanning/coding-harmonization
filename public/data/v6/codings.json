@@ -932,7 +932,6 @@
       "tech": "fernwärme",
       "question": "Q21",
       "codesA": [
-        "A51",
         "PBC3",
         "PBC9"
       ],
@@ -940,8 +939,11 @@
         "PBC3",
         "PBC9"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC3",
+        "PBC9"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
