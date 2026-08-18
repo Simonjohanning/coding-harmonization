@@ -2154,6 +2154,14 @@
       "action": "adopt",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:21:40.933Z",
+      "coder": "A",
+      "cellId": "fernwärme|Frankenmaedle|126|Q21",
+      "action": "adopt",
+      "code": "A3",
+      "mode": "no_discussion"
     }
   ]
 }
