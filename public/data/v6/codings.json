@@ -1130,9 +1130,11 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [],
-      "codesB": [],
-      "harmonized": [],
-      "status": "resolved",
+      "codesB": [
+        "ePBC15"
+      ],
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -3435,16 +3437,15 @@
       "tech": "solar",
       "question": "Q41",
       "codesA": [
-        "SN1",
-        "eSN5",
-        "eSN8"
+        "SN1"
       ],
       "codesB": [
-        "eSN5",
-        "eSN8"
+        "SN1"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -3556,12 +3557,16 @@
       "rowId": "Mona|968",
       "tech": "solar",
       "question": "Q42",
-      "codesA": [],
+      "codesA": [
+        "ePBC16"
+      ],
       "codesB": [
         "ePBC16"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -4207,14 +4212,10 @@
         "PBC4"
       ],
       "codesB": [
-        "A4",
-        "PBC4"
+        "A4"
       ],
-      "harmonized": [
-        "A4",
-        "PBC4"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
