@@ -1508,8 +1508,7 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [
-        "A41",
-        "A42"
+        "A41"
       ],
       "codesB": [
         "A41",
@@ -1525,10 +1524,7 @@
       "rowId": "wupper1983|757",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [
-        "A41",
-        "A42"
-      ],
+      "codesA": [],
       "codesB": [
         "A41",
         "A42",
@@ -1543,16 +1539,12 @@
       "rowId": "wupper1983|757",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [
-        "A43"
-      ],
+      "codesA": [],
       "codesB": [
         "A43"
       ],
-      "harmonized": [
-        "A43"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -1560,7 +1552,9 @@
       "rowId": "wupper1983|757",
       "tech": "wärmepumpe",
       "question": "Q19",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A43"
       ],
