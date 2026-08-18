@@ -5423,23 +5423,14 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [
-        "A4"
-      ],
+      "codesA": [],
       "codesB": [
         "A3",
         "A4"
       ],
       "harmonized": null,
-      "status": "discussion",
-      "discussion": [
-        {
-          "version": 6,
-          "coder": "A",
-          "text": "hier hab ich PBC1 für Abh von herstellet",
-          "timestamp": "2026-08-18T11:31:58.631Z"
-        }
-      ],
+      "status": "pending",
+      "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
@@ -5479,19 +5470,13 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q18",
-      "codesA": [
-        "PBC2",
-        "PBC6"
-      ],
+      "codesA": [],
       "codesB": [
         "PBC2",
         "PBC6"
       ],
-      "harmonized": [
-        "PBC2",
-        "PBC6"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -5502,14 +5487,18 @@
       "tech": "wärmepumpe",
       "question": "Q19",
       "codesA": [
-        "PBC9"
+        "PBC9",
+        "ePBC16"
       ],
       "codesB": [
         "PBC9",
         "ePBC16"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC9",
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
