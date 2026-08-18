@@ -1996,6 +1996,14 @@
       "action": "adopt",
       "code": "ePBC14",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:29:29.016Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|wupper1983|757|Q15",
+      "action": "concede",
+      "code": "A51",
+      "mode": "no_discussion"
     }
   ]
 }
