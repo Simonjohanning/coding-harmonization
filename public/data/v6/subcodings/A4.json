@@ -355,7 +355,9 @@
       "tech": "wärmepumpe",
       "question": "Q19",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A41"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
