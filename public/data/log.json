@@ -2723,6 +2723,14 @@
       "action": "adopt",
       "code": "SN1",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:06:31.011Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "concede",
+      "code": "eSN5",
+      "mode": "after_discussion"
     }
   ]
 }
