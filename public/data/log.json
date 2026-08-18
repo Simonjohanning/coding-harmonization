@@ -2225,6 +2225,14 @@
       "action": "concede",
       "code": "A2",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:23:44.884Z",
+      "coder": "A",
+      "cellId": "biomass|Michel68|300|Q31",
+      "action": "adopt",
+      "code": "A4",
+      "mode": "no_discussion"
     }
   ]
 }
