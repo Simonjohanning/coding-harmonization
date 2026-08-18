@@ -1196,7 +1196,9 @@
       "tech": "konventionelle",
       "question": "Q33",
       "codesA": [],
-      "codesB": [],
+      "codesB": [
+        "A41"
+      ],
       "harmonized": null,
       "status": "pending",
       "discussion": []
