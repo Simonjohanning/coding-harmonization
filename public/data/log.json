@@ -2067,6 +2067,14 @@
       "action": "concede",
       "code": "eA12",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:35:54.737Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|khl|901|Q20",
+      "action": "concede",
+      "code": "A2",
+      "mode": "no_discussion"
     }
   ]
 }
