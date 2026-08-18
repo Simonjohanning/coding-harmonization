@@ -6025,15 +6025,15 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
+        "A3",
+        "A4",
         "PBC5"
       ],
       "codesB": [
         "PBC5"
       ],
-      "harmonized": [
-        "PBC5"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -6052,8 +6052,15 @@
         "eSN7"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hast du schorni mit eSN5 kodiert?",
+          "timestamp": "2026-08-18T10:27:52.866Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
