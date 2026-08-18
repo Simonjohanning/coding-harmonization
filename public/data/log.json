@@ -2059,6 +2059,14 @@
       "action": "concede",
       "code": "ePBC16",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:35:49.419Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|diana1981|759|Q20",
+      "action": "concede",
+      "code": "eA12",
+      "mode": "no_discussion"
     }
   ]
 }
