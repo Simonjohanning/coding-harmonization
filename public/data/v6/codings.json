@@ -4506,7 +4506,6 @@
       "question": "Q18",
       "codesA": [
         "PBC1",
-        "PBC4",
         "PBC6",
         "ePBC16"
       ],
@@ -4515,8 +4514,12 @@
         "PBC6",
         "ePBC16"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC1",
+        "PBC6",
+        "ePBC16"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
