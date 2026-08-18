@@ -473,7 +473,9 @@
       "rowId": "HSV|38",
       "tech": "wärmepumpe",
       "question": "Q20",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A42",
         "A43"
