@@ -4755,7 +4755,9 @@
       "rowId": "Taxifahrer|456",
       "tech": "konventionelle",
       "question": "Q38",
-      "codesA": [],
+      "codesA": [
+        "ePBC16"
+      ],
       "codesB": [
         "A4",
         "ePBC16"
