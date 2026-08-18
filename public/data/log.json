@@ -2709,55 +2709,47 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:05:36.724Z",
-      "coder": "A",
+      "timestamp": "2026-08-18T13:05:02.963Z",
+      "coder": "B",
       "cellId": "solar|Micki5|829|Q41",
-      "action": "add_bilateral",
-      "code": "eSN8",
+      "action": "adopt",
+      "code": "SN1",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:07:26.267Z",
+      "timestamp": "2026-08-18T13:06:27.059Z",
       "coder": "B",
-      "cellId": "konventionelle|Puchi|381|Q37",
-      "action": "add_bilateral",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "adopt",
+      "code": "SN1",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:06:31.011Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "concede",
+      "code": "eSN5",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T13:08:12.310Z",
+      "coder": "B",
+      "cellId": "biomass|mandy|741|Q30",
+      "action": "adopt",
       "code": "A4",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:07:30.394Z",
+      "timestamp": "2026-08-18T13:10:08.780Z",
       "coder": "B",
-      "cellId": "konventionelle|Puchi|381|Q37",
-      "action": "adopt",
-      "code": "PBC4",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:08:51.308Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "A52",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:08:58.354Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "PBC1",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:10:50.458Z",
-      "coder": "B",
-      "cellId": "solar|Mona|968|Q42",
+      "cellId": "konventionelle|Taxifahrer|456|Q34",
       "action": "add_bilateral",
-      "code": "PBC9",
+      "code": "PBC5",
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:10:59.821Z",
+      "timestamp": "2026-08-18T13:11:50.604Z",
       "coder": "B",
       "cellId": "solar|Mona|968|Q42",
       "action": "add_bilateral",
@@ -2765,35 +2757,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T13:12:32.698Z",
+      "timestamp": "2026-08-18T13:13:44.535Z",
       "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "concede",
-      "code": "PBC10",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:12:48.306Z",
-      "coder": "B",
-      "cellId": "wärmepumpe|khl|901|Q17",
-      "action": "add_bilateral",
-      "code": "eSN5",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:12:53.218Z",
-      "coder": "B",
-      "cellId": "wärmepumpe|khl|901|Q17",
+      "cellId": "wärmepumpe|Naddi|778|Q18",
       "action": "adopt",
-      "code": "SN1",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T13:13:07.330Z",
-      "coder": "B",
-      "cellId": "solar|Micki5|829|Q41",
-      "action": "adopt",
-      "code": "SN1",
+      "code": "PBC12",
       "mode": "after_discussion"
     }
   ]
