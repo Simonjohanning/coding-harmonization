@@ -1680,19 +1680,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T08:51:11.066Z",
-      "coder": "B",
-      "cellId": "solar|Hermi|784|Q42",
-      "action": "concede",
-      "code": "ePBC14",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T08:51:22.695Z",
+      "timestamp": "2026-08-18T08:51:29.920Z",
       "coder": "B",
       "cellId": "solar|Hermi|784|Q43",
-      "action": "adopt",
-      "code": "ePBC16",
+      "action": "concede",
+      "code": "PBC16",
       "mode": "no_discussion"
     }
   ]
