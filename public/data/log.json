@@ -2637,27 +2637,11 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:52:04.252Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "concede",
-      "code": "PBC10",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:52:08.244Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "PBC1",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:52:11.683Z",
-      "coder": "B",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "A52",
+      "timestamp": "2026-08-18T12:52:32.951Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|alex0020|375|Q15",
+      "action": "add_bilateral",
+      "code": "A1",
       "mode": "after_discussion"
     }
   ]
