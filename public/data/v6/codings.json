@@ -1847,14 +1847,15 @@
       "tech": "konventionelle",
       "question": "Q36",
       "codesA": [
-        "A7",
-        "PBC3"
+        "A7"
       ],
       "codesB": [
         "A7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
