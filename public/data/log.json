@@ -2241,6 +2241,13 @@
       "action": "adopt",
       "code": "PBC6",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:25:14.201Z",
+      "coder": "A",
+      "cellId": "konventionelle|Puchi|381|Q37",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
