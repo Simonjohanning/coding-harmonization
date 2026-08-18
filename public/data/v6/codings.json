@@ -3440,11 +3440,16 @@
         "eSN8"
       ],
       "codesB": [
+        "SN1",
         "eSN5",
         "eSN8"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5",
+        "eSN8"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
