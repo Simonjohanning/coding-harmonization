@@ -6552,10 +6552,14 @@
         "PBC6"
       ],
       "codesB": [
+        "A4",
         "PBC6"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC6"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
