@@ -2342,6 +2342,14 @@
       "action": "adopt",
       "code": "eSN7",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:31:05.549Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|alex0020|375|Q17",
+      "action": "adopt",
+      "code": "eSN6",
+      "mode": "no_discussion"
     }
   ]
 }
