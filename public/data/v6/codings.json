@@ -1816,15 +1816,17 @@
       "question": "Q34",
       "codesA": [
         "A2",
-        "A7",
-        "eA12"
+        "A7"
       ],
       "codesB": [
         "A2",
         "A7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A2",
+        "A7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
