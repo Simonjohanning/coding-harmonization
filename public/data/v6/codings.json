@@ -5605,15 +5605,17 @@
       "question": "Q15",
       "codesA": [
         "A2",
-        "A4",
-        "eA12"
+        "A4"
       ],
       "codesB": [
         "A2",
         "A4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A2",
+        "A4"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
