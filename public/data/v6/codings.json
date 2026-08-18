@@ -4739,12 +4739,16 @@
       "rowId": "Taxifahrer|456",
       "tech": "konventionelle",
       "question": "Q34",
-      "codesA": [],
+      "codesA": [
+        "PBC5"
+      ],
       "codesB": [
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
