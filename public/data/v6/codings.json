@@ -1768,14 +1768,18 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
+        "PBC1",
         "PBC3"
       ],
       "codesB": [
         "PBC1",
         "PBC3"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC1",
+        "PBC3"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
