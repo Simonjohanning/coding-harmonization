@@ -3438,10 +3438,12 @@
       "question": "Q41",
       "codesA": [
         "SN1",
-        "eSN5"
+        "eSN5",
+        "eSN8"
       ],
       "codesB": [
-        "eSN5"
+        "eSN5",
+        "eSN8"
       ],
       "harmonized": null,
       "status": "discussion",
