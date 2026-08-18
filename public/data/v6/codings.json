@@ -4207,10 +4207,14 @@
         "PBC4"
       ],
       "codesB": [
-        "A4"
+        "A4",
+        "PBC4"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "PBC4"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
