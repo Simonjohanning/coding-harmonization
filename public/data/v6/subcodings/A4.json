@@ -45,8 +45,15 @@
       "codesA": [],
       "codesB": [],
       "harmonized": null,
-      "status": "pending",
-      "discussion": []
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "B",
+          "text": "ist das hier eine einstellungsfrage/PBC oder Gefühle/Emotionen?",
+          "timestamp": "2026-08-18T14:37:17.182Z"
+        }
+      ]
     },
     {
       "cellId": "wärmepumpe|Basti|811|Q15",
