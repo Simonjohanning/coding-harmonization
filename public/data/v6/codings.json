@@ -359,7 +359,14 @@
       ],
       "harmonized": null,
       "status": "discussion",
-      "discussion": [],
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "können für die Beratung auch generell ePBC14 kodieren. Fand PBC12 als Beratungsangebot ganz treffend",
+          "timestamp": "2026-08-18T10:05:55.122Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
