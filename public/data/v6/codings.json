@@ -1642,8 +1642,15 @@
         "PBC7"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "was würdest du für die \"ehrliche Beratung\" kodieren?",
+          "timestamp": "2026-08-18T10:12:57.609Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
