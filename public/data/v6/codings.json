@@ -4708,7 +4708,8 @@
       ],
       "codesB": [
         "A4",
-        "A8"
+        "A8",
+        "PBC10"
       ],
       "harmonized": null,
       "status": "discussion",
@@ -5454,6 +5455,7 @@
       "tech": "wärmepumpe",
       "question": "Q15",
       "codesA": [
+        "A4",
         "A51",
         "PBC2"
       ],
@@ -5462,8 +5464,12 @@
         "A51",
         "PBC2"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A4",
+        "A51",
+        "PBC2"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
