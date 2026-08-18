@@ -2643,10 +2643,13 @@
       "rowId": "Lexi|809",
       "tech": "biomass",
       "question": "Q32",
-      "codesA": [],
+      "codesA": [
+        "A1",
+        "A2"
+      ],
       "codesB": [],
-      "harmonized": [],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -6483,15 +6486,14 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
+        "SN1",
         "ePBC14"
       ],
       "codesB": [
         "ePBC14"
       ],
-      "harmonized": [
-        "ePBC14"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
