@@ -2485,15 +2485,7 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:19:46.662Z",
-      "coder": "B",
-      "cellId": "konventionelle|Doc Brown|525|Q33",
-      "action": "add_bilateral",
-      "code": "A3",
-      "mode": "after_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T12:20:54.948Z",
+      "timestamp": "2026-08-18T12:20:12.816Z",
       "coder": "A",
       "cellId": "konventionelle|Doc Brown|525|Q33",
       "action": "adopt",
@@ -2501,11 +2493,19 @@
       "mode": "after_discussion"
     },
     {
-      "timestamp": "2026-08-18T12:22:19.253Z",
-      "coder": "A",
+      "timestamp": "2026-08-18T12:22:02.762Z",
+      "coder": "B",
       "cellId": "solar|Hermi|784|Q39",
       "action": "adopt",
-      "code": "A1",
+      "code": "A4",
+      "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:23:04.389Z",
+      "coder": "B",
+      "cellId": "solar|Hermi|784|Q39",
+      "action": "adopt",
+      "code": "eA12",
       "mode": "after_discussion"
     }
   ]
