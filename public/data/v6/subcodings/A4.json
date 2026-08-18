@@ -1089,12 +1089,16 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q34",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A42"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
