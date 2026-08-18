@@ -2045,11 +2045,19 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:34:01.352Z",
+      "timestamp": "2026-08-18T10:33:12.819Z",
       "coder": "A",
-      "cellId": "wärmepumpe|Naddi|778|Q18",
+      "cellId": "wärmepumpe|Itsy|812|Q18",
       "action": "concede",
       "code": "SN2",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:34:37.173Z",
+      "coder": "A",
+      "cellId": "biomass|Paulchen|898|Q29",
+      "action": "concede",
+      "code": "ePBC16",
       "mode": "no_discussion"
     }
   ]
