@@ -5423,23 +5423,14 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [
-        "A4"
-      ],
+      "codesA": [],
       "codesB": [
         "A3",
         "A4"
       ],
       "harmonized": null,
-      "status": "discussion",
-      "discussion": [
-        {
-          "version": 6,
-          "coder": "A",
-          "text": "hier hab ich PBC1 als Abh von Herstellet",
-          "timestamp": "2026-08-18T11:30:25.547Z"
-        }
-      ],
+      "status": "pending",
+      "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
@@ -5449,10 +5440,7 @@
       "tech": "wärmepumpe",
       "question": "Q17",
       "codesA": [
-        "SN2",
-        "eSN4",
-        "eSN6",
-        "eSN7"
+        "SN1"
       ],
       "codesB": [
         "SN1",
@@ -5472,19 +5460,13 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q18",
-      "codesA": [
-        "PBC2",
-        "PBC6"
-      ],
+      "codesA": [],
       "codesB": [
         "PBC2",
         "PBC6"
       ],
-      "harmonized": [
-        "PBC2",
-        "PBC6"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
