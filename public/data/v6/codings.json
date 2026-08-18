@@ -988,7 +988,7 @@
       ],
       "codesB": [],
       "harmonized": null,
-      "status": "pending",
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -2646,10 +2646,13 @@
       "rowId": "Lexi|809",
       "tech": "biomass",
       "question": "Q32",
-      "codesA": [],
+      "codesA": [
+        "A1",
+        "A2"
+      ],
       "codesB": [],
-      "harmonized": [],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
