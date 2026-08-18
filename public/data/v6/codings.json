@@ -3435,15 +3435,16 @@
       "tech": "solar",
       "question": "Q41",
       "codesA": [
-        "SN1"
+        "SN1",
+        "eSN5",
+        "eSN8"
       ],
       "codesB": [
-        "SN1"
+        "eSN5",
+        "eSN8"
       ],
-      "harmonized": [
-        "SN1"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -4237,12 +4238,10 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q38",
-      "codesA": [
-        "eA11"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -4729,7 +4728,9 @@
       ],
       "codesB": [
         "A4",
+        "A52",
         "A8",
+        "PBC1",
         "PBC10"
       ],
       "harmonized": null,
@@ -6312,14 +6313,11 @@
         "eSN7"
       ],
       "codesB": [
-        "SN1",
+        "eSN5",
         "eSN7"
       ],
-      "harmonized": [
-        "SN1",
-        "eSN7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
