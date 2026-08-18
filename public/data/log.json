@@ -2098,6 +2098,14 @@
       "cellId": "fernwärme|Dani|999|Q25",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:39:37.657Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Bea|755|Q20",
+      "action": "concede",
+      "code": "A2",
+      "mode": "no_discussion"
     }
   ]
 }
