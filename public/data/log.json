@@ -2153,6 +2153,14 @@
       "action": "adopt",
       "code": "SN1",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:20:10.316Z",
+      "coder": "A",
+      "cellId": "konventionelle|Doc Brown|525|Q36",
+      "action": "adopt",
+      "code": "ePBC15",
+      "mode": "no_discussion"
     }
   ]
 }
