@@ -1937,11 +1937,13 @@
       ],
       "codesB": [
         "PBC6",
-        "PBC7",
-        "ePBC14"
+        "PBC7"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "PBC6",
+        "PBC7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
