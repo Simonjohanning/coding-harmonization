@@ -3824,13 +3824,9 @@
       "codesA": [
         "PBC12"
       ],
-      "codesB": [
-        "PBC12"
-      ],
-      "harmonized": [
-        "PBC12"
-      ],
-      "status": "resolved",
+      "codesB": [],
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -4247,12 +4243,10 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q38",
-      "codesA": [
-        "eA11"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -6325,13 +6319,20 @@
       "question": "Q17",
       "codesA": [
         "SN1",
+        "eSN5",
         "eSN7"
       ],
       "codesB": [
+        "SN1",
+        "eSN5",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
