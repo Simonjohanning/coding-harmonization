@@ -2269,6 +2269,14 @@
       "cellId": "konventionelle|Taxifahrer|456|Q35",
       "action": "flag_discussion",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:28:44.969Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q37",
+      "action": "adopt",
+      "code": "A4",
+      "mode": "no_discussion"
     }
   ]
 }
