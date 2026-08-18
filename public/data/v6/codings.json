@@ -5469,7 +5469,9 @@
       "rowId": "alex0020|375",
       "tech": "wärmepumpe",
       "question": "Q18",
-      "codesA": [],
+      "codesA": [
+        "PBC2"
+      ],
       "codesB": [
         "PBC2",
         "PBC6"
