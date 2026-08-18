@@ -2250,105 +2250,55 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:26:21.952Z",
+      "timestamp": "2026-08-18T11:25:40.617Z",
+      "coder": "A",
+      "cellId": "konventionelle|Puchi|381|Q38",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:26:48.418Z",
       "coder": "A",
       "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:28:19.753Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q35",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:28:44.969Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q37",
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:27:25.370Z",
+      "timestamp": "2026-08-18T11:30:01.348Z",
       "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q34",
+      "cellId": "wärmepumpe|alex0020|375|Q15",
       "action": "flag_discussion",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:27:41.502Z",
-      "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q35",
-      "action": "adopt",
-      "code": "SN1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:29:19.503Z",
+      "timestamp": "2026-08-18T11:30:05.465Z",
       "coder": "A",
       "cellId": "konventionelle|Taxifahrer|456|Q38",
       "action": "adopt",
-      "code": "A4",
+      "code": "ePBC16",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:29:23.469Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q15",
-      "action": "adopt",
-      "code": "A51",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:30:25.548Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q16",
-      "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:30:30.148Z",
+      "timestamp": "2026-08-18T11:31:17.482Z",
       "coder": "A",
       "cellId": "wärmepumpe|alex0020|375|Q17",
       "action": "adopt",
-      "code": "eSN4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:30:37.515Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q18",
-      "action": "adopt",
-      "code": "PBC2",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:30:42.532Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q17",
-      "action": "adopt",
-      "code": "SN2",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:30:46.564Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q18",
-      "action": "adopt",
-      "code": "PBC6",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:30:52.864Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q19",
-      "action": "adopt",
-      "code": "PBC9",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:31:02.215Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q17",
-      "action": "adopt",
-      "code": "eSN7",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:31:05.549Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q17",
-      "action": "adopt",
-      "code": "eSN6",
+      "code": "SN1",
       "mode": "no_discussion"
     }
   ]
