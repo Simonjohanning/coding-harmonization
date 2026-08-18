@@ -1116,8 +1116,15 @@
         "ePBC15"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "A",
+          "text": "hier hab ich A7",
+          "timestamp": "2026-08-18T11:21:00.265Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
