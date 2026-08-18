@@ -1775,27 +1775,11 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T09:04:41.776Z",
-      "coder": "B",
-      "cellId": "wärmepumpe|Special K|927|Q18",
-      "action": "adopt",
-      "code": "PBC1",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T09:04:46.698Z",
+      "timestamp": "2026-08-18T09:05:10.505Z",
       "coder": "B",
       "cellId": "wärmepumpe|Special K|927|Q18",
       "action": "adopt",
       "code": "ePBC16",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T09:04:53.787Z",
-      "coder": "B",
-      "cellId": "biomass|Paulchen|898|Q28",
-      "action": "concede",
-      "code": "A51",
       "mode": "no_discussion"
     }
   ]
