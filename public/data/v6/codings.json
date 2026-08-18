@@ -3361,8 +3361,15 @@
         "ePBC16"
       ],
       "harmonized": null,
-      "status": "pending",
-      "discussion": [],
+      "status": "discussion",
+      "discussion": [
+        {
+          "version": 6,
+          "coder": "B",
+          "text": "Umstände könnte man neben ePBC16 auch als PBC9 (Usability) lesen. Komfort ist ja eher auf Wärmenutzung beschränkt",
+          "timestamp": "2026-08-18T09:01:26.577Z"
+        }
+      ],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
     },
