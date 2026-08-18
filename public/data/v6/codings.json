@@ -2563,15 +2563,20 @@
       "question": "Q28",
       "codesA": [
         "A4",
-        "PBC10"
+        "PBC10",
+        "PBC5"
       ],
       "codesB": [
         "A4",
         "PBC10",
         "PBC5"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A4",
+        "PBC10",
+        "PBC5"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
