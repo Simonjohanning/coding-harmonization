@@ -4195,11 +4195,18 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
+        "A4",
         "PBC4"
       ],
-      "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "codesB": [
+        "A4",
+        "PBC4"
+      ],
+      "harmonized": [
+        "A4",
+        "PBC4"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -4703,12 +4710,12 @@
       "codesA": [
         "A4",
         "A52",
-        "A8",
         "PBC1"
       ],
       "codesB": [
         "A4",
         "A8",
+        "PBC1",
         "PBC10"
       ],
       "harmonized": null,
