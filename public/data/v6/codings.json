@@ -5452,6 +5452,7 @@
       "question": "Q15",
       "codesA": [
         "A1",
+        "A4",
         "A51",
         "PBC2"
       ],
@@ -5461,8 +5462,13 @@
         "A51",
         "PBC2"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A4",
+        "A51",
+        "PBC2"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
