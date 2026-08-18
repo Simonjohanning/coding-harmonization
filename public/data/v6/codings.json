@@ -946,14 +946,15 @@
       "tech": "fernwärme",
       "question": "Q23",
       "codesA": [
-        "eSN4",
         "eSN7"
       ],
       "codesB": [
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
