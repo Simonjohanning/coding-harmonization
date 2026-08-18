@@ -2643,6 +2643,14 @@
       "action": "adopt",
       "code": "A52",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:51:12.420Z",
+      "coder": "B",
+      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "action": "concede",
+      "code": "PBC10",
+      "mode": "after_discussion"
     }
   ]
 }
