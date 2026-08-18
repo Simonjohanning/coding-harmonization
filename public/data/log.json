@@ -1975,43 +1975,18 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:27:16.565Z",
+      "timestamp": "2026-08-18T10:27:52.866Z",
       "coder": "A",
-      "cellId": "wärmepumpe|khl|901|Q16",
-      "action": "concede",
-      "code": "A4",
+      "cellId": "wärmepumpe|khl|901|Q17",
+      "action": "flag_discussion",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:27:20.582Z",
+      "timestamp": "2026-08-18T10:28:48.000Z",
       "coder": "A",
       "cellId": "wärmepumpe|khl|901|Q16",
       "action": "concede",
       "code": "A3",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:27:28.199Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|khl|901|Q17",
-      "action": "concede",
-      "code": "eSN4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:28:23.616Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|khl|901|Q18",
-      "action": "concede",
-      "code": "A52",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T10:28:30.065Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|khl|901|Q18",
-      "action": "concede",
-      "code": "ePBC16",
       "mode": "no_discussion"
     }
   ]
