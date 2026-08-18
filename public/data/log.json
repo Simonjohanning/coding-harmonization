@@ -2250,42 +2250,39 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:26:21.952Z",
+      "timestamp": "2026-08-18T11:25:40.617Z",
       "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q33",
-      "action": "adopt",
-      "code": "A4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:27:25.370Z",
-      "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q34",
+      "cellId": "konventionelle|Puchi|381|Q38",
       "action": "flag_discussion",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:27:41.502Z",
+      "timestamp": "2026-08-18T11:26:48.418Z",
       "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q35",
-      "action": "adopt",
-      "code": "SN1",
+      "cellId": "konventionelle|Taxifahrer|456|Q33",
+      "action": "flag_discussion",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:29:19.503Z",
+      "timestamp": "2026-08-18T11:28:19.753Z",
       "coder": "A",
-      "cellId": "konventionelle|Taxifahrer|456|Q38",
+      "cellId": "konventionelle|Taxifahrer|456|Q35",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:28:44.969Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q37",
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:29:23.469Z",
+      "timestamp": "2026-08-18T11:30:01.348Z",
       "coder": "A",
       "cellId": "wärmepumpe|alex0020|375|Q15",
-      "action": "adopt",
-      "code": "A51",
+      "action": "flag_discussion",
       "mode": "no_discussion"
     }
   ]
