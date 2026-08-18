@@ -2334,26 +2334,10 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T11:32:42.415Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q16",
-      "action": "adopt",
-      "code": "A4",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:32:59.798Z",
+      "timestamp": "2026-08-18T11:33:32.949Z",
       "coder": "A",
       "cellId": "wärmepumpe|alex0020|375|Q16",
       "action": "flag_discussion",
-      "mode": "no_discussion"
-    },
-    {
-      "timestamp": "2026-08-18T11:33:08.599Z",
-      "coder": "A",
-      "cellId": "wärmepumpe|alex0020|375|Q18",
-      "action": "adopt",
-      "code": "PBC6",
       "mode": "no_discussion"
     }
   ]
