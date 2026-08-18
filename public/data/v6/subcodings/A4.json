@@ -223,14 +223,18 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A41"
+        "A41",
+        "A42"
       ],
       "codesB": [
         "A41",
         "A42"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A42"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
