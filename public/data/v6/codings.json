@@ -6070,7 +6070,6 @@
       "question": "Q18",
       "codesA": [
         "A4",
-        "A52",
         "ePBC14",
         "ePBC16"
       ],
@@ -6508,7 +6507,8 @@
       "question": "Q18",
       "codesA": [
         "PBC1",
-        "SN1"
+        "SN1",
+        "ePBC14"
       ],
       "codesB": [
         "ePBC14"
