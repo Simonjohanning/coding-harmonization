@@ -1846,16 +1846,12 @@
       "rowId": "Hyles|948",
       "tech": "konventionelle",
       "question": "Q36",
-      "codesA": [
-        "A7"
-      ],
+      "codesA": [],
       "codesB": [
         "A7"
       ],
-      "harmonized": [
-        "A7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
@@ -1888,14 +1884,15 @@
       "tech": "konventionelle",
       "question": "Q38",
       "codesA": [
-        "A52",
         "eA12"
       ],
       "codesB": [
         "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
