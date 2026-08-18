@@ -1094,18 +1094,14 @@
       "tech": "konventionelle",
       "question": "Q36",
       "codesA": [
-        "A7",
-        "ePBC15"
+        "A7"
       ],
       "codesB": [
         "A7",
         "ePBC15"
       ],
-      "harmonized": [
-        "A7",
-        "ePBC15"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
