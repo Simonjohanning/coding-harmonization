@@ -1663,10 +1663,17 @@
         "A1",
         "A3",
         "A4",
-        "PBC6"
+        "PBC6",
+        "eA12"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "A1",
+        "A3",
+        "A4",
+        "PBC6",
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -1728,13 +1735,16 @@
       "tech": "solar",
       "question": "Q42",
       "codesA": [
-        "PBC7"
+        "PBC7",
+        "ePBC14"
       ],
       "codesB": [
-        "PBC7"
+        "PBC7",
+        "ePBC14"
       ],
       "harmonized": [
-        "PBC7"
+        "PBC7",
+        "ePBC14"
       ],
       "status": "resolved",
       "discussion": [
@@ -1805,15 +1815,16 @@
       "tech": "konventionelle",
       "question": "Q34",
       "codesA": [
-        "A7"
+        "A2",
+        "A52",
+        "eA12"
       ],
       "codesB": [
+        "A2",
         "A7"
       ],
-      "harmonized": [
-        "A7"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
