@@ -4166,7 +4166,9 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q38",
-      "codesA": [],
+      "codesA": [
+        "eA11"
+      ],
       "codesB": [
         "eSN7"
       ],
