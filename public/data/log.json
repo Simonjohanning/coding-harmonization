@@ -2619,6 +2619,14 @@
       "action": "add_bilateral",
       "code": "A4",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T12:48:32.529Z",
+      "coder": "B",
+      "cellId": "konventionelle|Puchi|381|Q37",
+      "action": "adopt",
+      "code": "PBC4",
+      "mode": "after_discussion"
     }
   ]
 }
