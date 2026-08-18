@@ -1020,7 +1020,9 @@
       "rowId": "Paulchen|898",
       "tech": "biomass",
       "question": "Q27",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A41",
         "A42",
