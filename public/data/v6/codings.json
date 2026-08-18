@@ -3557,15 +3557,14 @@
       "tech": "solar",
       "question": "Q42",
       "codesA": [
-        "ePBC16"
+        "PBC9"
       ],
       "codesB": [
+        "PBC9",
         "ePBC16"
       ],
-      "harmonized": [
-        "ePBC16"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -4235,10 +4234,12 @@
       "rowId": "Puchi|381",
       "tech": "konventionelle",
       "question": "Q38",
-      "codesA": [],
+      "codesA": [
+        "eA11"
+      ],
       "codesB": [],
-      "harmonized": [],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
