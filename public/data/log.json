@@ -2277,6 +2277,14 @@
       "action": "adopt",
       "code": "A4",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T11:28:55.235Z",
+      "coder": "A",
+      "cellId": "konventionelle|Taxifahrer|456|Q38",
+      "action": "adopt",
+      "code": "ePBC16",
+      "mode": "no_discussion"
     }
   ]
 }
