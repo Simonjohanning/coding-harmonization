@@ -1386,7 +1386,9 @@
       "rowId": "gelip|19",
       "tech": "wärmepumpe",
       "question": "Q19",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A43"
       ],
