@@ -3437,15 +3437,14 @@
       "tech": "solar",
       "question": "Q41",
       "codesA": [
-        "SN1"
+        "SN1",
+        "eSN5"
       ],
       "codesB": [
-        "SN1"
+        "eSN5"
       ],
-      "harmonized": [
-        "SN1"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
