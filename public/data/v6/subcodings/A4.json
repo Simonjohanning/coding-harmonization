@@ -1525,7 +1525,9 @@
       "rowId": "wupper1983|757",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [],
+      "codesA": [
+        "A42"
+      ],
       "codesB": [
         "A41",
         "A42",
