@@ -2055,14 +2055,18 @@
       "tech": "biomass",
       "question": "Q29",
       "codesA": [
-        "eSN4"
+        "eSN4",
+        "eSN7"
       ],
       "codesB": [
         "eSN4",
         "eSN7"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "eSN4",
+        "eSN7"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
