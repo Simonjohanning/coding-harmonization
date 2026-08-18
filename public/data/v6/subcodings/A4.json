@@ -364,6 +364,7 @@
       "tech": "wärmepumpe",
       "question": "Q18",
       "codesA": [
+        "A41",
         "A42"
       ],
       "codesB": [
