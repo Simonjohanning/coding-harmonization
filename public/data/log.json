@@ -2004,6 +2004,13 @@
       "action": "concede",
       "code": "A51",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:29:33.201Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|wupper1983|757|Q17",
+      "action": "flag_discussion",
+      "mode": "no_discussion"
     }
   ]
 }
