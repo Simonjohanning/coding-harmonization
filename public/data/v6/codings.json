@@ -4195,18 +4195,11 @@
       "tech": "konventionelle",
       "question": "Q37",
       "codesA": [
-        "A4",
         "PBC4"
       ],
-      "codesB": [
-        "A4",
-        "PBC4"
-      ],
-      "harmonized": [
-        "A4",
-        "PBC4"
-      ],
-      "status": "resolved",
+      "codesB": [],
+      "harmonized": null,
+      "status": "discussion",
       "discussion": [
         {
           "version": 6,
@@ -4710,13 +4703,13 @@
       "codesA": [
         "A4",
         "A52",
+        "A8",
         "PBC1"
       ],
       "codesB": [
         "A4",
-        "A52",
         "A8",
-        "PBC1"
+        "PBC10"
       ],
       "harmonized": null,
       "status": "discussion",
@@ -4759,14 +4752,18 @@
       "tech": "konventionelle",
       "question": "Q35",
       "codesA": [
-        "SN1"
+        "SN1",
+        "eSN5"
       ],
       "codesB": [
         "SN1",
         "eSN5"
       ],
-      "harmonized": null,
-      "status": "discussion",
+      "harmonized": [
+        "SN1",
+        "eSN5"
+      ],
+      "status": "resolved",
       "discussion": [
         {
           "version": 6,
@@ -5458,13 +5455,11 @@
       "tech": "wärmepumpe",
       "question": "Q15",
       "codesA": [
-        "A1",
         "A51",
         "PBC2",
         "PBC9"
       ],
       "codesB": [
-        "A1",
         "A4",
         "A51",
         "PBC2",
