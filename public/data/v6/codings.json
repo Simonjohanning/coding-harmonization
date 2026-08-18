@@ -1565,7 +1565,9 @@
         "A4"
       ],
       "harmonized": [
-        "A4"
+        "A41",
+        "A42",
+        "A43"
       ],
       "status": "resolved",
       "discussion": [],
