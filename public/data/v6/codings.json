@@ -2646,12 +2646,10 @@
       "rowId": "Lexi|809",
       "tech": "biomass",
       "question": "Q32",
-      "codesA": [
-        "A2"
-      ],
+      "codesA": [],
       "codesB": [],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
