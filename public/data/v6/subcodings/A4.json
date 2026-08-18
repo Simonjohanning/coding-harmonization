@@ -967,7 +967,9 @@
       "rowId": "Naddi|778",
       "tech": "wärmepumpe",
       "question": "Q15",
-      "codesA": [],
+      "codesA": [
+        "A41"
+      ],
       "codesB": [
         "A41",
         "A42",
