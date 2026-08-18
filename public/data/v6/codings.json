@@ -1846,7 +1846,10 @@
       "rowId": "Hyles|948",
       "tech": "konventionelle",
       "question": "Q36",
-      "codesA": [],
+      "codesA": [
+        "A7",
+        "PBC3"
+      ],
       "codesB": [
         "A7"
       ],
