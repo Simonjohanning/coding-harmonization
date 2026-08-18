@@ -1055,12 +1055,16 @@
       "rowId": "Doc Brown|525",
       "tech": "konventionelle",
       "question": "Q34",
-      "codesA": [],
+      "codesA": [
+        "eA12"
+      ],
       "codesB": [
         "eA12"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "eA12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
