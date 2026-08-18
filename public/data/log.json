@@ -1928,11 +1928,19 @@
       "mode": "no_discussion"
     },
     {
-      "timestamp": "2026-08-18T10:23:58.514Z",
+      "timestamp": "2026-08-18T10:23:19.914Z",
       "coder": "A",
-      "cellId": "wärmepumpe|Marcel|930|Q17",
+      "cellId": "solar|Micki5|829|Q39",
       "action": "concede",
-      "code": "eSN4",
+      "code": "PBC5",
+      "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:24:21.499Z",
+      "coder": "A",
+      "cellId": "solar|Mona|968|Q39",
+      "action": "concede",
+      "code": "A3",
       "mode": "no_discussion"
     }
   ]
