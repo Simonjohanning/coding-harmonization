@@ -1927,6 +1927,14 @@
       "action": "concede",
       "code": "ePBC6",
       "mode": "no_discussion"
+    },
+    {
+      "timestamp": "2026-08-18T10:22:11.047Z",
+      "coder": "A",
+      "cellId": "wärmepumpe|Marcel|930|Q18",
+      "action": "concede",
+      "code": "PBC5",
+      "mode": "no_discussion"
     }
   ]
 }
