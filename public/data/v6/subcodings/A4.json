@@ -1598,7 +1598,8 @@
       "tech": "wärmepumpe",
       "question": "Q19",
       "codesA": [
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A43"
