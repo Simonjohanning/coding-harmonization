@@ -6382,7 +6382,9 @@
         "ePBC14"
       ],
       "harmonized": [
-        "A4",
+        "A41",
+        "A42",
+        "A43",
         "ePBC14"
       ],
       "status": "resolved",
