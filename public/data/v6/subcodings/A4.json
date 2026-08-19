@@ -474,14 +474,18 @@
       "tech": "wärmepumpe",
       "question": "Q20",
       "codesA": [
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A42",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
