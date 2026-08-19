@@ -1452,15 +1452,20 @@
       "question": "Q18",
       "codesA": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A41",
         "A42",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A42",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
