@@ -1509,8 +1509,7 @@
         "eA12"
       ],
       "harmonized": [
-        "A42",
-        "A43",
+        "A4",
         "eA12"
       ],
       "status": "resolved",
@@ -1632,7 +1631,8 @@
         "A4"
       ],
       "harmonized": [
-        "A4"
+        "A41",
+        "A42"
       ],
       "status": "resolved",
       "discussion": [],
@@ -1703,7 +1703,8 @@
         "PBC2"
       ],
       "harmonized": [
-        "A4",
+        "A41",
+        "A42",
         "PBC1",
         "PBC2"
       ],
@@ -1773,7 +1774,8 @@
         "ePBC16"
       ],
       "harmonized": [
-        "A4",
+        "A41",
+        "A42",
         "PBC2",
         "ePBC16"
       ],
@@ -1945,7 +1947,8 @@
         "PBC10"
       ],
       "harmonized": [
-        "A4",
+        "A41",
+        "A42",
         "PBC10"
       ],
       "status": "auto",
@@ -2053,7 +2056,8 @@
         "PBC10"
       ],
       "harmonized": [
-        "A4",
+        "A41",
+        "A42",
         "PBC10"
       ],
       "status": "resolved",
@@ -2629,9 +2633,7 @@
         "A4"
       ],
       "harmonized": [
-        "A41",
-        "A42",
-        "A43"
+        "A4"
       ],
       "status": "auto",
       "discussion": [],
@@ -2671,7 +2673,8 @@
       "harmonized": [
         "A1",
         "A2",
-        "A4",
+        "A41",
+        "A42",
         "L"
       ],
       "status": "resolved",
@@ -3219,8 +3222,7 @@
         "PBC5"
       ],
       "harmonized": [
-        "A42",
-        "A43",
+        "A4",
         "A9",
         "PBC5"
       ],
