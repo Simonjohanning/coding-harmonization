@@ -1513,10 +1513,14 @@
         "A43"
       ],
       "codesB": [
+        "A41",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
