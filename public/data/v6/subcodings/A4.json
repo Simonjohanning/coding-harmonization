@@ -1052,11 +1052,13 @@
       ],
       "codesB": [
         "A41",
-        "A42",
-        "A43"
+        "A42"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A42"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
