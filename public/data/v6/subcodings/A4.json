@@ -474,14 +474,18 @@
       "tech": "wärmepumpe",
       "question": "Q20",
       "codesA": [
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A42",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
@@ -518,13 +522,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -555,13 +557,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -575,13 +575,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -612,13 +610,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -632,13 +628,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -665,15 +659,20 @@
       "question": "Q25",
       "codesA": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A41",
         "A42",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A42",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
@@ -687,13 +686,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -727,13 +724,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -747,13 +742,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -767,13 +760,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -787,13 +778,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -802,7 +791,8 @@
       "tech": "wärmepumpe",
       "question": "Q16",
       "codesA": [
-        "A41"
+        "A41",
+        "A42"
       ],
       "codesB": [
         "A41",
@@ -853,14 +843,18 @@
       "tech": "fernwärme",
       "question": "Q24",
       "codesA": [
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A42",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A42",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
@@ -906,12 +900,11 @@
         "A42"
       ],
       "codesB": [
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -942,13 +935,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -976,9 +967,12 @@
       "rowId": "Murmi|52",
       "tech": "wärmepumpe",
       "question": "Q16",
-      "codesA": [],
-      "codesB": [
+      "codesA": [
         "A41"
+      ],
+      "codesB": [
+        "A41",
+        "A43"
       ],
       "harmonized": null,
       "status": "pending",
@@ -995,13 +989,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -1015,13 +1007,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -1052,13 +1042,11 @@
       ],
       "codesB": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
-      "harmonized": [
-        "A41",
-        "A42"
-      ],
-      "status": "resolved",
+      "harmonized": null,
+      "status": "pending",
       "discussion": []
     },
     {
@@ -1136,15 +1124,20 @@
       "question": "Q37",
       "codesA": [
         "A41",
-        "A42"
+        "A42",
+        "A43"
       ],
       "codesB": [
         "A41",
         "A42",
         "A43"
       ],
-      "harmonized": null,
-      "status": "pending",
+      "harmonized": [
+        "A41",
+        "A42",
+        "A43"
+      ],
+      "status": "resolved",
       "discussion": []
     },
     {
