@@ -2803,6 +2803,14 @@
       "action": "concede",
       "code": "eA11",
       "mode": "after_discussion"
+    },
+    {
+      "timestamp": "2026-08-19T08:00:26.520Z",
+      "coder": "B",
+      "cellId": "wärmepumpe|Naddi|778|Q18",
+      "action": "adopt",
+      "code": "PBC12",
+      "mode": "after_discussion"
     }
   ]
 }
