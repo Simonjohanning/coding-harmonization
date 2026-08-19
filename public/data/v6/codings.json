@@ -3834,9 +3834,13 @@
       "codesA": [
         "PBC12"
       ],
-      "codesB": [],
-      "harmonized": null,
-      "status": "discussion",
+      "codesB": [
+        "PBC12"
+      ],
+      "harmonized": [
+        "PBC12"
+      ],
+      "status": "resolved",
       "discussion": [],
       "changedSinceLastVersion": false,
       "carriedFromVersion": null
